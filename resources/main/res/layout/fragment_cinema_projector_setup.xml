@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/cinema_projector_title"
+        style="@style/TitleTextStyle.Night"
+        app:vuiMode="DISABLED" />
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_img_1"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="247dp"
+        android:src="@drawable/capsule_cinema_projector_setup_step_1"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_icon_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="149dp"
+        android:src="@drawable/capsule_cinema_setup_icon_1"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="154dp"
+        android:layout_alignBottom="@id/capsule_cinema_projector_setup_icon_1"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_1_title"
+        android:textSize="40sp"
+        android:textColor="@color/x_theme_primary_normal_night"
+        android:letterSpacing="0"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_content_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_projector_setup_title_1"
+        android:layout_below="@id/capsule_cinema_projector_setup_title_1"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_1_content"
+        android:textSize="@dimen/x_font_title_03_size"
+        android:textColor="@color/x_theme_text_03_night"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_icon_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@id/capsule_cinema_projector_setup_icon_1"
+        android:layout_marginStart="524dp"
+        android:src="@drawable/capsule_cinema_setup_icon_2"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/capsule_cinema_projector_setup_icon_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="602dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_2_title"
+        android:textSize="40sp"
+        android:textColor="@color/x_theme_primary_normal_night"
+        android:letterSpacing="0"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_content_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_projector_setup_title_2"
+        android:layout_below="@id/capsule_cinema_projector_setup_title_2"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_2_content"
+        android:textSize="@dimen/x_font_title_03_size"
+        android:textColor="@color/x_theme_text_03_night"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_img_2"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="697dp"
+        android:src="@drawable/capsule_cinema_projector_setup_step_2"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_icon_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_projector_setup_icon_1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="591dp"
+        android:src="@drawable/capsule_cinema_setup_icon_3"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_title_3"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/capsule_cinema_projector_setup_icon_3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="154dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_3_title"
+        android:textSize="40sp"
+        android:textColor="@color/x_theme_primary_normal_night"
+        android:letterSpacing="0"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_content_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_projector_setup_title_3"
+        android:layout_below="@id/capsule_cinema_projector_setup_title_3"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_3_content"
+        android:textSize="@dimen/x_font_title_03_size"
+        android:textColor="@color/x_theme_text_03_night"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_img_3"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="121dp"
+        android:src="@drawable/capsule_cinema_projector_setup_step_3"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_projector_setup_icon_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/capsule_cinema_projector_setup_icon_1"
+        android:layout_marginTop="1021dp"
+        android:src="@drawable/capsule_cinema_setup_icon_4"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_title_4"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/capsule_cinema_projector_setup_icon_4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="154dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_4_title"
+        android:textSize="40sp"
+        android:textColor="@color/x_theme_primary_normal_night"
+        android:letterSpacing="0"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_projector_setup_content_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_projector_setup_title_4"
+        android:layout_below="@id/capsule_cinema_projector_setup_title_4"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_projector_tips_4_content"
+        android:textSize="@dimen/x_font_title_03_size"
+        android:textColor="@color/x_theme_text_03_night"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/capsule_cinema_projector_pre_btn"
+        style="@style/XButton.Ghost.Large.Positive.Night"
+        android:layout_width="288dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/cinema_use_guide_pre_btn"
+        android:textSize="@dimen/x_font_title_03_size" />
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/capsule_cinema_projector_next_btn"
+        style="@style/XButton.Real.Mid.Positive.Night"
+        android:layout_width="288dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/cinema_use_guide_next_btn"
+        android:textSize="@dimen/x_font_title_03_size" />
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

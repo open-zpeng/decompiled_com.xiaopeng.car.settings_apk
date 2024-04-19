@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/app_item" android:layout_width="match_parent" android:layout_height="@dimen/x_list_single_height">
+    <ImageView android:id="@+id/app_icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="45dp"/>
+    <TextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_white_color" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="44dp" android:layout_toEndOf="@+id/app_icon"/>
+    <ImageView android:id="@+id/app_tag" android:layout_height="match_parent" android:layout_toEndOf="@+id/app_name" style="@style/XListIconTag"/>
+    <TextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_gray_color" android:id="@+id/app_describe" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="25dp" android:layout_alignParentEnd="true"/>
+    <ImageView android:id="@+id/app_line" android:layout_alignParentBottom="true" style="@style/Line"/>
+</RelativeLayout>

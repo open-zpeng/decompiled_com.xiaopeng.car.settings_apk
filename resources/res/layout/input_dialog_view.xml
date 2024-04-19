@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="1000dp" android:layout_height="wrap_content" android:minWidth="1000dp">
+    <com.xiaopeng.xui.widget.XTextFields android:layout_gravity="center_horizontal" android:id="@+id/edit1" android:layout_width="832dp" android:layout_marginBottom="10dp" app:input_edit_max_length="500" app:input_error_enabled="false" app:input_reset_enabled="true" app:text_fields_password_enabled="false" style="@style/XTextFields"/>
+    <com.xiaopeng.xui.widget.XTextFields android:layout_gravity="center_horizontal" android:id="@+id/edit2" android:layout_width="832dp" android:inputType="textPassword" app:input_edit_max_length="63" app:input_error_enabled="false" app:input_reset_enabled="true" app:text_fields_password_enabled="true" style="@style/XTextFields"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="1000dp"
+    android:minWidth="1000dp"
+    android:layout_height="wrap_content">
+
+    <com.xiaopeng.xui.widget.XTextFields
+        android:id="@+id/edit1"
+        style="@style/XTextFields"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        app:input_edit_max_length="500"
+        app:input_reset_enabled="true"
+        app:input_error_enabled="false"
+        app:text_fields_password_enabled="false"
+        android:layout_width="832dp" />
+
+    <com.xiaopeng.xui.widget.XTextFields
+        android:id="@+id/edit2"
+        style="@style/XTextFields"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        app:input_edit_max_length="63"
+        app:input_reset_enabled="true"
+        app:input_error_enabled="false"
+        app:text_fields_password_enabled="true"
+        android:layout_width="832dp"
+        />
+
+</LinearLayout>

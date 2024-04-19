@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/x_bg_app"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xiaopeng.xui.widget.XTitleBar
+        android:id="@+id/xTitleBar"
+        style="@style/XTitleBar"
+        app:title_back="invisible"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_below="@+id/xTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/page_padding_left"
+        android:paddingTop="@dimen/page_padding_top"
+        android:paddingEnd="@dimen/page_padding_right"
+        android:paddingBottom="@dimen/page_padding_bottom" />
+</com.xiaopeng.xui.widget.XRelativeLayout>

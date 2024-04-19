@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.xiaopeng.car.settingslibrary.ui.widget.ValuePickerView
+            android:id="@+id/effect_styles"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="277dp"
+            android:layout_height="391dp"
+            android:visibility="gone"
+            app:npv_ShowDivider="false"
+            app:npv_TextColorNormal="@color/value_picker_text_color"
+            app:npv_TextColorSelected="@color/value_picker_text_color_chose"
+            app:npv_TextSizeNormal="36sp"
+            app:npv_TextSizeSelected="42sp"
+            app:npv_WrapSelectorWheel="true"
+            app:npv_TextArray_Text="@array/round_effect_text"
+            app:npv_TextArray="@array/round_effect_styles"/>
+
+        <ViewStub
+            android:id="@+id/picker_stub"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="277dp"
+            android:layout_height="391dp"
+            android:layout="@layout/sound_picker_layout"/>
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:id="@+id/effect_styles_mask"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_circle_left"
+            app:vuiMode="DISABLED"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

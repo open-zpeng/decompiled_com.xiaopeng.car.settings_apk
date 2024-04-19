@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="sound_effect_style_redirect">true</bool>
+    <integer name="sound_effect_style1">1</integer><!--通用-->
+    <integer name="sound_effect_style2">3</integer><!--HIFI-->
+    <integer name="sound_effect_style3">2</integer><!--人声-->
+    <integer name="sound_effect_style4">0</integer><!--影院-->
+    <integer name="sound_effect_style5">4</integer><!--原声-->
+    <integer name="sound_effect_style6">7</integer><!--自定义-->
+</resources>

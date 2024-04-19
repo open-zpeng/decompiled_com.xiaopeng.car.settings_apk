@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_recent_mode_dynamic"
+        style="@style/SoundEffect_Button"
+        android:layout_width="@dimen/sound_effect_btn_width_recent"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_marginTop="24dp"
+        android:text="@string/sound_dynamic_text" />
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_recent_mode_original"
+        style="@style/SoundEffect_Button"
+        android:layout_width="@dimen/sound_effect_btn_width_recent"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_marginTop="@dimen/sound_effect_left_top_margin_content_recent"
+        android:text="@string/sound_original_text" />
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_recent_mode_cinema"
+        style="@style/SoundEffect_Button"
+        android:layout_width="@dimen/sound_effect_btn_width_recent"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_marginTop="@dimen/sound_effect_left_top_margin_content_recent"
+        android:text="@string/sound_scenes_theater" />
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_recent_mode_custom"
+        style="@style/SoundEffect_Button"
+        android:layout_width="@dimen/sound_effect_btn_width_recent"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_marginTop="@dimen/sound_effect_left_top_margin_content_recent"
+        android:text="@string/sound_custom_text" />
+
+</com.xiaopeng.xui.widget.XLinearLayout>

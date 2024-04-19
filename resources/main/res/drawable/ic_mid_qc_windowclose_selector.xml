@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_mid_qc_window_close" android:state_selected="false" android:state_enabled="true"/>
+    <item android:drawable="@drawable/ic_mid_qc_window_close_active" android:state_selected="true" android:state_enabled="true"/>
+    <item android:drawable="@drawable/ic_mid_qc_window_close_disable" android:state_selected="false" android:state_enabled="false"/>
+    <item android:drawable="@drawable/ic_mid_qc_window_close_active_disable" android:state_selected="true" android:state_enabled="false"/>
+</selector>

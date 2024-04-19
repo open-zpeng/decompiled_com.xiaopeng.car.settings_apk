@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x_list_multiple_bottom_height"
+    android:orientation="horizontal">
+
+    <com.xiaopeng.xui.widget.XTabLayout
+        android:id="@+id/sound_volume_car_segment"
+        android:layout_width="@dimen/x_list_multiple_bottom_width"
+        android:layout_height="@dimen/x_list_multiple_bottom_height"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:vuiLabel="@string/sound_volume_car"
+        app:titles="@array/sound_car_tip_labels"
+        />
+</LinearLayout>
+

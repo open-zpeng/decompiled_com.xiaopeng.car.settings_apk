@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XGroupHeader android:layout_width="match_parent" android:layout_marginTop="@dimen/padding_large" app:group_header_text="@string/traffic_use_title" style="@style/XGroupHeader"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal">
+        <TextView android:text="剩余 3.60 GB" android:drawableStart="@drawable/ic_dot_blue" style="@style/TextPercentTitle"/>
+        <TextView android:text="总共 5.00 GB" android:drawableStart="@drawable/ic_dot_blue_ring" android:layout_marginStart="@dimen/padding_medium" style="@style/TextPercentTitle"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/list_item_checked" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_medium">
+        <com.xiaopeng.car.settingslibrary.ui.widget.PercentView style="@style/Percent"/>
+    </RelativeLayout>
+    <com.xiaopeng.xui.widget.XGroupHeader android:id="@+id/traffic_permission_header" android:layout_width="match_parent" android:layout_marginTop="@dimen/padding_large" app:group_header_action="@layout/traffic_groupheader_custom_tv" app:group_header_action_mode="custom" app:group_header_text="@string/traffic_permission_title" style="@style/XGroupHeader"/>
+</LinearLayout>

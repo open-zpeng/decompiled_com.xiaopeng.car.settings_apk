@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/floating_dialog_radius"/>
+    <solid android:color="@color/dropdown_menu_bg_color"/>
+</shape>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="x_theme_bg_below">#FF151F2C</color>
+    <color name="bg_fallbackhome">#FFFFFF</color>
+    <color name="osd_icon_color">#0F1520</color>
+    <color name="percent_colors1">#1474DC</color>
+    <color name="percent_colors2">#5EA80C</color>
+    <color name="percent_colors3">#D0AE06</color>
+    <color name="percent_colors4">#A43885</color>
+    <color name="percent_colors5">#50E3C2</color>
+    <color name="percent_colors6">#B96E00</color>
+
+    <integer-array name="percent_colors">
+        <item>@color/percent_colors1</item>
+        <item>@color/percent_colors2</item>
+        <item>@color/percent_colors3</item>
+        <item>@color/percent_colors4</item>
+        <item>@color/percent_colors5</item>
+        <item>@color/percent_colors6</item>
+    </integer-array>
+
+    <color name="app_detail_code_tv_color">#60AB0E</color>
+
+    <color name="x_white_color">#FFFFFF</color>
+    <color name="x_gray_color">#72767C</color>
+    <color name="x_blue_color">#1683F9</color>
+
+    <color name="dropdown_menu_press">#FFDEDFE4</color>
+    <color name="dropdown_menu_bg_color">#F2F3F5</color>
+    <color name="input_text">#FF0F1520</color>
+
+    <color name="float_storage_info">#5C0F1520</color>
+
+    <color name="input_line_color">#29000000</color>
+
+    <color name="icon_large_content">#1C2734</color>
+    <color name="icon_large_line1">#28FFFFFF</color>
+    <color name="icon_large_line2">#FFFFFFFF</color>
+
+    <color name="sound_headset_mode_btn_color">#8FFFFFFF</color>
+
+    <color name="sound_effect_current_sound">#A83B99FF</color>
+    <color name="sound_effect_dialog_bg_start">#FFFFFF</color>
+    <color name="sound_effect_dialog_bg_end">#D1D8E3</color>
+    <color name="sound_field_shader_start">#29D3DFFF</color>
+    <color name="sound_field_shader_end">#FFCEE3FF</color>
+    <color name="sound_field_shader_hifi_start">#29FF0000</color>
+    <color name="sound_field_shader_hifi_end">#FFFF5A5A</color>
+    <color name="sound_field_spread_shader_start">#52BBA4A4</color>
+    <color name="sound_field_spread_shader_end">#7AE90000</color>
+    <color name="sound_field_spread_shader_xp_start">#5CFFFFFF</color>
+    <color name="sound_field_spread_shader_xp_end">#FFFFFFFF</color>
+    <color name="sound_effect_tips_color">#F8CF00</color>
+
+    <color name="floating_line">#0F0F1520</color>
+    <color name="feedback_input_bg">#29BBC2D1</color>
+    <color name="feedback_content_bg">#5CBBC2D1</color>
+    <color name="feedback_loading">#DB0F1520</color>
+
+    <color name="music_bg_color">#DDE1E7</color>
+    <color name="music_btn_bg_color">#FFFFFF</color>
+    <color name="music_panel_title_color">@color/x_theme_text_02</color>
+    <color name="music_panel_sub_title_color">@color/x_theme_text_03</color>
+    <color name="music_panel_pressed_color">#3B99FF</color>
+    <color name="music_progress_bg_color">#5CBBC2D1</color>
+    <color name="music_progress_bg_border_color">#29BBC2D1</color>
+    <color name="music_progress_color">#3B99FF</color>
+    <color name="music_progress_thumb_color">#ffffff</color>
+    <color name="music_panel_btn_ic_color">#0F1520</color>
+    <color name="music_panel_btn_ic_color_disable">#8F0F1520</color>
+    <color name="music_panel_btn_ic_color_pressed">#FFFFFF</color>
+
+    <color name="radiobutton_background">#29757D8D</color>
+    <color name="quick_menu_ui_background">#DDE1E7</color>
+    <color name="quick_menu_ui_background_selected">#3B99FF</color>
+    <color name="quick_menu_ui_background_disable">#5CDDE1E7</color>
+    <color name="radiobutton_checked_color">#f5ffffff</color>
+    <color name="quick_menu_ui_checked_color">#FFFFFF</color>
+    <color name="divider_line">#29000000</color>
+
+    <color name="qc_slider_bg_color">#29757D8D</color>
+    <color name="qc_slider_color">#FFFFFF</color>
+    <color name="qc_slider_disable_color">#5CFFFFFF</color>
+    <color name="qc_icon_color">#757D8D</color>
+    <color name="qc_icon_color_disabled">#5C757D8D</color>
+    <color name="qc_icon_color_activated">@color/x_theme_primary_normal</color>
+    <color name="qc_icon_color_activated_disabled">#5C3B99FF</color>
+
+    <color name="unselected_color">#29757D8D</color>
+    <color name="selected_color">#FF3B99FF</color>
+    <color name="unselected_text_color">#757D8D</color>
+    <color name="pressed_unselected_color">#8F757D8D</color>
+    <color name="stroke_unpressed_color">#FF1683F9</color>
+    <color name="qs_panel_edit_bg">#29757D8D</color>
+    <color name="qs_panel_edit_bg_press">#8F757D8D</color>
+
+    <color name="qs_panel_textcolor">#8F0F1520</color>
+    <color name="qs_panel_account_name">#0F1520</color>
+    <color name="qs_panel_line">#0F1520</color>
+    <color name="qs_panel_item_color">#FFFFFF</color>
+    <color name="qs_panel_item_color_disable">#8FFFFFFF</color>
+    <color name="qs_panel_temperature_color">#6D727A</color>
+    <color name="qs_panel_temperature_color_disabled">#5C6D727A</color>
+    <color name="qs_panel_mutistate_color">#ffffff</color>
+    <color name="qs_panel_mutistate_color_stoke">#E6E9EE</color>
+    <color name="qs_panel_edit_button_stoke">#29757D8D</color>
+    <color name="qs_panel_edit_button_press_stoke">#8F757D8D</color>
+    <color name="qs_panel_toggle_enable_text_color">#666E79</color>
+    <color name="qs_panel_toggle_unable_text_color">#8F666E79</color>
+    <color name="qs_panel_toggle_selected_color">#f2f3f5</color>
+    <color name="quick_menu_drawable_selected_color">#F2F3F5</color>
+    <color name="quick_menu_drawable_normal_color">#0F1520</color>
+    <color name="quick_menu_drawable_disable_color">#5C0F1520</color>
+    <color name="quick_menu_drawable_check_color">#3B99FF</color>
+    <color name="quick_menu_drawable_check_disable_color">#5C3B99FF</color>
+    <color name="charging_error_color">#D73C3C</color>
+    <color name="charging_unknown_color">#FF9800</color>
+    <color name="quick_menu_text_selected_color">#C2FFFFFF</color>
+    <color name="quick_menu_text_normal_color">#0F1520</color>
+    <color name="quick_menu_text_disable_color">#5C0F1520</color>
+    <color name="quick_menu_line_color">#5C000000</color>
+    <color name="quick_menu_bg_color">#F2F3F5</color>
+    <color name="quick_menu_wiper_blue_color">#3B99FF</color>
+    <color name="quick_menu_wiper_start_blue_color">#003B99FF</color>
+    <color name="quick_menu_wiper_gray_color">#0F1520</color>
+
+    <!--副驾驶欢迎-->
+    <color name="qs_panel_welcome_drop_color">#666E79</color>
+
+    <!-- 编辑界面   -->
+    <color name="qs_panel_edit_list_bg_drag_color">#FFFFFF</color>
+    <color name="qs_panel_edit_list_bg_drag_line_color">#DDDDDD</color>
+
+    <!-- 音效界面   -->
+    <color name="value_picker_text_color">#420F1520</color>
+    <color name="value_picker_text_color_chose">#0F1520</color>
+    <color name="sound_field_tips_color">#ffffff</color>
+    <color name="sound_effect_btn_ripple_color">#5CFFFFFF</color>
+    <color name="sound_headrest_audio_mode_title">#0F1520</color>
+    <color name="sound_tts_tips_color">#FFFFFF</color>
+    <color name="sound_tts_tips_bg_color">#3B99FF</color>
+    <color name="sound_tts_tips_mic_bg_color">#F5A623</color>
+    <color name="sound_effect_type_scene">#F2F3F5</color>
+    <color name="sound_effect_type_scene_stoke">#0086FF</color>
+    <color name="sound_effect_tips_line">#717A8B</color>
+
+    <!--  麦克风  -->
+    <color name="main_title_text_color">#0F1520</color>
+    <color name="sub_title_text_color">#585D6E</color>
+    <color name="info_title_text_color">#FF1683F9</color>
+
+    <color name="bg_sell_color">#FFFFFF</color>
+
+    <!--about system-->
+    <color name="bg_checked_info_color">#29BBC2D1</color>
+
+    <color name="progress_indicator_color_on_mask">#FFFFFF</color>
+
+    <color name="download_pending_cancel_mask_color">#DB798192</color>
+    <color name="tab_bg_color">#5CFFFFFF</color>
+    <!--capsule cinema user guide-->
+    <color name="project_bt_tips_color">#C33232</color>
+    <color name="x_theme_bg_app_list_color_night">#1D242D</color>
+    <color name="x_theme_bg_list_disable_end_night">#14000000</color>
+    <color name="x_theme_bg_list_disable_start_night">#14000000</color>
+    <color name="x_theme_bg_list_focus_end_night">#42000000</color>
+    <color name="x_theme_bg_list_focus_start_night">#42000000</color>
+    <color name="x_theme_bg_list_normal_end_night">#29000000</color>
+    <color name="x_theme_bg_list_normal_start_night">#29000000</color>
+    <color name="x_theme_bg_list_pressed_end_night">#42000000</color>
+    <color name="x_theme_bg_list_pressed_start_night">#42000000</color>
+    <color name="x_theme_primary_disable_night">#421683F9</color>
+    <color name="x_theme_primary_negative_disable_night">#42C33232</color>
+    <color name="x_theme_primary_negative_normal_night">#C33232</color>
+    <color name="x_theme_primary_negative_pressed_night">#AF1F1F</color>
+    <color name="x_theme_primary_neutral_disable_night">#29000000</color>
+    <color name="x_theme_primary_neutral_normal_night">#5C000000</color>
+    <color name="x_theme_primary_neutral_pressed_night">#8F000000</color>
+    <color name="x_theme_primary_normal_night">#1683F9</color>
+    <color name="x_theme_primary_pressed_night">#1474DC</color>
+    <color name="x_theme_primary_special_disable_night">#4260AB0E</color>
+    <color name="x_theme_primary_special_normal_night">#60AB0E</color>
+    <color name="x_theme_primary_special_pressed_night">#539A04</color>
+    <color name="x_theme_text_01_night">#FF757D8D</color>
+    <color name="x_theme_text_02_night">#DB757D8D</color>
+    <color name="x_theme_text_03_night">#8F757D8D</color>
+    <color name="x_theme_text_04_night">#5C757D8D</color>
+    <color name="x_theme_text_05_night">#29757D8D</color>
+    <color name="x_theme_text_06_night">#C2FFFFFF</color>
+    <color name="x_theme_text_07_night">#8FFFFFFF</color>
+    <color name="color_bg_used">#8AC2FF</color>
+    <color name="color_bg_used_full">#F5A623</color>
+    <color name="color_bg_unused">#5CBBC2D1</color>
+    <color name="color_text_free_space">#000000</color>
+    <color name="color_text_storage_used">#1E293D</color>
+</resources>

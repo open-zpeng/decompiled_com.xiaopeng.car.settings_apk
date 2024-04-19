@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/x_dialog_large_width">
+    <com.xiaopeng.xui.widget.XGroupHeader android:layout_width="match_parent" app:group_header_text="@string/about_subtitle_device_info" style="@style/XGroupHeader"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/x_list_item_selector" android:paddingLeft="80dp" android:paddingRight="80dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal">
+        <ImageView android:visibility="gone" android:layout_width="500dp" android:layout_height="280dp" android:layout_marginTop="84dp" android:layout_marginBottom="84dp" android:src="@drawable/about_device_info_icon" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/about_system_info_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:layout_marginBottom="48dp"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</LinearLayout>

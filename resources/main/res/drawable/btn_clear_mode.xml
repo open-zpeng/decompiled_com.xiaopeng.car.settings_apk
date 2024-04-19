@@ -1,0 +1,6 @@
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:keep="@drawable/btn_clear_mode">
+    <corners android:radius="40dp"/>
+    <solid android:color="@color/x_primary_neutral_color_selector"/>
+</shape>

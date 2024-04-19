@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetooth_none_device_tip">Ingen ny enhet tilgjengelig. Trykk på \"Søk\" senere.</string>
+    <string name="bluetooth_popup_disconnect_title">Bluetooth er ikke tilkoblet</string>
+    <string name="bluetooth_popup_ignore_btn">Ignorer</string>
+    <string name="bluetooth_power">Bluetooth</string>
+    <string name="bluetooth_profile_unavailable">Ikke aktivert</string>
+    <string name="bluetooth_search">Søk</string>
+    <string name="bluetooth_subtitle_bonded">Sammenkoblede enheter</string>
+    <string name="bluetooth_subtitle_new">Ingen tilgjengelige enheter</string>
+    <string name="btn_off">Lukk</string>
+    <string name="cancel">Avbryt</string>
+    <string name="cb_result_cancel">Avbryt</string>
+    <string name="connected">Tilkoblet</string>
+    <string name="disconnect">Koble fra</string>
+    <string name="download_action_success">Åpne</string>
+    <string name="input_hint_wifi_account">Angi brukernavn</string>
+    <string name="input_hint_wifi_pass">OK</string>
+    <string name="qs_panel_close">Lukk</string>
+    <string name="sound_effects_close">Lukk</string>
+    <string name="sound_headrest_enjoy_driving_model">Byttet til Kjøremodus</string>
+    <string name="sound_headrest_private_model">Byttet til privat-modus</string>
+    <string name="sound_headrest_sharing_model">Byttet delingsmodus</string>
+    <string name="title_bluetooth">Bluetooth</string>
+    <string name="title_download">Administrasjon av nedlasting</string>
+    <string name="title_usb">Smartenhet</string>
+    <string name="wlan_popup_ignore_btn">Ignorer</string>
+    <string name="wlan_power">Bryter for trådløst nettverk</string>
+    <string name="wlan_subtitle_wifi">Velg et nettverk</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/floating_item_height">
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/drop_down_menu_icon_margin"
+        tools:src="@drawable/ic_mid_drop_flashdrive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.xiaopeng.xui.widget.XLoading
+        android:id="@+id/xloading"
+        style="@style/XLoading.Small"
+        android:visibility="gone"
+        android:layout_margin="@dimen/drop_down_menu_icon_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/drop_down_menu_icon_margin"
+        android:ellipsize="end"
+        android:singleLine="true"
+        tools:text="hellohellohellhellohellohellhellohellohellhellohellohellhellohellohellhellohellohellhellohellohellhellohellohell"
+        android:textColor="@color/x_theme_text_01"
+        android:textSize="@dimen/x_font_title_04_size"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/progressBar"
+        app:layout_constraintStart_toEndOf="@id/icon1"
+        app:layout_constraintEnd_toStartOf="@+id/connection"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_max="@dimen/drop_down_menu_device_name_width"
+        />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/connection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/drop_down_menu_textview_margin2"
+        android:maxLines="1"
+        android:text="@string/sm_device_panel_connect"
+        android:textColor="@color/x_theme_primary_normal"
+        android:textSize="@dimen/x_font_body_04_size"
+        app:layout_constraintStart_toEndOf="@id/text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text1"
+        app:layout_constraintBottom_toBottomOf="@id/text1"
+        />
+    <com.xiaopeng.xui.widget.XProgressBar
+        android:id="@+id/progressBar"
+        style="@style/XProgressBar.Horizontal"
+        android:layout_width="@dimen/drop_down_menu_progressbar_width"
+        android:layout_height="@dimen/drop_down_menu_progressbar_height"
+        android:layout_marginTop="@dimen/drop_down_menu_progressbar_margintop"
+        android:max="100"
+        app:layout_constraintLeft_toLeftOf="@id/text1"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/drop_down_menu_textview_margin1"
+        tools:text="8GB/18GB"
+        android:textColor="@color/x_theme_text_01"
+        android:textSize="@dimen/x_font_body_03_size"
+        app:layout_constraintLeft_toRightOf="@+id/progressBar"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintTop_toTopOf="@+id/progressBar"
+        />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/floating_item_line_height"
+        android:layout_marginStart="@dimen/floating_item_line_margin"
+        android:layout_marginEnd="@dimen/floating_item_line_margin"
+        android:background="@drawable/line"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

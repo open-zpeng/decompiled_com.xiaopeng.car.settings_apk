@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.car.settingslibrary.ui.widget.SoundFieldView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_horizontal" android:id="@+id/sound_field_view_hifi_original" android:visibility="invisible" android:layout_width="@dimen/sound_effect_dialog_field_width" android:layout_height="@dimen/sound_effect_dialog_field_height"/>

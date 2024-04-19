@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<resources>
+
+
+    <!--    维修-->
+
+
+    <!--    授权模式-->
+
+
+    <string name="cancel">Annuler</string>
+
+
+    <!--紧急下电-->
+
+
+    <!-- common -->
+
+
+    <string name="connected">Connecté</string>
+
+
+    <string name="disconnect">Se déconnecter</string>
+
+
+    <string name="btn_off">Fermer</string>
+
+
+    <!-- title -->
+
+
+    <string name="title_bluetooth">Bluetooth</string>
+
+
+    <string name="title_usb">Appareil intelligent</string>
+
+
+    <string name="title_download">Gestion des téléchargements</string>
+
+
+    <!-- 蓝牙 -->
+
+
+    <!-- header -->
+
+
+    <!--<string name="bluetooth_subtitle_connected">连接过的设备</string>-->
+
+
+    <string name="bluetooth_subtitle_bonded">Appareils jumelés</string>
+
+
+    <string name="bluetooth_subtitle_new">Nouveaux appareils disponibles</string>
+
+
+    <!--item -->
+
+
+    <string name="bluetooth_none_device_tip">Aucun nouvel appareil disponible. Veuillez appuyer sur \&quot;Rechercher\&quot; ultérieurement.</string>
+
+
+    <string name="bluetooth_power">Bluetooth</string>
+
+
+    <string name="bluetooth_profile_unavailable">Non activé</string>
+
+
+    <!-- popup -->
+
+
+    <string name="bluetooth_popup_disconnect_title">Bluetooth non connecté</string>
+
+
+    <string name="bluetooth_popup_ignore_btn">Ignorer</string>
+
+
+    <!-- 配对 -->
+
+
+    <string name="bluetooth_search">Rechercher</string>
+
+
+    <!-- WLAN -->
+
+
+    <!-- header -->
+
+
+    <string name="wlan_power">Contacteur de réseau sans fil</string>
+
+
+    <string name="wlan_subtitle_wifi">Sélectionner un réseau</string>
+
+
+    <!-- item -->
+
+
+    <!-- popup -->
+
+
+    <string name="wlan_popup_ignore_btn">Ignorer</string>
+
+
+    <!-- 流量 -->
+
+
+    <!-- 显示 -->
+
+
+    <!-- 亮度 -->
+
+
+    <!-- 外观 -->
+
+
+    <!-- 语言 -->
+
+
+    <!-- 地区 -->
+
+
+    <!-- 声音 -->
+
+
+    <!-- volume -->
+
+
+    <!-- effects -->
+
+
+    <!--  头枕音效  -->
+
+
+    <string name="sound_effects_close">Fermer</string>
+
+
+    <!-- Intelligence -->
+
+
+    <!-- speech -->
+
+
+    <!-- 权限 -->
+
+
+    <!-- about -->
+
+
+    <!-- floating -->
+
+
+    <!--input-->
+
+
+    <string name="input_hint_wifi_account">Veuillez entrer le nom d\'utilisateur</string>
+
+
+    <string name="input_hint_wifi_pass">OK</string>
+
+
+    <!--小鹏实验室-->
+
+
+    <!--用户反馈-->
+
+
+    <!--download-->
+
+
+    <string name="download_action_success">Ouvrir</string>
+
+
+    <!--自动下电弹窗-->
+
+
+    <!--qs-->
+
+
+    <string name="qs_panel_close">Fermer</string>
+
+
+    <plurals name="clean_str_num">
+
+
+        <item quantity="one">%d秒后退出清洁屏幕</item>
+
+
+        <item quantity="other">%d秒后退出清洁屏幕</item>
+
+
+    </plurals>
+
+
+    <!-- 编辑面板   -->
+
+
+    <!-- 智能设备面板  -->
+
+
+    <!--  麦克风  -->
+
+
+    <string name="cb_result_cancel">Annuler</string>
+
+
+    <!--vui-->
+
+
+    <!--about system begin-->
+
+
+    <!--about system end-->
+
+
+    <!-- D21V新增 -->
+
+
+    <!-- 观影空间引导页 -->
+
+    <string name="sound_headrest_sharing_model" >Passage en mode Partage</string>
+    <string name="sound_headrest_enjoy_driving_model" >Passage en mode conduite</string>
+    <string name="sound_headrest_private_model">Passage en mode Privé</string>
+
+</resources>
+

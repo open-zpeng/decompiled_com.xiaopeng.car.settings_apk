@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.xiaopeng.car.settingslibrary.ui.activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/demoImage"
+        android:layout_width="@dimen/x_catalog_bar_width"
+        android:layout_height="@dimen/x_title_bar_height"
+        android:layout_alignParentEnd="true"
+        tools:ignore="ContentDescription" />
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:layout_width="@dimen/x_catalog_bar_width"
+        android:layout_height="@dimen/x_title_bar_height"
+        android:background="@color/tab_bg_color"
+        tools:ignore="ContentDescription" />
+
+    <com.xiaopeng.xui.widget.XTitleBar
+        android:id="@+id/xTitleBar"
+        style="@style/XTitleBar"
+        app:title_back="invisible"/>
+
+
+    <com.xiaopeng.xui.widget.XFrameLayout
+        android:id="@+id/fragment_container_left"
+        android:layout_width="@dimen/x_catalog_bar_width"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xTitleBar"
+        android:background="@color/tab_bg_color"
+        android:paddingTop="@dimen/page_tab_padding_top" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xTitleBar"
+        android:layout_toRightOf="@id/fragment_container_left"
+        android:paddingStart="@dimen/page_padding_left"
+        android:paddingTop="@dimen/page_padding_top"
+        android:paddingEnd="@dimen/page_padding_right"
+        android:paddingBottom="@dimen/page_padding_bottom" />
+</RelativeLayout>

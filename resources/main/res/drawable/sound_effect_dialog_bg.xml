@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="20dp" />
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="@color/sound_effect_dialog_bg_start"
+        android:endColor="@color/sound_effect_dialog_bg_end"
+        />
+</shape>
+

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--<string name="app_name">系统设置</string>-->
+
+
+
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">无</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_short_dpp">DPP</string>
+    <string name="wifi_security_dpp">DPP</string>
+    <string name="wifi_security_short_sae">SAE</string>
+    <string name="wifi_security_sae">SAE</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_owe">OWE</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <!-- Do not translate.  Concise terminology for Passpoint network -->
+    <!-- Summary for saved networks -->
+    <string name="saved_network">Saved by <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="wifi_security_short_psk_sae" translatable="false">WPA2/WPA3</string>
+    <string name="wifi_security_psk_sae" translatable="false">WPA2/WPA3-Personal</string>
+    <string name="wifi_security_eap_wpa" translatable="false">WPA-Enterprise</string>
+    <string name="wifi_security_short_eap_wpa2_wpa3" translatable="false">RSN-EAP</string>
+    <string name="wifi_security_eap_wpa2_wpa3" translatable="false">WPA2/WPA3-Enterprise</string>
+    <string name="wifi_security_short_eap_suiteb" translatable="false">Suite-B-192</string>
+    <string name="wifi_security_eap_suiteb" translatable="false">WPA3-Enterprise 192-bit</string>
+    <string name="osu_sign_up_complete">Sign-up complete. Connecting\u2026</string>
+    <string name="tap_to_sign_up">Tap to sign up</string>
+    <string name="wifi_disconnected">Disconnected</string>
+    <!-- Package name for Settings app-->
+    <string name="settings_package" translatable="false">com.android.settings</string>
+    <!-- Package name for Certinstaller app-->
+    <string name="certinstaller_package" translatable="false">com.android.certinstaller</string>
+    <string name="speed_label_slow">"慢"</string>
+    <string name="speed_label_okay">"良好"</string>
+    <string name="speed_label_fast">"快"</string>
+    <string name="speed_label_very_fast">"很快"</string>
+    <string name="connected_via_network_scorer">"已通过%1$s自动连接"</string>
+    <string name="connected_via_network_scorer_default">"已自动连接（通过网络评分服务提供方）"</string>
+    <string name="connected_via_passpoint">"已通过%1$s连接"</string>
+    <string name="available_via_passpoint">"可通过%1$s连接"</string>
+    <string name="wifi_connected_no_internet">"已连接，但无法访问互联网"</string>
+    <string name="wifi_ap_unable_to_handle_new_sta">"接入点暂时满载"</string>
+    <string name="connected_via_carrier">"已通过%1$s连接"</string>
+    <string name="available_via_carrier">"可通过%1$s连接"</string>
+    <string name="wifi_not_in_range">"不在范围内"</string>
+    <string name="wifi_no_internet_no_reconnect">"无法自动连接"</string>
+    <string name="wifi_no_internet">"无法连接到互联网"</string>
+    <string name="wifi_disabled_generic">"已停用"</string>
+    <string name="wifi_disabled_network_failure">"IP 配置失败"</string>
+    <string name="wifi_disabled_by_recommendation_provider">"网络质量较差，因此未连接"</string>
+    <string name="wifi_disabled_password_failure">"身份验证出现问题"</string>
+    <string name="wifi_check_password_try_again">"请检查密码，然后重试"</string>
+    <string name="wifi_remembered">"已保存"</string>
+    <string name="preference_summary_default_combination">"<xliff:g id="STATE">%1$s</xliff:g>/<xliff:g id="DESCRIPTION">%2$s</xliff:g>"</string>
+
+    <string name="wifi_metered_label">"按流量计费"</string>
+    <string name="wifi_unmetered_label">"不按流量计费"</string>
+
+
+    <string name="bluetooth_profile_a2dp">"媒体音频"</string>
+    <string name="bluetooth_profile_headset">"通话"</string>
+    <string name="bluetooth_profile_opp">"文件传输"</string>
+    <string name="bluetooth_profile_hid">"输入设备"</string>
+    <string name="bluetooth_profile_pan">"互联网连接"</string>
+    <string name="bluetooth_profile_pbap">"共享联系人"</string>
+    <string name="bluetooth_profile_pbap_summary">"用于共享联系人"</string>
+    <string name="bluetooth_profile_pan_nap">"共享互联网连接"</string>
+    <string name="bluetooth_profile_map">"短信"</string>
+    <string name="bluetooth_profile_sap">"SIM 卡存取权限"</string>
+    <string name="bluetooth_profile_a2dp_high_quality">"HD 音频：<xliff:g id="CODEC_NAME">%1$s</xliff:g>"</string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">"HD 音频"</string>
+    <string name="bluetooth_pan_profile_summary_use_for">"用于访问互联网"</string>
+    <string name="bluetooth_map_profile_summary_use_for">"用于地图"</string>
+    <string name="bluetooth_sap_profile_summary_use_for">"用于存取 SIM 卡"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">"用于媒体音频"</string>
+    <string name="bluetooth_headset_profile_summary_use_for">"用于手机音频"</string>
+    <string name="bluetooth_hid_profile_summary_use_for">"用于输入"</string>
+    <string name="bluetooth_hearing_aid_profile_summary_use_for">"用于助听器"</string>
+    <string name="bluetooth_hearing_aid_profile_summary_connected">"已连接到助听器"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">"已连接到媒体音频"</string>
+    <string name="bluetooth_headset_profile_summary_connected">"已连接到手机音频"</string>
+    <string name="bluetooth_map_profile_summary_connected">"已连接到地图"</string>
+    <string name="bluetooth_sap_profile_summary_connected">"已连接到 SAP"</string>
+    <string name="bluetooth_hid_profile_summary_connected">"已连接到输入设备"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">"经由其他设备连接到互联网"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">"与其他设备共享该设备的互联网连接"</string>
+    <string name="bluetooth_profile_hearing_aid">"助听器"</string>
+    <string name="bluetooth_disconnected">"已断开连接"</string>
+    <string name="bluetooth_disconnecting">"正在断开连接..."</string>
+    <string name="bluetooth_connecting">"正在连接..."</string>
+    <string name="bluetooth_connected">"已连接<xliff:g id="ACTIVE_DEVICE">%1$s</xliff:g>"</string>
+    <string name="bluetooth_active_battery_level">"使用中，电池电量：<xliff:g id="BATTERY_LEVEL_AS_PERCENTAGE">%1$s</xliff:g>"</string>
+    <string name="bluetooth_battery_level">"电池电量：<xliff:g id="BATTERY_LEVEL_AS_PERCENTAGE">%1$s</xliff:g>"</string>
+    <string name="bluetooth_active_no_battery_level">"使用中"</string>
+    <string name="bluetooth_connected_battery_level">"已连接，电量为 <xliff:g id="BATTERY_LEVEL_AS_PERCENTAGE">%1$s</xliff:g> <xliff:g id="ACTIVE_DEVICE">%2$s</xliff:g>"</string>
+    <string name="bluetooth_connected_no_headset_battery_level">"已连接（无手机信号），电量为 <xliff:g id="BATTERY_LEVEL_AS_PERCENTAGE">%1$s</xliff:g> <xliff:g id="ACTIVE_DEVICE">%2$s</xliff:g>"</string>
+    <string name="bluetooth_connected_no_a2dp_battery_level">"已连接（无媒体信号），电量为 <xliff:g id="BATTERY_LEVEL_AS_PERCENTAGE">%1$s</xliff:g> <xliff:g id="ACTIVE_DEVICE">%2$s</xliff:g>"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">"已连接（无手机或媒体信号），电量为 <xliff:g id="BATTERY_LEVEL_AS_PERCENTAGE">%1$s</xliff:g> <xliff:g id="ACTIVE_DEVICE">%2$s</xliff:g>"</string>
+    <string name="bluetooth_connected_no_headset">"已连接（无手机信号）<xliff:g id="ACTIVE_DEVICE">%1$s</xliff:g>"</string>
+    <string name="bluetooth_connected_no_a2dp">"已连接（无媒体信号）<xliff:g id="ACTIVE_DEVICE">%1$s</xliff:g>"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">"已连接（无手机或媒体信号）<xliff:g id="ACTIVE_DEVICE">%1$s</xliff:g>"</string>
+    <string name="bluetooth_pairing">"正在配对..."</string>
+
+    <!--<string name="cancel">取消</string>-->
+
+
+    <string name="bluetooth_talkback_computer" msgid="5223330129934365312">"计算机"</string>
+    <string name="bluetooth_talkback_headset" msgid="6155254514321149935">"耳机"</string>
+    <string name="bluetooth_talkback_phone" msgid="8833977851215000426">"手机"</string>
+    <string name="bluetooth_talkback_imaging" msgid="8762390801115154654">"成像设备"</string>
+    <string name="bluetooth_talkback_headphone" msgid="5362155791551671490">"耳机"</string>
+    <string name="bluetooth_talkback_input_peripheral" msgid="868933277567862622">"外围输入设备"</string>
+    <string name="bluetooth_talkback_bluetooth" msgid="1715933297419387985">"蓝牙"</string>
+
+
+    <string name="data_usage_uninstalled_apps" msgid="614263770923231598">"已删除的应用"</string>
+    <string name="data_usage_uninstalled_apps_users" msgid="7986294489899813194">"已删除的应用和用户"</string>
+    <string name="process_kernel_label" msgid="3916858646836739323">"Android 操作系统"</string>
+    <string name="tether_settings_title_usb" msgid="6688416425801386511">"USB 网络共享"</string>
+    <string name="tether_settings_title_wifi" msgid="3277144155960302049">"便携式热点"</string>
+    <string name="tether_settings_title_bluetooth" msgid="355855408317564420">"蓝牙网络共享"</string>
+    <string name="tether_settings_title_usb_bluetooth" msgid="5355828977109785001">"网络共享"</string>
+    <string name="tether_settings_title_all" msgid="8356136101061143841">"网络共享与便携式热点"</string>
+    <string name="managed_user_title" msgid="8109605045406748842">"所有工作应用"</string>
+    <string name="user_guest" msgid="8475274842845401871">"访客"</string>
+    <string name="unknown" msgid="1592123443519355854">"未知"</string>
+    <string name="running_process_item_user_label" msgid="3129887865552025943">"用户：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
+    <string name="wifi_security_short_eap_wpa" translatable="false">WPA-EAP</string>
+    <string name="connected_via_app" msgid="3532267661404276584">"已通过<xliff:g id="NAME">%1$s</xliff:g>连接到网络"</string>
+    <string name="wifi_limited_connection" msgid="1184778285475204682">"网络连接受限"</string>
+    <string name="osu_opening_provider" msgid="4318105381295178285">"正在打开<xliff:g id="PASSPOINTPROVIDER">%1$s</xliff:g>"</string>
+    <string name="osu_connect_failed" msgid="9107873364807159193">"无法连接"</string>
+    <string name="osu_completing_sign_up" msgid="8412636665040390901">"正在完成注册…"</string>
+    <string name="osu_sign_up_failed" msgid="5605453599586001793">"无法完成注册。点按即可重试。"</string>
+    <string name="wifi_fail_to_scan" msgid="2333336097603822490">"无法扫描网络"</string>
+    <string name="device_info_default">"未知"</string>
+    <string name="wifi_status_mac_randomized">"MAC 已随机化"</string>
+    <string name="status_unavailable">"无法获取"</string>
+
+    <string name="wifitrackerlib_summary_separator" msgid="6613897475167609815">" / "</string>
+    <string name="wifitrackerlib_wifi_wont_autoconnect_for_now" msgid="4923161724964349851">"WLAN 暂时无法自动连接"</string>
+    <string name="wifitrackerlib_wifi_passpoint_expired" msgid="7974960573887452566">"已过期"</string>
+    <string name="wifitrackerlib_tap_to_renew_subscription_and_connect" msgid="6048420776676138069">"点按即可续订并连接"</string>
+    <string name="wifitrackerlib_tap_to_sign_up" msgid="3897017015910817402">"点按即可注册"</string>
+    <string name="wifitrackerlib_osu_connect_failed" msgid="3872233609000700930">"无法连接"</string>
+    <string name="wifitrackerlib_osu_completing_sign_up" msgid="4359503050543182480">"正在完成注册…"</string>
+    <string name="wifitrackerlib_osu_sign_up_failed" msgid="3964140125523395898">"无法完成注册。点按即可重试。"</string>
+    <string name="wifitrackerlib_osu_opening_provider" msgid="7128677439450712558">"正在打开<xliff:g id="PASSPOINTPROVIDER">%1$s</xliff:g>"</string>
+    <string name="wifitrackerlib_osu_sign_up_complete" msgid="3279606633343124580">"注册完毕。正在连接…"</string>
+    <string name="wifitrackerlib_wifi_security_none" msgid="2686062484642847280">"无"</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_wpa_wpa2" translatable="false">WPA/WPA2-EAP</string>
+    <string name="wifitrackerlib_wifi_security_eap_wpa_wpa2" translatable="false">WPA/WPA2-Enterprise</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_wpa3" translatable="false">WPA3-EAP</string>
+    <string name="wifitrackerlib_wifi_security_eap_wpa3" translatable="false">WPA3-Enterprise</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_suiteb" translatable="false">Suite-B-192</string>
+    <string name="wifitrackerlib_wifi_security_eap_suiteb" translatable="false">WPA3-Enterprise 192-bit</string>
+    <string name="wifitrackerlib_wifi_security_short_wpa_wpa2" translatable="false">WPA/WPA2</string>
+    <string name="wifitrackerlib_wifi_security_wpa_wpa2" translatable="false">WPA/WPA2-Personal</string>
+    <string name="wifitrackerlib_wifi_security_wep" translatable="false">WEP</string>
+    <string name="wifitrackerlib_wifi_security_short_sae" translatable="false">WPA3</string>
+    <string name="wifitrackerlib_wifi_security_sae" translatable="false">WPA3-Personal</string>
+    <string name="wifitrackerlib_wifi_security_short_owe" translatable="false">OWE</string>
+    <string name="wifitrackerlib_wifi_security_owe" translatable="false">Enhanced Open</string>
+    <string name="wifitrackerlib_wifi_security_short_wpa_wpa2_wpa3" translatable="false">WPA/WPA2/WPA3</string>
+    <string name="wifitrackerlib_wifi_security_wpa_wpa2_wpa3" translatable="false">WPA/WPA2/WPA3-Personal</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_wpa_wpa2_wpa3" translatable="false">WPA/WPA2/WPA3-EAP</string>
+    <string name="wifitrackerlib_wifi_security_eap_wpa_wpa2_wpa3" translatable="false">WPA/WPA2/WPA3-Enterprise</string>
+    <string name="wifitrackerlib_wifi_disconnected" msgid="3320414360982942679">"已断开连接"</string>
+    <string name="wifitrackerlib_saved_network" msgid="5353460010746484376">"已由<xliff:g id="NAME">%1$s</xliff:g>保存"</string>
+    <string name="wifitrackerlib_available_via_app" msgid="8556844256194837469">"可通过<xliff:g id="NAME">%1$s</xliff:g>使用"</string>
+    <string name="wifitrackerlib_wifi_remembered" msgid="2406091442008343041">"已保存"</string>
+    <string name="wifitrackerlib_connected_via_app" msgid="7823921840931347560">"已通过<xliff:g id="NAME">%1$s</xliff:g>连接"</string>
+    <string name="wifitrackerlib_connected_via_network_scorer" msgid="6306655070903763086">"已通过<xliff:g id="NAME">%1$s</xliff:g>自动连接"</string>
+    <string name="wifitrackerlib_connected_via_network_scorer_default" msgid="3436792128688839692">"已通过网络评分服务提供方自动连接"</string>
+    <string name="wifi_connected_low_quality" msgid="4478331645458058445">"质量不佳"</string>
+    <string name="wifitrackerlib_wifi_no_internet_no_reconnect" msgid="6618216332537706908">"无法自动连接"</string>
+    <string name="wifitrackerlib_wifi_no_internet" msgid="4998563744669636949">"无法访问互联网"</string>
+    <string name="wifitrackerlib_wifi_disabled_password_failure" msgid="2850244218754633550">"身份验证出现问题"</string>
+    <string name="wifitrackerlib_wifi_check_password_try_again" msgid="2327777719175574699">"请检查密码是否正确，然后重试"</string>
+    <string name="wifitrackerlib_wifi_disabled_network_failure" msgid="3046956554224277166">"IP 配置失败"</string>
+    <string name="wifitrackerlib_wifi_disabled_generic" msgid="4278806060337007814">"已停用"</string>
+    <string name="wifitrackerlib_wifi_ap_unable_to_handle_new_sta" msgid="931922372010639716">"接入点暂时满载"</string>
+    <string name="wifitrackerlib_wifi_poor_channel_conditions" msgid="26484680900376236">"临时性网络连接状况不佳"</string>
+    <string name="wifitrackerlib_wifi_mbo_oce_assoc_disallowed_insufficient_rssi" msgid="5078611817423181773">"信号微弱。请尝试移到离路由器更近的地方。"</string>
+    <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_max_num_sta_associated" msgid="4418848919914618807">"网络已过载。请稍后重试。"</string>
+    <string name="wifitrackerlib_wifi_mbo_assoc_disallowed_cannot_connect" msgid="2692286425448897083">"无法连接。请稍后重试。"</string>
+    <string name="wifitrackerlib_wifi_network_not_found" msgid="1308764769892463388">"无法连接，请稍后重试。"</string>
+    <string name="wifitrackerlib_auto_connect_disable" msgid="4714835547164460651">"自动连接已关闭"</string>
+    <string name="wifitrackerlib_wifi_metered_label" msgid="8818508951778620385">"按流量计费"</string>
+    <string name="wifitrackerlib_wifi_unmetered_label" msgid="1902150402929678469">"不按流量计费"</string>
+    <string name="wifitrackerlib_speed_label_very_slow" msgid="6606409259798814244">"很慢"</string>
+    <string name="wifitrackerlib_speed_label_slow" msgid="7327906382011957760">"慢"</string>
+    <string name="wifitrackerlib_speed_label_okay" msgid="6656684124654881956">"尚可"</string>
+    <string name="wifitrackerlib_speed_label_medium" msgid="2249280306855290094">"中"</string>
+    <string name="wifitrackerlib_speed_label_fast" msgid="2593921008376044650">"快"</string>
+    <string name="wifitrackerlib_speed_label_very_fast" msgid="4162759416291355173">"很快"</string>
+    <string name="wifitrackerlib_imsi_protection_warning" msgid="7202210931586169466">"此网络会收到可用于跟踪设备位置的 SIM 卡 ID。"<annotation id="url">"了解详情"</annotation></string>
+    <string name="wifitrackerlib_help_url_imsi_protection" translatable="false"></string>
+    <string name="wifitrackerlib_wifi_limited_connection" msgid="4234326409980991740">"网络连接受限"</string>
+    <string name="wifitrackerlib_private_dns_broken" msgid="6049401148262718707">"无法访问专用 DNS 服务器"</string>
+    <string name="wifitrackerlib_wifi_connected_cannot_provide_internet" msgid="3803471522215612745">"已连接到设备，但无法提供互联网连接。"</string>
+    <string name="wifitrackerlib_wifi_security_passpoint">Passpoint</string>
+</resources>
+

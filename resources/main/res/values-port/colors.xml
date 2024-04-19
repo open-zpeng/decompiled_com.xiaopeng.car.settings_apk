@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="value_picker_text_color">#420F1520</color>
+    <color name="value_picker_text_color_chose">#0F1520</color>
+    <color name="sound_field_tips_color">#ffffff</color>
+    <color name="sound_effect_type_scene">#0086FF</color>
+</resources>

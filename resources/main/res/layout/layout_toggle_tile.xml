@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/qs_panel_toggle_button"
+    android:layout_width="@dimen/qs_panel_toggle_width"
+    android:layout_height="@dimen/qs_panel_toggle_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/qs_panel_toggle_icon_height"
+        android:layout_marginTop="@dimen/qs_panel_toggle_icon_margintop"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/toggle_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/qs_panel_toggle_text_marginbottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:text="hello"
+        android:focusable="false"
+        android:gravity="center"
+        android:textSize="@dimen/qs_panel_tips_size" />
+
+</com.xiaopeng.xui.widget.XRelativeLayout>
+
+
+
+
+
+

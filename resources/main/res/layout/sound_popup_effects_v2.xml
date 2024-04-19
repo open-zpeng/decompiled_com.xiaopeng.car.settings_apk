@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.xiaopeng.car.settingslibrary.ui.widget.SoundEffectPopHorizontalView2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/soundEffectPopView"
+    android:layout_width="@dimen/sound_effect_dialog_width"
+    android:layout_height="@dimen/sound_effect_dialog_height"
+    android:maxWidth="@dimen/sound_effect_dialog_width"
+    android:maxHeight="@dimen/sound_effect_dialog_height"
+    android:minWidth="@dimen/sound_effect_dialog_width"
+    android:minHeight="@dimen/sound_effect_dialog_height">
+
+    <!--    经测试，真正影响dialog宽高的是里面这层   -->
+    <com.xiaopeng.xui.widget.XFrameLayout
+        android:layout_width="@dimen/sound_effect_dialog_width"
+        android:layout_height="@dimen/sound_effect_dialog_height"
+        android:layout_gravity="center"
+        android:background="@drawable/se_dialog_bg">
+
+        <include layout="@layout/sound_popup_effects_v2_main" />
+
+        <include
+            layout="@layout/sound_popup_effects_v2_equalizer"
+            android:visibility="gone" />
+
+    </com.xiaopeng.xui.widget.XFrameLayout>
+
+
+</com.xiaopeng.car.settingslibrary.ui.widget.SoundEffectPopHorizontalView2>
+

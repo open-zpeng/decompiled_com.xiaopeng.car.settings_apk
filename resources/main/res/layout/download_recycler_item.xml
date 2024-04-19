@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_normal">
+    <com.xiaopeng.xui.widget.XListTwo
+        android:id="@+id/download_item_list"
+        style="@style/XList.Two"
+        app:list_two_left="@layout/download_list_action_custom"
+        app:list_two_text="xxxx"
+        app:list_two_text_sub="xxxx"
+        app:list_two_tag_custom="@layout/download_list_title_custom"
+        app:list_two_text_sub_highlight="true" />
+    <com.xiaopeng.xui.view.XView
+        android:id="@+id/pending_cancel_mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/download_pending_cancel_mask"
+        android:visibility="gone"
+        android:layout_alignTop="@id/download_item_list"
+        android:layout_alignBottom="@id/download_item_list"
+        android:layout_alignStart="@id/download_item_list"
+        android:layout_alignEnd="@id/download_item_list"/>
+    <com.xiaopeng.xui.widget.XRelativeLayout
+        android:id="@+id/download_item_button_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@+id/download_item_list"
+        android:layout_alignBottom="@+id/download_item_list"
+        android:layout_alignParentEnd="true"
+        android:gravity="center">
+        <com.xiaopeng.xui.widget.XButton
+            android:id="@+id/download_item_button"
+            style="@style/XButton.Ghost.Mid.Positive"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:text="hello"
+            android:layout_marginEnd="34dp"
+            />
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>
+
+

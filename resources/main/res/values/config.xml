@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="sound_effect_style_redirect">false</bool>
+    <integer name="sound_effect_style1">4</integer><!--全景环绕-->
+    <integer name="sound_effect_style2">2</integer><!--人声-->
+    <integer name="sound_effect_style3">1</integer><!--劲爆重音-->
+    <integer name="sound_effect_style4">3</integer><!--动感现场-->
+    <integer name="sound_effect_style5">0</integer><!--原声-->
+    <integer name="sound_effect_style6">7</integer><!--自定义-->
+</resources>

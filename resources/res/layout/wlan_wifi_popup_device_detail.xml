@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XTextView android:text="@string/wlan_signal_strength" style="@style/WlandetailPopItem"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/signal_strength" style="@style/WlandetailPopItem"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wifi_pop_tv_margin">
+        <com.xiaopeng.xui.widget.XTextView android:text="@string/wlan_security" style="@style/WlandetailPopItem"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/security" style="@style/WlandetailPopItem"/>
+    </LinearLayout>
+</LinearLayout>

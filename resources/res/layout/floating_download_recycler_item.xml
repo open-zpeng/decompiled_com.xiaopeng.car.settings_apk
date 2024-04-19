@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="@dimen/floating_item_height">
+    <RelativeLayout android:id="@+id/download_item_action" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:paddingStart="24dp" android:paddingEnd="24dp">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/icon" android:layout_width="88dp" android:layout_height="88dp" android:layout_centerInParent="true"/>
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/download_icon_mask" android:layout_width="88dp" android:layout_height="88dp" android:src="@drawable/download_ic_black_mask" android:layout_centerInParent="true"/>
+        <com.xiaopeng.xui.widget.XCircularProgressBar android:id="@+id/circularProgressBar" android:indeterminate="false" android:layout_centerInParent="true" app:progress_enableIndicator="true" app:progress_indicatorType="paused" style="@style/ProgressBarOnMask"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/buttonLayout" android:layout_toEndOf="@+id/download_item_action">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_01" android:ellipsize="end" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_03" android:ellipsize="end" android:id="@+id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="24dp"/>
+        </LinearLayout>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/x_theme_text_04" android:ellipsize="end" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:maxLines="1"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/buttonLayout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginStart="40dp" android:layout_marginEnd="40dp" android:layout_alignParentEnd="true">
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/button" android:layout_centerInParent="true" style="@style/XButton.Ghost.Mid.Positive"/>
+    </RelativeLayout>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/line" android:background="@drawable/line" android:layout_width="match_parent" android:layout_height="@dimen/floating_item_line_height" android:layout_marginStart="@dimen/floating_item_line_margin" android:layout_marginEnd="@dimen/floating_item_line_margin"/>
+</RelativeLayout>

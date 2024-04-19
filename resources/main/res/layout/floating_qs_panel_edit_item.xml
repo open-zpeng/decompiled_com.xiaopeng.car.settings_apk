@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/edit_panel_control_option_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/edit_panel_control_option_padding"
+    android:paddingBottom="@dimen/edit_panel_control_option_padding">
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/icon_new"
+        android:layout_width="@dimen/qs_panel_more_options_icon_width"
+        android:layout_height="@dimen/qs_panel_more_options_icon_width"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/ic_qs_edit_dot" />
+
+    <com.xiaopeng.xui.widget.XRelativeLayout
+        android:id="@+id/item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/edit_panel_control_option_margin"
+        android:layout_marginEnd="@dimen/edit_panel_control_option_margin"
+        android:background="@drawable/bg_qs_edit_list">
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/edit_panel_control_option_icon_margin"
+            android:src="@drawable/ic_mid_qc_edit_add" />
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/edit_panel_control_option_text_margin"
+            android:layout_marginEnd="@dimen/edit_panel_control_option_text_margin"
+            android:layout_toEndOf="@+id/icon"
+            android:singleLine="true"
+            android:src="@color/x_theme_primary_normal"
+            android:layout_toStartOf="@+id/icon_drag"
+            tools:text="直流充电口盖"
+            android:textColor="@color/x_theme_text_03"
+            android:textSize="@dimen/x_font_title_04_size" />
+        <com.xiaopeng.xui.widget.XImageView
+            android:id="@+id/icon_drag"
+            android:layout_width="@dimen/edit_panel_icon_drag_width"
+            android:layout_height="@dimen/edit_panel_icon_drag_width"
+            android:src="@drawable/ic_mid_qc_drag"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="17dp"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

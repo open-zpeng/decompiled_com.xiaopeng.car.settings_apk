@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="clean_str_num">
+        <item quantity="one">%d秒后退出清洁屏幕</item>
+        <item quantity="other">%d秒后退出清洁屏幕</item>
+    </plurals>
+</resources>

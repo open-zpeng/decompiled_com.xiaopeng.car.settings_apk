@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="240dp" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_gray_color" android:text="@string/about_storage_app_space_code" android:drawableStart="@drawable/ic_dot_green" style="@style/TextPercentTitle"/>
+                <TextView android:textSize="@dimen/x_font_title_01_size" android:textColor="@color/x_white_color" android:id="@+id/app_package_size" android:paddingLeft="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_gray_color" android:text="@string/about_storage_app_space_data" android:drawableStart="@drawable/ic_dot_blue" style="@style/TextPercentTitle"/>
+                <TextView android:textSize="@dimen/x_font_title_01_size" android:textColor="@color/x_white_color" android:id="@+id/app_data_size" android:paddingLeft="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal" android:includeFontPadding="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginTop="@dimen/edit_panel_sub_title_margin_top"
+    android:layout_marginStart="@dimen/edit_panel_sub_title_margin_left"
+    android:layout_marginEnd="@dimen/edit_panel_sub_title_margin_left"
+    android:layout_marginBottom="@dimen/edit_panel_sub_title_margin_bottom"
+    android:orientation="vertical"
+    >
+    <com.xiaopeng.xui.widget.XTextView
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/x_font_body_01_size"
+        android:singleLine="true"
+        android:text="@string/qs_panel_edit_sub_title_my"
+        android:textColor="@color/x_theme_text_01"
+        />
+    <com.xiaopeng.xui.widget.XTextView
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/x_font_body_03_size"
+        android:singleLine="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/qs_panel_edit_sub_title_my_tips"
+        android:textColor="@color/x_theme_text_04"
+        />
+</com.xiaopeng.xui.widget.XLinearLayout>

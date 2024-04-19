@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/cb_connecting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@drawable/cb_connecting" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/connecting_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35dp" android:text="@string/cb_status_connecting_to_microphone1" android:layout_alignBottom="@+id/cb_connecting" android:layout_marginStart="33dp" android:layout_alignStart="@+id/cb_connecting" style="@style/dialog_common_text_sub_title_style"/>
+    <com.xiaopeng.xui.widget.XTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cb_status_conform_microphone_enabled" style="@style/dialog_common_text_med_title_style"/>
+</RelativeLayout>

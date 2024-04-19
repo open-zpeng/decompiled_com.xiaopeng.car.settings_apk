@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="@dimen/none_device_tip_height" style="@style/XList">
+    <RelativeLayout android:layout_width="@dimen/x_list_left_width" android:layout_height="match_parent">
+        <com.xiaopeng.xui.widget.XImageView android:layout_width="@dimen/x_list_icon_size" android:layout_height="@dimen/x_list_icon_size" android:src="@drawable/ic_mid_placeholder" android:layout_centerInParent="true" app:vuiMode="DISABLED"/>
+    </RelativeLayout>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_list_tv" android:text="@string/bluetooth_none_device_tip" android:layout_centerVertical="true" android:layout_marginStart="@dimen/x_list_left_width" app:vuiMode="DISABLED" style="@style/XListTextSub"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

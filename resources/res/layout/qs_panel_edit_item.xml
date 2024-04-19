@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="24dp" android:textColor="@drawable/qs_panel_edit_text_color" android:gravity="center_vertical" android:id="@+id/qs_panel_edit_name" android:background="@drawable/xtoggle_layout_drawable" android:paddingLeft="28dp" android:paddingTop="28dp" android:paddingBottom="28dp" android:layout_width="254dp" android:layout_height="112dp" android:layout_marginBottom="@dimen/qs_panel_padding_recyclerview" android:text="蓝牙" android:drawablePadding="11dp"/>
+</LinearLayout>

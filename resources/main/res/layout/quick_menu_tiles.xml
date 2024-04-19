@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XTileButton
+        android:id="@+id/quick_menu_back_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tile_orientation="horizontal"
+        android:stateListAnimator="@animator/tile_button_selector_animator"
+        app:tile_text="@string/qs_panel_back_box"
+        app:tile_textColor="@color/quick_menu_tile_text_color"
+        app:tile_background="@drawable/quick_menu_layout_drawable"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XTileButton
+        android:id="@+id/quick_menu_back_mirror"
+        android:layout_marginLeft="@dimen/quick_menu_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tile_orientation="horizontal"
+        app:tile_text="@string/qs_panel_rearview_mirror"
+        app:tile_textColor="@color/quick_menu_tile_text_color"
+        app:tile_background="@drawable/quick_menu_layout_drawable"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_back_box"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_back_box"/>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout
+        android:id="@+id/quick_menu_music_volume"
+        android:layout_width="@dimen/quick_menu_selector_width"
+        android:layout_height="@dimen/quick_menu_selector_height"
+        android:layout_marginStart="@dimen/quick_menu_large_space"
+        android:clickable="true"
+        android:stateListAnimator="@animator/tile_button_selector_animator"
+        app:sliderLayout_bg_color="@color/quick_menu_ui_background"
+        app:sliderLayout_slider_color="@color/quick_menu_ui_checked_color"
+        app:sliderLayout_corner_radius="@dimen/quick_menu_radius"
+        app:sliderLayout_slider_outer_corner_radius="@dimen/quick_menu_radius_inner"
+        app:sliderLayout_slider_inner_corner_radius="4dp"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_back_mirror"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_back_box">
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/quick_menu_volume_slider_svg_margin_start"
+            android:src="@drawable/ic_mid_music" />
+
+
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/quick_menu_volume_slider_svg_margin_end"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:textColor="@color/x_theme_text_01"
+            android:text="@string/media_volume"/>
+
+    </com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.MediaControlView
+        android:id="@+id/quick_menu_music_view"
+        style="@style/MusicPanel"
+        android:clickable="true"
+        android:layout_width="@dimen/quick_menu_large_view_width"
+        android:layout_height="330dp"
+        android:layout_marginStart="@dimen/quick_menu_large_space"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_music_volume"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XTileButton
+        android:id="@+id/quick_menu_ac_charging_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tile_orientation="horizontal"
+        android:layout_marginTop="@dimen/quick_menu_top_space"
+        app:tile_text="@string/qs_panel_slow_charge"
+        app:tile_textColor="@color/quick_menu_tile_text_color"
+        app:tile_background="@drawable/quick_menu_layout_drawable"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_back_box"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XTileButton
+        android:id="@+id/quick_menu_dc_charging_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tile_orientation="horizontal"
+        android:layout_marginLeft="@dimen/quick_menu_margin"
+        app:tile_text="@string/qs_panel_fast_charge"
+        app:tile_textColor="@color/quick_menu_tile_text_color"
+        app:tile_background="@drawable/quick_menu_layout_drawable"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_back_mirror"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_ac_charging_cover"
+        app:layout_constraintTop_toTopOf="@id/quick_menu_ac_charging_cover"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_ac_charging_cover"/>
+
+
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout
+        android:id="@+id/quick_menu_bright"
+        android:layout_width="@dimen/quick_menu_selector_width"
+        android:layout_height="@dimen/quick_menu_selector_height"
+        android:layout_marginStart="@dimen/quick_menu_large_space"
+        android:clickable="true"
+        app:sliderLayout_bg_color="@color/quick_menu_ui_background"
+        app:sliderLayout_slider_color="@color/quick_menu_ui_checked_color"
+        app:sliderLayout_corner_radius="@dimen/quick_menu_radius"
+        app:sliderLayout_slider_outer_corner_radius="@dimen/quick_menu_radius_inner"
+        app:sliderLayout_slider_inner_corner_radius="4dp"
+        android:stateListAnimator="@animator/tile_button_selector_animator"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_dc_charging_cover"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_music_volume"
+        app:layout_constraintTop_toTopOf="@id/quick_menu_ac_charging_cover"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_ac_charging_cover">
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/quick_menu_volume_slider_svg_margin_start"
+            android:background="@drawable/ic_mid_brightness" />
+
+
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/quick_menu_volume_slider_svg_margin_end"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:textColor="@color/x_theme_text_01"
+            android:text="@string/screen_brightness"/>
+
+    </com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XTileButton
+        android:id="@+id/quick_menu_auto_wiper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tile_orientation="horizontal"
+        app:tile_text="@string/qs_panel_wiper_speed"
+        app:tile_textColor="@color/quick_menu_drawable_check_color"
+        app:tile_background="@drawable/quick_menu_layout_drawable"
+        android:layout_marginTop="@dimen/quick_menu_top_space"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_ac_charging_cover"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XTileButton
+        android:id="@+id/quick_menu_clean_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tile_orientation="horizontal"
+        app:tile_text="@string/qs_panel_clean_mode"
+        app:tile_textColor="@color/quick_menu_tile_text_color"
+        app:tile_background="@drawable/quick_menu_layout_drawable"
+        android:layout_marginLeft="@dimen/quick_menu_margin"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_dc_charging_cover"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_auto_wiper"
+        app:layout_constraintTop_toTopOf="@id/quick_menu_auto_wiper"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_auto_wiper"/>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout
+        android:id="@+id/quick_menu_wind"
+        android:layout_width="@dimen/quick_menu_selector_width"
+        android:layout_height="@dimen/quick_menu_selector_height"
+        android:layout_marginStart="@dimen/quick_menu_large_space"
+        android:clickable="true"
+        app:sliderLayout_bg_color="@color/quick_menu_ui_background"
+        app:sliderLayout_slider_color="@color/quick_menu_ui_checked_color"
+        app:sliderLayout_corner_radius="@dimen/quick_menu_radius"
+        app:sliderLayout_slider_outer_corner_radius="@dimen/quick_menu_radius_inner"
+        app:sliderLayout_slider_inner_corner_radius="4dp"
+        android:stateListAnimator="@animator/tile_button_selector_animator"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_clean_mode"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_bright"
+        app:layout_constraintTop_toTopOf="@id/quick_menu_auto_wiper"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_auto_wiper">
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/quick_menu_volume_slider_svg_margin_start"
+            android:background="@drawable/ic_mid_airvolume" />
+
+
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/wind_indicator2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/quick_menu_volume_slider_svg_margin_end"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:textColor="@color/x_theme_text_01"
+            android:text="@string/air_volume"/>
+
+    </com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout
+        android:id="@+id/quick_menu_temperature"
+        android:layout_width="@dimen/quick_menu_large_view_width"
+        android:layout_height="@dimen/quick_menu_selector_height"
+        android:layout_marginStart="@dimen/quick_menu_large_space"
+        android:clickable="true"
+        app:sliderLayout_bg_color="@color/quick_menu_ui_background"
+        app:sliderLayout_slider_color="@color/quick_menu_ui_checked_color"
+        app:sliderLayout_corner_radius="@dimen/quick_menu_radius"
+        app:sliderLayout_slider_outer_corner_radius="@dimen/quick_menu_radius_inner"
+        app:sliderLayout_slider_inner_corner_radius="4dp"
+        android:stateListAnimator="@animator/tile_button_selector_animator"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_wind"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_music_view"
+        app:layout_constraintTop_toTopOf="@id/quick_menu_auto_wiper"
+        app:layout_constraintBottom_toBottomOf="@id/quick_menu_auto_wiper">
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/temperature_indicator1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/quick_menu_volume_slider_svg_margin_start"
+            android:textSize="@dimen/x_font_display_03_size"
+            android:textColor="@color/x_theme_text_01" />
+
+
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/quick_menu_volume_slider_svg_margin_end"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:textColor="@color/x_theme_text_01"
+            android:text="@string/air_temperature"/>
+
+    </com.xiaopeng.car.settingslibrary.ui.widget.QcSliderLayout>
+
+    <com.xiaopeng.car.settingslibrary.ui.widget.XSelectorAnimButton
+        android:id="@+id/quick_menu_seat_memory"
+        android:layout_width="@dimen/quick_menu_tab_width"
+        android:layout_height="@dimen/quick_menu_selector_height"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/quick_menu_top_space"
+        app:itemIcon="@array/seat_memory_mode_tiles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_auto_wiper"
+        app:selector_background="@drawable/quick_menu_radio_background"
+        app:round_radius="@dimen/quick_menu_radius_inner"
+        />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/quick_menu_seat_memory_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/x_font_body_02_size"
+        android:textColor="@color/x_theme_text_01"
+        android:text="@string/seat_memory"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/quick_menu_seat_memory"
+        app:layout_constraintEnd_toEndOf="@id/quick_menu_seat_memory"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_seat_memory"/>
+
+    <!--<View
+        android:id="@+id/quick_menu_empty_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toEndOf="@id/quick_menu_seat_memory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quick_menu_wind"
+        app:layout_constraintBottom_toBottomOf="parent"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

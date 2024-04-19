@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/sound_effect_dialog_width" android:layout_height="@dimen/sound_effect_dialog_height" android:minWidth="@dimen/sound_effect_dialog_width">
+    <include layout="@layout/sound_popup_effects"/>
+</LinearLayout>

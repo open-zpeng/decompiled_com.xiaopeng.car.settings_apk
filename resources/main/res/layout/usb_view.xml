@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.car.settingslibrary.ui.view.UsbView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/usbView"
+    android:layout_width="@dimen/x_dialog_large_width"
+    android:layout_height="@dimen/x_dialog_xlarge_height"
+    app:is_system_dialog="false" />

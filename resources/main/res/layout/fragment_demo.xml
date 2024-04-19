@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn1"
+            android:text="move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn2"
+            android:text="add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn3"
+            android:text="remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn4"
+            android:text="refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn5"
+            android:text="all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn10"
+            android:text="scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn11"
+            android:text="s a a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn12"
+            android:text="s a r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn13"
+            android:text="a a s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn14"
+            android:text="r a s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/XButton.Real.Mid.Positive"
+            android:id="@+id/btn15"
+            android:text="reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

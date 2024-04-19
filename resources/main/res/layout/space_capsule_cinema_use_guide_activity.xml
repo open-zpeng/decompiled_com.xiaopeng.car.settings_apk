@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="980dp"
+    android:layout_height="1580dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/x_bg_app_night">
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/close_iv"
+        style="@style/XButton.Icon.Large.Close.Night"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="top|start"
+        app:vuiAction="Click"
+        app:vuiLabel="@string/qs_panel_close"
+        app:vuiElementType="BUTTON"
+        app:vuiDisableHitEffect="true" />
+
+
+    <com.xiaopeng.xui.widget.XFrameLayout
+        android:id="@+id/capsule_cinema_guide_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</com.xiaopeng.xui.widget.XFrameLayout>

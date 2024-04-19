@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sound_effect_entrance_height"
+    android:layout_marginTop="@dimen/page_padding_top"
+    android:background="@drawable/pic_soundsettings"
+    app:vuiAction="Click"
+    app:vuiLabel="@string/sound_effects_mode_title">
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sound_headrest_audio_mode_title"
+            android:textSize="@dimen/x_font_title_03_size"
+            android:text="@string/sound_effects_mode_title"
+            app:vuiMode="DISABLED"
+            android:layout_marginTop="@dimen/sound_pic_top"
+            android:layout_marginLeft="@dimen/sound_pic_left"/>
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:id="@+id/sound_effect_line"
+            android:layout_width="2dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="@dimen/sound_line_padding"
+            android:layout_marginTop="39dp"
+            android:background="@drawable/ic_headrest_mode_line"
+            android:visibility="gone"
+            app:vuiMode="DISABLED" />
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:id="@+id/sound_effect_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sound_line_padding"
+            android:layout_marginTop="39dp"
+            android:visibility="gone"
+            app:vuiMode="DISABLED"
+            tools:src="@drawable/pic_xsound" />
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:id="@+id/sound_effect_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sound_line_padding"
+            android:layout_marginTop="37dp"
+            android:visibility="gone"
+            app:vuiMode="DISABLED"
+            tools:src="@drawable/pic_dts" />
+
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/sound_effect_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/x_list_text_sub_color_selector"
+        android:textSize="@dimen/x_font_body_03_size"
+        android:text="@string/sound_settings_subtitle"
+        app:vuiMode="DISABLED"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/sound_pic_top"
+        android:layout_marginLeft="@dimen/sound_pic_left"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/sound_effect_type_scene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sound_line_padding"
+        android:layout_toRightOf="@+id/sound_effect_settings"
+        android:layout_marginTop="86dp"
+        android:background="@drawable/sound_effect_type_scene_bg"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="@color/sound_effect_type_scene"
+        android:textSize="@dimen/x_font_body_03_size"
+        android:visibility="gone"
+        app:vuiMode="DISABLED"
+        tools:text="的士高" />
+</com.xiaopeng.xui.widget.XRelativeLayout>

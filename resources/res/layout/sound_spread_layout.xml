@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.car.settingslibrary.ui.widget.SoundFieldSpreadView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main_driver_spread_view" android:visibility="gone" android:layout_width="@dimen/sound_effect_spread_width" android:layout_height="@dimen/sound_effect_spread_height" android:layout_marginLeft="@dimen/sound_effect_spread_left" android:layout_marginTop="@dimen/sound_effect_spread_top"/>

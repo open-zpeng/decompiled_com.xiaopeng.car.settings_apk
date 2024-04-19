@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/x_list_multiple_bottom_height">
+    <com.xiaopeng.xui.widget.XTabLayout android:id="@+id/display_font_segment" android:layout_width="@dimen/x_list_multiple_bottom_width" android:layout_height="@dimen/x_list_multiple_bottom_height" app:titles="@array/display_font_labels" app:vuiLabel="@string/display_fontsize"/>
+</LinearLayout>

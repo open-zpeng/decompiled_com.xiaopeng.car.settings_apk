@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_mode_hifi"
+        style="@style/SoundEffect_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_marginTop="@dimen/sound_effect_left_top_margin_content"
+        android:text="@string/sound_hifi_text" />
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_mode_common_hifi"
+        style="@style/SoundEffect_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_alignTop="@id/sound_effect_mode_hifi"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@id/sound_effect_mode_hifi"
+        android:text="@string/sound_common_text" />
+</com.xiaopeng.xui.widget.XRelativeLayout>
+

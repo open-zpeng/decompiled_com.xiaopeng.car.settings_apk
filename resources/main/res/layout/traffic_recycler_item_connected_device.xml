@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XListTwo xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/traffic_item"
+    style="@style/XList.Two"
+    android:layout_marginTop="@dimen/padding_normal"
+    app:list_two_left="@layout/x_list_action_icon"
+    app:list_two_text="XXXXX"
+    app:list_two_text_sub="已连接"
+    app:list_two_text_sub_highlight="true" />

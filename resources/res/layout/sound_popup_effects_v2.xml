@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.car.settingslibrary.ui.widget.SoundEffectPopHorizontalView2 xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/soundEffectPopView" android:layout_width="@dimen/sound_effect_dialog_width" android:layout_height="@dimen/sound_effect_dialog_height" android:maxWidth="@dimen/sound_effect_dialog_width" android:maxHeight="@dimen/sound_effect_dialog_height" android:minWidth="@dimen/sound_effect_dialog_width" android:minHeight="@dimen/sound_effect_dialog_height">
+    <com.xiaopeng.xui.widget.XFrameLayout android:layout_gravity="center" android:background="@drawable/se_dialog_bg" android:layout_width="@dimen/sound_effect_dialog_width" android:layout_height="@dimen/sound_effect_dialog_height">
+        <include layout="@layout/sound_popup_effects_v2_main"/>
+        <include android:visibility="gone" layout="@layout/sound_popup_effects_v2_equalizer"/>
+    </com.xiaopeng.xui.widget.XFrameLayout>
+</com.xiaopeng.car.settingslibrary.ui.widget.SoundEffectPopHorizontalView2>

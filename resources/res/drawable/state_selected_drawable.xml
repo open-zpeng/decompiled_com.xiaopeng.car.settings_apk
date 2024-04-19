@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/toggle_btn_bg_selected_night"/>
+            <corners android:radius="32dp"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/qs_panel_toggle_button_padding" android:top="@dimen/qs_panel_toggle_button_padding" android:right="@dimen/qs_panel_toggle_button_padding" android:bottom="@dimen/qs_panel_toggle_button_padding">
+        <shape>
+            <solid android:color="#1f2938"/>
+            <corners android:radius="27dp"/>
+        </shape>
+    </item>
+</layer-list>

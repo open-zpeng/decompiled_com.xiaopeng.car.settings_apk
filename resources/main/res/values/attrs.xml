@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PercentView">
+        <attr name="colors" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="WifiEncryptionState">
+        <attr name="state_encrypted" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="XSelectorButton">
+        <attr name="itemText" format="reference"/>
+        <attr name="itemIcon" format="reference"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="selector_background" format="reference" />
+        <attr name="round_radius" format="dimension"/>
+        <attr name="checked_color" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="XToggleLayout">
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="QcSliderLayout">
+        <!--滑动方向-->
+        <attr name="sliderLayout_slide_from" format="enum">
+            <enum name="from_left" value="0"/>
+            <enum name="from_top" value="1"/>
+            <enum name="from_right" value="2"/>
+            <enum name="from_bottom" value="3"/>
+        </attr>
+        <!--背景颜色-->
+        <attr name="sliderLayout_bg_color" format="color"/>
+        <!--滑块颜色-->
+        <attr name="sliderLayout_slider_color" format="color"/>
+        <!--背景圆角半径-->
+        <attr name="sliderLayout_corner_radius" format="dimension"/>
+        <!--滑块外部圆角半径，一般与背景相同-->
+        <attr name="sliderLayout_slider_outer_corner_radius" format="dimension"/>
+        <!--滑块内部圆角半径-->
+        <attr name="sliderLayout_slider_inner_corner_radius" format="dimension"/>
+        <!--背景inset-->
+        <attr name="sliderLayout_inset" format="dimension"/>
+        <!--滑块inset-->
+        <attr name="sliderLayout_slider_inset" format="dimension"/>
+        <attr name="android:enabled"/>
+        <!--disable以后的透明度-->
+        <attr name="android:disabledAlpha"/>
+        <!--滑动比例，代表每滑动1的距离进度走多少-->
+        <attr name="sliderLayout_slide_scale" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="ValuePickerView">
+        <!--set number of item displayed, default is 3-->
+        <attr name="npv_ShowCount" format="reference|integer" />
+        <!--set if show divider, default is true-->
+        <attr name="npv_ShowDivider" format="reference|boolean" />
+        <attr name="npv_DividerColor" format="reference|color" />
+        <attr name="npv_DividerMarginLeft" format="reference|dimension" />
+        <attr name="npv_DividerMarginRight" format="reference|dimension" />
+        <attr name="npv_DividerHeight" format="reference|dimension" />
+        <attr name="npv_TextColorNormal" format="reference|color" />
+        <attr name="npv_TextColorSelected" format="reference|color" />
+        <attr name="npv_TextColorHint" format="reference|color" />
+        <attr name="npv_TextSizeNormal" format="reference|dimension" />
+        <attr name="npv_TextSizeSelected" format="reference|dimension" />
+        <attr name="npv_TextSizeHint" format="reference|dimension" />
+        <attr name="npv_TextSizeSufSelected" format="reference|dimension"/>
+        <attr name="npv_TextSizeSufNormal" format="reference|dimension"/>
+        <attr name="npv_TextArray" format="reference" />
+        <attr name="npv_TextArray_Text" format="reference"/>
+        <attr name="npv_TextArray_default_typeface" format="reference"/>
+        <attr name="npv_MinValue" format="reference|integer" />
+        <attr name="npv_MaxValue" format="reference|integer" />
+        <attr name="npv_WrapSelectorWheel" format="reference|boolean" />
+        <attr name="npv_RespondChangeOnDetached" format="reference|boolean" />
+        <attr name="npv_HintText" format="reference|string" />
+        <attr name="npv_EmptyItemHint" format="reference|string" />
+        <attr name="npv_MarginStartOfHint" format="reference|dimension" />
+        <attr name="npv_MarginEndOfHint" format="reference|dimension" />
+        <attr name="npv_ItemPaddingHorizontal" format="reference|dimension" />
+        <attr name="npv_ItemPaddingVertical" format="reference|dimension" />
+        <attr name="npv_RespondChangeInMainThread" format="reference|boolean" />
+        <attr name="npv_TextEllipsize" format="reference|string" />
+
+        <!--just used to measure maxWidth for wrap_content without hint,
+            the string array will never be displayed.
+            you can set this attr if you want to keep the wrapped numberpickerview
+            width unchanged when alter the content list-->
+        <attr name="npv_AlternativeTextArrayWithMeasureHint" format="reference" />
+        <attr name="npv_AlternativeTextArrayWithoutMeasureHint" format="reference" />
+        <!--the max length of hint content-->
+        <attr name="npv_AlternativeHint" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="XTileButton">
+        <attr name="tile_text" format="reference|string" />
+        <attr name="tile_image" format="reference" />
+        <attr name="tile_textColor" format="reference|color" />
+        <attr name="tile_background" format="reference" />
+        <!--方向-->
+        <attr name="tile_orientation" format="enum">
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="0"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SoundEffectSetting">
+        <attr name="se_item_reserved_size" format="integer" />
+        <attr name="se_item_height" format="dimension" />
+        <attr name="se_item_width" format="dimension" />
+        <attr name="se_circularly" format="boolean" />
+        <attr name="se_item_gap" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="Equalizer">
+        <attr name="se_eq_offsets" format="string" />
+        <attr name="se_eq_line_wide_width" format="dimension" />
+        <attr name="se_eq_line_wide_height" format="dimension" />
+        <attr name="se_eq_line_wide_color_day" format="color" />
+        <attr name="se_eq_line_wide_color_night" format="color" />
+        <attr name="se_eq_line_thin_width" format="dimension" />
+        <attr name="se_eq_line_thin_height" format="dimension" />
+        <attr name="se_eq_line_thin_color_day" format="color" />
+        <attr name="se_eq_line_thin_color_night" format="color" />
+        <attr name="se_eq_line_offset" format="dimension" />
+        <attr name="se_eq_progressbar_bg_width" format="dimension" />
+        <attr name="se_eq_progressbar_bg_height" format="dimension" />
+        <attr name="se_eq_progressbar_bg_drawable" format="reference" />
+        <attr name="se_eq_progressbar_indicator_width" format="dimension" />
+        <attr name="se_eq_progressbar_indicator_height" format="dimension" />
+        <attr name="se_eq_progressbar_indicator_drawable" format="reference" />
+        <attr name="se_eq_progressbar_value_max" format="integer" />
+        <attr name="se_eq_progressbar_selectable_max" format="integer" />
+        <attr name="se_eq_progressbar_selectable_min" format="integer" />
+        <attr name="se_eq_progressbar_segment_count" format="integer" />
+        <attr name="se_eq_progressbar_touch_compat_size" format="dimension" />
+        <attr name="se_eq_curve_file_name" format="string" />
+        <attr name="se_eq_curve_width" format="dimension" />
+        <attr name="se_eq_curve_height" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="FixedDayNightImageView">
+        <attr name="fixed_src" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PopupDropdownSystemDialogType">
+    <!--set number of item displayed, default is 3-->
+    <attr name="is_system_dialog" format="reference|boolean" />
+    </declare-styleable>
+</resources>

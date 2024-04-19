@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_large"
+        app:group_header_text="@string/display_region" />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/display_cur_region"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:background="@drawable/list_item_top_arc_bg"
+        app:list_single_left="@layout/x_list_action_button"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_text="@string/display_current_region" />
+
+    <com.xiaopeng.xui.widget.XListTwo
+        android:id="@+id/display_sample_region"
+        style="@style/XList.Two"
+        android:layout_marginTop="@dimen/list_cling_margin"
+        android:background="@drawable/list_item_center_bg"
+        app:list_two_left="@layout/x_list_action_icon"
+        app:list_two_text="@string/display_sample_region"
+        app:list_two_text_sub_highlight="true" />
+
+    <com.xiaopeng.xui.widget.XListTwo
+        android:id="@+id/display_timezone_auto"
+        style="@style/XList.Two"
+        android:layout_marginTop="@dimen/list_cling_margin"
+        android:background="@drawable/list_item_center_bg"
+        app:list_two_left="@layout/x_list_action_switch"
+        app:list_two_text="@string/display_timezone_auto_title"
+        app:list_two_text_sub="@string/display_timezone_auto_subtitle"
+        app:list_two_text_sub_highlight="true" />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/display_timezone_manual"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/list_cling_margin"
+        android:background="@drawable/list_item_bottom_arc_bg"
+        app:list_single_left="@layout/x_list_action_button"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_text="@string/display_timezone_manual_title_unset" />
+</com.xiaopeng.xui.widget.XLinearLayout>
+

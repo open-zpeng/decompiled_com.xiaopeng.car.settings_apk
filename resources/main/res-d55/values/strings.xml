@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_effect1_text">通用</string>
+    <string name="sound_effect3_text">人声</string>
+    <string name="sound_effect4_text">原声</string>
+    <string name="sound_effect2_text">HiFi</string>
+    <string name="sound_effect5_text">影院</string>
+
+    <string name="laboratory_soldier_camera_level">录制视频发送到手机</string>
+    <string name="laboratory_soldier_camera_tips">发生剐蹭时，录制车外影像保存在中控屏相册，并将视频脱敏推送到手机</string>
+    <string name="laboratory_soldier_dialog_title">开启录制视频发送到手机</string>
+    <string name="laboratory_soldier_dialog_msg">"本功能单次生效，开启后车辆会消耗额外电量，建议必要时再开启。"</string>
+</resources>

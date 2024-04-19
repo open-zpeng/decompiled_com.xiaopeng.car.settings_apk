@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root_view" android:background="@drawable/x_list_item_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+    <com.xiaopeng.xui.widget.XListTwo android:id="@+id/usb_item_list" app:list_two_left="@layout/usb_list_action_custom" app:list_two_tag_custom="@layout/usb_list_title_custom" app:list_two_text="xxxx" app:list_two_text_sub="xxxx" style="@style/XList.Two"/>
+    <com.xiaopeng.xui.widget.XRelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/x_theme_text_01" android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32dp" android:layout_alignParentRight="true"/>
+        <com.xiaopeng.xui.widget.XProgressBar android:id="@+id/progressBar" android:layout_width="@dimen/drop_down_menu_progressbar_width" android:layout_height="@dimen/drop_down_menu_progressbar_height" android:layout_marginTop="@dimen/drop_down_menu_progressbar_margintop" android:layout_marginRight="32dp" android:max="100" android:layout_below="@+id/text2" android:layout_alignParentRight="true" style="@style/XProgressBar.Horizontal"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

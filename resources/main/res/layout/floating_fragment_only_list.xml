@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/drop_down_menu_icon_margin"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <com.xiaopeng.xui.widget.XLoading
+            style="@style/XLoading.Small"
+            android:layout_height="@dimen/floating_item_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="26dp" />
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:text="@string/identifying_now"
+            android:maxLines="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/x_theme_text_01"
+            android:textSize="@dimen/x_font_title_04_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sound_headrest_audio_mode"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sound_effect_entrance_height"
+    android:background="@drawable/pic_headrest_audio_mode"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/sound_pic_left"
+    android:paddingTop="@dimen/sound_pic_top"
+    android:visibility="gone"
+    app:vuiAction="Click"
+    app:vuiLabel="@string/sound_subtitle_headrest_audio_mode">
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/x_list_text_sub_color_selector"
+        android:textSize="@dimen/x_font_body_03_size"
+        android:text="@string/sound_settings_subtitle"
+        app:vuiMode="DISABLED"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/sound_pic_top"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sound_subtitle_headrest_audio_mode"
+            android:textColor="@color/sound_headrest_audio_mode_title"
+            android:textSize="@dimen/x_font_title_03_size"
+            app:vuiMode="DISABLED" />
+
+        <com.xiaopeng.xui.widget.XImageView
+            android:layout_width="2dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="@dimen/sound_line_padding"
+            android:layout_marginEnd="@dimen/sound_line_padding"
+            android:background="@drawable/ic_headrest_mode_line"
+            app:vuiMode="DISABLED" />
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/sound_headrest_audio_mode_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sound_headrest_audio_mode_drive_title"
+            android:textColor="@color/x_theme_primary_normal"
+            android:textSize="@dimen/x_font_title_03_size"
+            app:vuiMode="DISABLED" />
+    </LinearLayout>
+
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

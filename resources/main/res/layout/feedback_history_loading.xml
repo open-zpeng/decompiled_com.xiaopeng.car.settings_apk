@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="1200dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.xiaopeng.xui.widget.XLoading
+        android:id="@+id/feedback_loading"
+        style="@style/XLoading.Large"
+        android:layout_centerHorizontal="true"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:visibility="visible"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/feedback_no_more"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textSize="@dimen/x_font_body_01_size"
+        android:text="@string/feedback_no_more"
+        android:textColor="@color/x_theme_text_04"
+        android:visibility="gone"/>
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

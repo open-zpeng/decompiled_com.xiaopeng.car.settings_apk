@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XGroupHeader android:id="@+id/wlan_title_set" android:layout_width="match_parent" app:group_header_text="@string/wlan_subtitle_set" app:vuiLabel="@string/wlan_subtitle_set" style="@style/XGroupHeader"/>
+    <com.xiaopeng.xui.widget.XListSingle android:id="@+id/wlan_switch" android:layout_marginTop="@dimen/padding_normal" app:list_single_left="@layout/x_list_action_switch" app:list_single_left_right_touch_full="left" app:list_single_text="@string/wlan_power" app:vuiFatherLabel="@string/wlan_subtitle_set" style="@style/XList.Singe"/>
+    <com.xiaopeng.xui.widget.XGroupHeader android:id="@+id/wlan_groupheader" android:visibility="gone" android:layout_width="match_parent" android:layout_marginTop="@dimen/padding_large" app:group_header_action_mode="loading" app:group_header_text="@string/wlan_subtitle_wifi" app:vuiLabel="@string/wlan_subtitle_wifi" style="@style/XGroupHeader"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

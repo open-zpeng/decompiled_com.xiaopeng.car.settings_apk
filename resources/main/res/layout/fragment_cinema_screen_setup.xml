@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:text="@string/cinema_screen_title"
+        style="@style/TitleTextStyle.Night"
+        app:vuiMode="DISABLED" />
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_screen_setup_img_1"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/capsule_cinema_screen_setup_step_1"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_screen_setup_icon_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="149dp"
+        android:src="@drawable/capsule_cinema_setup_icon_1"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_screen_setup_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="154dp"
+        android:layout_alignBottom="@id/capsule_cinema_screen_setup_icon_1"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_screen_tips_1_title"
+        android:textSize="40sp"
+        android:textColor="@color/x_theme_primary_normal_night"
+        android:letterSpacing="0"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_screen_setup_content_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_screen_setup_title_1"
+        android:layout_below="@id/capsule_cinema_screen_setup_title_1"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_screen_tips_1_content"
+        android:textSize="@dimen/x_font_title_03_size"
+        android:textColor="@color/x_theme_text_03_night"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_screen_setup_img_2"
+        android:layout_width="match_parent"
+        android:layout_height="665dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="772dp"
+        android:src="@drawable/capsule_cinema_screen_setup_step_2"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/capsule_cinema_screen_setup_icon_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_screen_setup_icon_1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="656dp"
+        android:src="@drawable/capsule_cinema_setup_icon_2"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_screen_setup_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@id/capsule_cinema_screen_setup_icon_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="154dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_screen_tips_2_title"
+        android:textSize="40sp"
+        android:textColor="@color/x_theme_primary_normal_night"
+        android:letterSpacing="0"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/capsule_cinema_screen_setup_content_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/capsule_cinema_screen_setup_title_2"
+        android:layout_below="@id/capsule_cinema_screen_setup_title_2"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/cinema_screen_tips_2_content"
+        android:textSize="@dimen/x_font_title_03_size"
+        android:textColor="@color/x_theme_text_03_night"
+        app:vuiMode="DISABLED"/>
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/capsule_cinema_screen_next_btn"
+        style="@style/XButton.Real.Mid.Positive.Night"
+        android:layout_width="448dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:text="@string/cinema_use_guide_next_btn"
+        android:textSize="@dimen/x_font_title_03_size" />
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

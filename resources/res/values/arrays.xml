@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="about_system_info_labels">
+        <item>型号</item>
+        <item>IP地址</item>
+        <item>无线MAC</item>
+        <item>蓝牙MAC</item>
+        <item>系统版本号</item>
+        <item>MCU版本号</item>
+        <item>基带版本</item>
+        <item>固件版本号</item>
+        <item>TBOX版本信息</item>
+        <item>TMCU信息</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_titles">
+        <item>使用系统选择（默认）</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ 音频</item>
+        <item>Qualcomm® aptX™ HD 音频</item>
+        <item>LDAC</item>
+        <item>启用可选编解码器</item>
+        <item>停用可选编解码器</item>
+    </array>
+    <array name="bluetooth_audio_active_device_summaries">
+        <item />
+        <item>，使用中</item>
+        <item>，使用中（媒体）</item>
+        <item>，使用中（手机）</item>
+    </array>
+    <array name="display_day_labels">
+        <item>白天</item>
+        <item>黑夜</item>
+        <item>自动</item>
+    </array>
+    <array name="display_font_labels">
+        <item>@string/larger</item>
+        <item>@string/smaller</item>
+    </array>
+    <array name="display_time_format_labels">
+        <item>@string/time_format_24</item>
+        <item>@string/time_format_12</item>
+    </array>
+    <array name="driver_mode_tiles">
+        <item>标准</item>
+        <item>运动</item>
+        <item>经济</item>
+    </array>
+    <array name="effect_scenes">
+        <item>@string/sound_scenes_recording</item>
+        <item>@string/sound_scenes_live</item>
+        <item>@string/sound_scenes_theater</item>
+        <item>@string/sound_scenes_ktv</item>
+    </array>
+    <array name="hifi_effect_styles">
+        <item>@string/sound_real</item>
+        <item>@string/sound_soft</item>
+        <item>@string/sound_dynamic</item>
+        <item>@string/sound_people</item>
+    </array>
+    <array name="hifi_effect_text">
+        <item>@string/sound_real_text</item>
+        <item>@string/sound_soft_text</item>
+        <item>@string/sound_dynamic_text</item>
+        <item>@string/sound_people_text</item>
+    </array>
+    <array name="percent_colors">
+        <item>@color/percent_colors1</item>
+        <item>@color/percent_colors2</item>
+        <item>@color/percent_colors3</item>
+        <item>@color/percent_colors4</item>
+        <item>@color/percent_colors5</item>
+        <item>@color/percent_colors6</item>
+    </array>
+    <array name="round_effect_styles">
+        <item>@string/sound_common</item>
+        <item>@string/sound_people</item>
+        <item>@string/sound_jazz</item>
+        <item>@string/sound_rock</item>
+        <item>@string/sound_disco</item>
+        <item>@string/sound_classical</item>
+        <item>@string/sound_original</item>
+    </array>
+    <array name="round_effect_styles_hifi_xp">
+        <item>@string/sound_common</item>
+        <item>@string/sound_hifi</item>
+    </array>
+    <array name="round_effect_styles_hifi_xp_text">
+        <item>@string/sound_common_text</item>
+        <item>@string/sound_hifi_text</item>
+    </array>
+    <array name="round_effect_text">
+        <item>@string/sound_common_text</item>
+        <item>@string/sound_people_text</item>
+        <item>@string/sound_jazz_text</item>
+        <item>@string/sound_rock_text</item>
+        <item>@string/sound_disco_text</item>
+        <item>@string/sound_classical_text</item>
+        <item>@string/sound_original_text</item>
+    </array>
+    <array name="seat_memory_mode_tiles">
+        <item>@drawable/ic_mid_qc_chair1_selector</item>
+        <item>@drawable/ic_mid_qc_chair2_selector</item>
+        <item>@drawable/ic_mid_qc_chair3_selector</item>
+    </array>
+    <array name="soldier_level">
+        <item>不启用</item>
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </array>
+    <array name="sound_car_tip_labels">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </array>
+    <array name="sound_effect_space_labels">
+        <item>关</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+    </array>
+    <array name="sound_volume_by_speed_labels">
+        <item>不启用</item>
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </array>
+    <array name="sound_volume_outside_low_speed_simulate_labels">
+        <item>不启用</item>
+        <item>时空扭曲</item>
+        <item>太空幽浮</item>
+        <item>传统引擎</item>
+    </array>
+    <array name="supported_countries_code">
+        <item>DK</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>SE</item>
+    </array>
+    <array name="supported_countries_display_name">
+        <item>Denmark</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Sweden</item>
+    </array>
+    <array name="supported_languages_code">
+        <item>en</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>nb</item>
+        <item>sv</item>
+    </array>
+    <array name="supported_languages_display_name">
+        <item>English</item>
+        <item>Dansk</item>
+        <item>Nederlands</item>
+        <item>Norsk</item>
+        <item>Svenska</item>
+    </array>
+    <array name="tts_broadcast">
+        <item>@string/laboratory_tts_broadcast_detail</item>
+        <item>@string/laboratory_tts_broadcast_concise</item>
+    </array>
+    <array name="wifi_signals">
+        <item>弱</item>
+        <item>微弱</item>
+        <item>一般</item>
+        <item>良好</item>
+        <item>极佳</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在进行身份验证...</item>
+        <item>正在获取IP地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已停用</item>
+        <item>暂时关闭（网络状况不佳）</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从%1$s获取IP地址...</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已停用</item>
+        <item>暂时关闭（网络状况不佳）</item>
+    </array>
+    <array name="wifitrackerlib_wifi_status">
+        <item />
+        <item>正在扫描…</item>
+        <item>正在连接…</item>
+        <item>正在验证身份…</item>
+        <item>正在获取 IP 地址…</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接…</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已屏蔽</item>
+        <item>连接状况不佳，暂时停用</item>
+    </array>
+    <array name="x_quick_side_bar_letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/floating_dialog_width_mid"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/x_bg_dropdown"
+    android:orientation="vertical"
+    android:clickable="false">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line"
+        />
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/line"
+        android:layout_above="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/floating_item_line_height"
+        android:background="@drawable/line"
+        />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/edit_panel_complete_button_width"
+        android:layout_height="@dimen/edit_panel_complete_button_height"
+        android:layout_marginTop="@dimen/edit_panel_complete_button_margin"
+        android:layout_marginBottom="@dimen/edit_panel_bottom_margin"
+        android:background="@drawable/qs_panel_complete_bg"
+        android:gravity="center"
+        android:text="@string/complete"
+        android:textColor="@color/x_blue_color"
+        android:textSize="@dimen/x_font_body_03_size" />
+</com.xiaopeng.xui.widget.XRelativeLayout>

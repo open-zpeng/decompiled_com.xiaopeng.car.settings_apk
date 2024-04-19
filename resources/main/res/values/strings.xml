@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">系统设置</string>
+    <string name="sound_switch_to_restore_headrest">副驾乘客已离车，头枕音响模式切换至“%s”</string>
+    <string name="sound_switch_to_driver_headrest">检测到副驾乘客上车，头枕音响模式切换至“驾享模式”</string>
+    <string name="sound_switch_to_restore_headrest_1">副驾乘客已离车，主驾音响模式切换至“%s”</string>
+    <string name="sound_switch_to_driver_headrest_1">检测到副驾乘客上车，主驾音响模式切换至“驾享模式”</string>
+    <string name="sound_headrest_audio_mode_off_title">共享模式</string>
+    <string name="sound_headrest_audio_mode_drive_title">驾享模式</string>
+    <string name="sound_headrest_audio_mode_headrest_title">私享模式</string>
+    <string name="dark_brightness_toast">当前处于暗光智能适应激活状态，亮度调节值不会被记忆</string>
+    <string name="bluetooth_pairing_request_local">配对请求已发送，请到“%s”确认</string>
+    <string name="wlan_popup_error_title">连接失败</string>
+    <string name="wlan_popup_error_timeout">连接超时</string>
+    <string name="wlan_password_error">密码错误</string>
+    <string name="wlan_authentication_fail">认证失败</string>
+    <string name="not_found_activity">暂不支持跳转</string>
+
+    <!--    维修-->
+    <string name="repair_dialog_title">检查模式</string>
+    <string name="repair_dialog_msg">当前车辆处于检查模式，确认退出该模式吗？</string>
+
+    <!--    授权模式-->
+    <string name="auth_mode_dialog_title">授权模式</string>
+    <string name="auth_mode_dialog_msg">授权模式将于 %s 自动退出。</string>
+    <string name="auth_mode_dialog_quit">现在退出</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!--紧急下电-->
+    <string name="urgent_power_title">紧急下电开关</string>
+    <string name="urgent_power_msg">长按5秒车辆紧急下电</string>
+
+    <string name="sm_device_panel_officialmic">小鹏麦克风</string>
+    <!-- common -->
+    <string name="determine">确定</string>
+    <string name="edit">编辑</string>
+    <string name="connect">连接</string>
+    <string name="connected">已连接</string>
+    <string name="disconnect">断开</string>
+    <string name="smaller">精致</string>
+    <string name="larger">清晰</string>
+    <string name="time_format_24">24时制</string>
+    <string name="time_format_12">12时制</string>
+    <string name="enter">进入</string>
+    <string name="notice">通知</string>
+    <string name="nothing">nothing</string>
+    <string name="pair">允许</string>
+    <string name="refuse">拒绝</string>
+    <string name="commit_success">提交成功</string>
+    <string name="commit_fail">提交失败</string>
+    <string name="complete">完成</string>
+    <string name="confirm_open">确认开启</string>
+    <string name="btn_on">开启</string>
+    <string name="btn_off">关闭</string>
+
+    <!-- title -->
+    <string name="title_bluetooth">蓝牙</string>
+    <string name="title_co_driver_bluetooth">副驾蓝牙</string>
+    <string name="title_back_seat_bluetooth">后排蓝牙</string>
+    <string name="title_wifi">无线网络</string>
+    <string name="title_sound">声音</string>
+    <string name="title_display">显示</string>
+    <string name="title_upgrade">系统升级</string>
+    <string name="title_laboratory">小鹏实验室</string>
+    <string name="title_feedback">用户反馈</string>
+    <string name="title_about_system">关于系统</string>
+    <string name="title_about">关于</string>
+    <string name="title_usb">智能设备</string>
+    <string name="title_download">下载管理</string>
+
+    <!-- 蓝牙 -->
+    <!-- header -->
+    <string name="bluetooth_subtitle_set">蓝牙设置</string>
+    <!--<string name="bluetooth_subtitle_connected">连接过的设备</string>-->
+    <string name="bluetooth_subtitle_bonded">已配对设备</string>
+    <string name="bluetooth_subtitle_new">可用新设备</string>
+    <string name="bluetooth_subtitle_footer">更多设置</string>
+    <!--item -->
+    <string name="bluetooth_none_device_tip">暂无可用新设备，请稍后点击“搜索”重试</string>
+    <string name="bluetooth_power">蓝牙开关</string>
+    <string name="co_driver_bluetooth_power">副驾蓝牙开关</string>
+    <string name="back_seat_driver_bluetooth_power">后排蓝牙开关</string>
+    <string name="psn_tts_switch">播报副驾语音</string>
+    <string name="bluetooth_visible">开放蓝牙检测</string>
+    <string name="bluetooth_visible_tip">开启后对附近所有蓝牙设备可见</string>
+    <string name="bluetooth_car_name">蓝牙名称</string>
+    <string name="bluetooth_car_name_tip">小鹏汽车</string>
+    <string name="bluetooth_profile_unavailable">未启用</string>
+    <!-- popup -->
+    <string name="bluetooth_popup_connect_error_msg">请确定“%s”已打开且在通讯范围内</string>
+    <string name="bluetooth_popup_connect_operate_error_tips">连接操作出错，请重试</string>
+    <string name="bluetooth_popup_bond_error_msg">无法与“%s”进行配对</string>
+    <string name="bluetooth_popup_connected_title">蓝牙已连接</string>
+    <string name="bluetooth_popup_disconnect_title">蓝牙未连接</string>
+    <string name="bluetooth_popup_ignore_btn">忽略此设备</string>
+    <string name="bluetooth_error_device_connecting">设备正在连接中,请稍候</string>
+    <string name="bluetooth_error_device_disconnecting">设备正在断开连接中,请稍候</string>
+    <!-- 配对 -->
+    <string name="bluetooth_pairing_popup_title">蓝牙配对请求</string>
+    <string name="bluetooth_pairing_request">\"%s\"想与你进行配对，是否允许？</string>
+    <string name="bluetooth_pairing_request_busy">设备正在配对中，请稍候</string>
+    <string name="bluetooth_search">搜索</string>
+    <string name="bluetooth_phone_tips">请在手机上开启“蓝牙-通话音频”权限或尝试重连蓝牙</string>
+    <string name="bluetooth_a2dp_tips">前往“音乐”应用点击蓝牙按钮，启用蓝牙音乐</string>
+    <string name="bluetooth_busy_tips">蓝牙设备占用中，请稍后再试</string>
+
+    <!-- WLAN -->
+    <!-- header -->
+    <string name="wlan_subtitle_set">无线网络设置</string>
+    <string name="wlan_power">无线网络开关</string>
+    <string name="wlan_subtitle_wifi">选取网络</string>
+    <!-- item -->
+    <string name="wlan_connected_no_security">不安全的网络 已连接</string>
+    <!-- popup -->
+    <string name="wlan_popup_error_msg">连接"%s"出错</string>
+
+    <string name="wlan_popup_ignore_btn">忽略此网络</string>
+    <string name="wlan_signal_strength">信号强度：</string>
+    <string name="wlan_security">安 全 性：</string>
+
+    <!-- 流量 -->
+    <string name="traffic_subtitle_set">车载热点</string>
+    <string name="traffic_power">车载热点开关</string>
+    <string name="traffic_power_short">热点开关</string>
+    <string name="traffic_name">热点名称</string>
+    <string name="traffic_name_tip">小鹏汽车</string>
+    <string name="traffic_password">车载热点密码</string>
+    <string name="traffic_password_tip">12345678</string>
+    <string name="traffic_connected_device">已连接热点的设备</string>
+    <string name="traffic_uninstall_app_title">已卸载应用</string>
+    <string name="traffic_use_title">流量使用状况</string>
+    <string name="traffic_use_month">%s月网络使用情况</string>
+    <string name="traffic_permission_title">流量使用权限</string>
+
+    <!-- 显示 -->
+    <!-- 亮度 -->
+    <string name="display_subtitle_brightness">亮度调节</string>
+    <string name="display_brightness_center">大屏亮度</string>
+    <string name="display_brightness_meter">仪表亮度</string>
+    <string name="display_brightness_auto">自动亮度调节</string>
+    <string name="display_brightness_auto_main">主驾自动亮度调节</string>
+    <string name="display_brightness_auto_psn">副驾自动亮度调节</string>
+    <string name="display_brightness_auto_tip">开启后，检测到环境光亮度变化时，自动调节大屏和仪表亮度</string>
+    <string name="display_brightness_auto_ciu_tip">开启后，根据车内光线智能调节大屏和仪表亮度</string>
+    <string name="display_brightness_auto_low_conf_tip">暗光智能适应</string>
+    <string name="display_brightness_auto_low_conf_active_tip">暗光智能适应（已激活）</string>
+    <string name="display_brightness_auto_low_conf_tip_main">主驾暗光智能适应</string>
+    <string name="display_brightness_auto_low_conf_active_tip_main">主驾暗光智能适应（已激活）</string>
+    <string name="display_brightness_auto_low_conf_tip_psn">副驾暗光智能适应</string>
+    <string name="display_brightness_auto_low_conf_active_tip_psn">副驾暗光智能适应（已激活）</string>
+    <string name="display_brightness_low_config_tips">白天经过暗光环境自动降低大屏和仪表亮度</string>
+    <string name="display_brightness_close_psn_screen">副驾驶息屏</string>
+    <!-- 外观 -->
+    <string name="display_subtitle_facade">外观</string>
+    <string name="display_day_night">白天/黑夜模式</string>
+    <string name="display_day_night_tip">调整到自动模式后，白天/黑夜模式会智能切换</string>
+    <string name="display_day_night_clear">清洁屏幕</string>
+    <string name="display_fontsize">字体大小</string>
+    <string name="display_time_format">时间制式</string>
+    <string name="more">更多</string>
+    <string name="display_wait_mode">等人模式</string>
+    <string name="display_wait_mode_toast">请在P挡下使用该功能</string>
+    <string name="display_wait_mode_tips">等人模式只有车辆处于P挡才能使用，进入等人模式后，车灯和大屏会关闭、仪表亮度会调到最低。触摸屏幕、打开车门、退出P挡、唤醒小P会自动退出等人模式。</string>
+
+    <!-- 语言 -->
+    <string name="display_language">语言</string>
+    <string name="display_current_language">界面语言: %1$s</string>
+    <string name="display_language_desc">大屏、仪表界面将会显示此语言</string>
+    <string name="display_choose_language">请选择界面语言</string>
+    <string name="confirm_language_title">"更改语言"</string>
+    <string name="confirm_language_init_title">"更改语言需要重启大屏系统，请确保车辆处于安全状态。\n是否需要更改语言设置？"</string>
+
+    <!-- 地区 -->
+    <string name="display_region">地区</string>
+    <string name="display_current_region">当前地区: %1$s</string>
+    <string name="display_sample_region">区域格式示例</string>
+    <string name="display_choose_region">请选择你的地区</string>
+    <string name="display_format_sample">%1$s&#160;&#160;%2$s</string>
+    <string name="display_region_park_toast">请在P挡下进行调节</string>
+    <string name="display_timezone_auto_title">自动时区: %s</string>
+    <string name="display_timezone_auto_title_unchecked">自动时区</string>
+    <string name="display_timezone_auto_subtitle">使⽤运营商⽹络提供的当地时区时间</string>
+    <string name="display_timezone_manual_title">当前时区: %s</string>
+    <string name="display_timezone_manual_title_unset">选择时区</string>
+    <string name="display_timezone_choose_dialog_title">时区选择</string>
+
+    <!-- 声音 -->
+    <string name="sound_settings_subtitle">点击进入设置</string>
+    <!-- volume -->
+    <string name="sound_speech_set">智能语音</string>
+    <string name="sound_speech_set_tips">你好我是小P～</string>
+    <string name="sound_speech_mic_set_tips">麦克风已关闭</string>
+    <string name="sound_subtitle_volume">音量调节</string>
+    <string name="sound_volume_media">媒体音量</string>
+    <string name="sound_volume_media_tip">音乐、视频等声音</string>
+    <string name="sound_volume_media_tip_out_side">音乐、视频等车外媒体播放音量</string>
+    <string name="sound_volume_speech">语音播报音量</string>
+    <string name="sound_volume_speech_tip">语音交互、来电提醒</string>
+    <string name="sound_volume_tts">导航播报音量</string>
+    <string name="sound_volume_tts_tip">巡航播报、导航播报</string>
+    <string name="sound_volume_system">系统提示音</string>
+    <string name="sound_decrease_volume">导航时降低音量</string>
+    <string name="sound_decrease_volume_tip_low">导航及巡航播报时媒体音量自动降低</string>
+    <string name="sound_decrease_volume_tip_high">共享与私享模式下，导航及巡航播报时媒体音量自动降低</string>
+    <string name="sound_volume_position">方位感提醒音</string>
+    <string name="sound_volume_system_tip">包含按键音，通知提示音</string>
+    <string name="sound_volume_position_tip">部分系统、仪表和报警提示音方位感音效</string>
+    <string name="sound_volume_car">安全提示音</string>
+    <string name="sound_volume_car_tip">仪表提示音、整车信息提示音、辅助驾驶提示音</string>
+    <string name="sound_volume_car_tip_low">仪表提示音、整车信息提示音</string>
+    <string name="sound_headrest_intelligent_switching">头枕模式智能切换</string>
+    <string name="sound_headrest_intelligent_switching_msg">副驾有人时自动切换至“驾享模式”</string>
+    <string name="sound_volume_by_speed">音量随速调节</string>
+    <string name="sound_outside_low_speed_simulate">车外低速模拟音</string>
+    <string name="sound_outside_low_speed_simulate_tips">根据国家相关法规要求，纯电动汽车在低速行驶时，应能给行人发出低速模拟音，降低安全风险。低速模拟音仅限于本次行驶过程中关闭，下次启动车辆会再次打开。确定要继续关闭吗?</string>
+    <string name="sound_outside_mode">车外播放模式</string>
+    <string name="sound_outside_mode_dialog_title">多媒体车外播放</string>
+    <string name="sound_outside_mode_dialog_content">小鹏音乐、三方应用的的多媒体播放音频从车外播放</string>
+    <string name="sound_outside_mode_quit_prompt">已退出P挡，⻋外播放模式已关闭</string>
+    <string name="sound_subtitle_effects_mode">音效模式</string>
+
+    <!-- effects -->
+    <string name="sound_effects_mode_title">媒体音效</string>
+    <!--  头枕音效  -->
+    <string name="sound_subtitle_headrest_audio_mode">头枕音响模式</string>
+    <string name="sound_headrest_audio_mode_off_msg">所有声音通过全车播放，头枕音响不启用</string>
+    <string name="sound_headrest_audio_mode_drive_msg">导航、通话从头枕播放，不影响音乐体验</string>
+    <string name="sound_headrest_audio_mode_headrest_msg">所有声音通过头枕播放，不影响其他乘客</string>
+    <string name="sound_headrest_sharing_model" >已切换到共享模式</string>
+    <string name="sound_headrest_enjoy_driving_model" >已切换到驾享模式</string>
+    <string name="sound_headrest_private_model">已切换到私享模式</string>
+
+    <string name="sound_common">b</string>
+    <string name="sound_hifi">h</string>
+    <string name="sound_people">e</string>
+    <string name="sound_jazz">d</string>
+    <string name="sound_rock">f</string>
+    <string name="sound_disco">j</string>
+    <string name="sound_classical">k</string>
+    <string name="sound_original">l</string>
+    <string name="sound_common_text">通用</string>
+    <string name="sound_hifi_text">Hi-Fi</string>
+    <string name="sound_people_text">人声</string>
+    <string name="sound_jazz_text">爵士</string>
+    <string name="sound_rock_text">摇滚</string>
+    <string name="sound_disco_text">的士高</string>
+    <string name="sound_classical_text">古典</string>
+    <string name="sound_original_text">原声</string>
+    <string name="sound_custom_text">自定义</string>
+    <string name="sound_subtitle_effects_simulation">环境模拟</string>
+    <string name="sound_subtitle_effects_equalizer">均衡器</string>
+    <string name="sound_subtitle_effects_equalizer1">自定义1</string>
+    <string name="sound_effects_equalizer_title">自定义均衡器</string>
+    <string name="sound_effects_space_title">空间音效</string>
+    <string name="sound_speak_text">演说</string>
+    <string name="sound_effects_close">关闭</string>
+    <string name="sound_effect_bass_frequency">重低音</string>
+    <string name="sound_effect_low_frequency">低音</string>
+    <string name="sound_effect_mid_frequency">中音</string>
+    <string name="sound_effect_high_frequency">高音</string>
+    <string name="sound_effect_super_high_frequency">超高音</string>
+    <string name="sound_effect_equalizer_restore_default">恢复默认</string>
+    <string name="sound_effect_equalizer_start">启用均衡器音效</string>
+    <string name="sound_effect_equalizer_custom1">自定义1</string>
+    <string name="sound_effect_equalizer_custom2">自定义2</string>
+    <string name="sound_effect_equalizer_no_work">已关闭</string>
+    <string name="sound_effect_equalizer_start_work">均衡器已开启</string>
+    <string name="sound_effect_field_cannot_adjustment">当前为私享模式，不支持声场调节</string>
+
+    <string name="sound_scenes_live">LIVE现场</string>
+
+    <string name="sound_effect1_text">全景环绕</string>
+    <string name="sound_effect3_text">劲爆重音</string>
+    <string name="sound_effect4_text">动感现场</string>
+    <string name="sound_effect2_text">纯净人声</string>
+    <string name="sound_effect5_text">原声原音</string>
+    <string name="sound_effect_title_text">小鹏调音</string>
+
+    <string name="sound_scenes_theater">影院</string>
+    <string name="sound_scenes_recording">音乐厅</string>
+    <string name="sound_scenes_ktv">KTV</string>
+    <string name="sound_high_fidelity">丹拿音效</string>
+    <string name="sound_real">g</string>
+    <string name="sound_soft">a</string>
+    <string name="sound_dynamic">c</string>
+    <string name="sound_real_text">真实</string>
+    <string name="sound_soft_text">柔和</string>
+    <string name="sound_soft2_text">轻柔</string>
+    <string name="sound_dynamic_text">动感</string>
+    <string name="sound_effect_round">全景环绕</string>
+    <string name="sound_effects_xp_effects">小鹏音效</string>
+    <string name="sound_effects_switch_effects">切换到%s</string>
+    <string name="effect_round_tips_no_dts">小鹏专业调校，享受非凡听觉盛宴</string>
+    <string name="effect_low_speaker_round_tips">DTS NEURAL 环绕技术带来沉浸感受</string>
+    <string name="effect_high_speaker_round_tips">DTS Neural:X 环绕技术带来沉浸感受</string>
+    <string name="effect_hifi_tips">丹拿原厂专业音质调校，纯粹原音，如临现场</string>
+    <string name="effect_3d_tips">小鹏专业调校，给你非凡听觉体验</string>
+    <string name="sound_field_tips">拖动声波选择适合的声场位置</string>
+    <string name="sound_effects_back">返回</string>
+
+    <!-- Intelligence -->
+    <string name="sound_subtitle_intelligence">智能调控</string>
+    <string name="sound_open_door">开门降低音量</string>
+    <string name="sound_open_door_tips">主驾车门打开后媒体音量自动降低</string>
+    <string name="sound_gear_r">倒车降低音量</string>
+    <string name="sound_gear_r_tips">挂R挡后媒体、导航、语音音量自动降低</string>
+
+    <!-- speech -->
+    <string name="speech_subtitle_set">小P设置</string>
+    <string name="speech_awaken">允许语音唤醒</string>
+    <string name="speech_awaken_tip">开启后，可通过“你好小 P”唤醒 AI 助手</string>
+    <string name="speech_quick">允许快捷操作</string>
+    <string name="speech_quick_tip">开启后，无需唤醒，直接说出指令即可实现部分快捷操作</string>
+    <string name="speech_oneshot">允许 Oneshot</string>
+    <string name="speech_oneshot_tip">开启后，支持“你好小 P”+指令 连着说，如“你好小 P，打开空调</string>
+    <string name="speech_interrupt">打断语音播报</string>
+    <string name="speech_interrupt_tip">开启后，可以在多轮对话的过程中打断语音播报</string>
+    <string name="speech_hello">小P问候</string>
+    <string name="speech_hello_tip">开启后，每次唤醒小P主页将收到小P的声音问候</string>
+
+    <!-- 权限 -->
+    <string name="permission_popup_title">%s的访问权限</string>
+    <string name="permission_popup_all">一键开启</string>
+
+    <!-- about -->
+    <string name="about_subtitle_device_info">设备详情</string>
+
+    <string name="about_storage_app_space_code">应用</string>
+    <string name="about_storage_app_space_data">文稿与数据</string>
+
+    <!-- floating -->
+    <string name="floating_bluetooth">进入蓝牙设置</string>
+    <string name="floating_sound">进入声音设置</string>
+    <string name="floating_traffic">进入流量中心</string>
+    <string name="floating_wlan">进入无线网络设置</string>
+
+    <string name="sd_push_off">推出</string>
+    <string name="sd_space">%s/%s</string>
+    <string name="floating_phone">电话</string>
+    <string name="floating_music">音乐</string>
+
+    <!--input-->
+    <string name="input_title_bluetooth">编辑蓝牙名称</string>
+    <string name="input_hint_wifi_account">请输入账号</string>
+    <string name="input_hint_wifi_pass">请输入密码</string>
+    <string name="input_wifi_connecting">连接中...</string>
+
+    <!--小鹏实验室-->
+    <string name="laboratory_coming_soon">敬请期待</string>
+    <string name="laboratory_no_function_tips">暂无实验功能开放</string>
+    <string name="laboratory_app_used_limit">三方应用使用限制</string>
+    <string name="laboratory_app_used_limit_tips">关闭后，在行驶中使用三方应用会有安全隐患，请谨慎操作</string>
+    <string name="laboratory_low_speed_alarm_sound">低速模拟音音量</string>
+    <string name="laboratory_low_speed_alarm_sound_tips">音量调节永久有效，调低后存在车外提示风险，请谨慎操作</string>
+    <string name="low_speed_analog_cue_tone">低速模拟音</string>
+    <string name="low_speed_tips2">此处设置永久有效，关闭后存在车外提示风险，请谨慎操作</string>
+    <string name="laboratory_remote_control_key">钥匙遥控泊车</string>
+    <string name="laboratory_remote_control_key_tips">开启后，使用钥匙控制泊入/泊出</string>
+    <string name="laboratory_remote_control_key_disable_pop">请先打开超级智能辅助泊车开关</string>
+    <string name="laboratory_remote_control_advanced">增强版遥控泊车</string>
+    <string name="laboratory_remote_control_advanced_tips">开启后，可使用手机或钥匙激活记忆泊车的末段里程</string>
+    <string name="laboratory_remote_control_advanced_dialog_title">功能使用注意事项</string>
+    <string name="laboratory_remote_control_advanced_dialog_msg">使用本功能时，需要始终保持对环境的观察。用手机遥控时，需要确认车辆在视线范围内，长按手机按键使用，松开暂停功能；用智能钥匙使用时，需要保持在车周5米以内，需要终止功能时快速按下智能钥匙任意键，即可终止。</string>
+    <string name="laboratory_remote_control_advanced_disable_pop">请先打开停车场记忆泊车功能开关</string>
+    <string name="laboratory_car_call_advanced">增强版车辆召唤</string>
+    <string name="laboratory_car_call_advanced_tips">开启后，可基于设定路线在视距内召唤车辆</string>
+    <string name="laboratory_car_call_advanced_dialog_title">功能使用注意事项</string>
+    <string name="laboratory_car_call_advanced_dialog_msg">使用本功能时，您有责任确认当前环境是适宜的、安全的，并保持车辆始终在您的视野内，您必须时刻保持对车辆的观察，存在安全风险时，您有责任提前通过手机来暂停或退出增强版车辆召唤。</string>
+    <string name="laboratory_car_call_advanced_disable_pop">请先打开停车场记忆泊车功能开关</string>
+    <string name="laboratory_auto_power_off">自动下电</string>
+    <string name="laboratory_auto_power_off_tips">开启后，主驾无人时1小时内若无任何操作会自动下电</string>
+    <string name="laboratory_induction_lock">靠近自动解锁与离开自动闭锁</string>
+    <string name="laboratory_induction_lock_tips">开启后，所有车门关闭时，携智能蓝牙钥匙靠近自动解锁、远离自动闭锁</string>
+    <string name="laboratory_induction_title">感应式解闭锁功能使用须知</string>
+    <string name="laboratory_induction_lock_pop">"1. 离开闭锁条件为四门两盖关闭，且车辆停止；
+2. 解闭锁感应范围为，靠近解锁需钥匙进入距离前门把手2.5m内，离开闭锁需钥匙离开距离前门把手3.5m外；
+3. 若后尾门在四门关闭期间单独开启过，需要满足如上解闭锁条件才能启动自动解闭锁功能，建议关闭尾门后从车头一侧离开；
+4. 若要使用闭锁不下电功能（手机APP），需下车后携带钥匙在距离前门把手3.5m范围内启动，避免因为超过3.5m范围自动闭锁启动，而引起锁车下电；
+5. 钥匙泊车完成后需携带钥匙靠近车辆，车辆感应钥匙信号再离开车辆激活离开闭锁；"</string>
+    <string name="laboratory_remote_control">钥匙遥控泊车</string>
+    <string name="laboratory_remote_control_tips">开启后，使用钥匙控制泊入/泊出</string>
+    <string name="laboratory_soldier_tips">启用后，车辆下电期间若发生剐蹭会发送通知到手机</string>
+    <string name="laboratory_soldier_tips_disable"> 当前续航里程低，哨兵模式已关闭，充电后会自动恢复</string>
+    <string name="laboratory_soldier_level">哨兵模式灵敏度</string>
+    <string name="laboratory_soldier_camera_level">录制视频到相册</string>
+    <string name="laboratory_soldier_camera_tips">开启后，发生剐蹭时全景摄像头会录制视频存到中控屏相册内</string>
+    <string name="laboratory_soldier_camera_tips_disable">当前续航里程低，不支持开启拍摄功能，请充电后开启</string>
+    <string name="laboratory_soldier_toast">哨兵模式开启中，请稍候</string>
+    <string name="laboratory_soldier_dialog_title">开启录制视频到相册</string>
+    <string name="laboratory_soldier_dialog_msg">"1、功能仅单次开启，每次解锁车辆后功能会关闭；
+2、功能开启期间，车辆会消耗一定的电量；"</string>
+
+    <string name="laboratory_inductive_unlocking_title">感应式解闭锁</string>
+    <string name="laboratory_near_unlocking_title">靠近自动解锁</string>
+    <string name="laboratory_near_unlocking_tips">开启后，所有车门关闭且主副驾无人时，携钥匙（手机和NFC卡片钥匙除外）靠近自动解锁</string>
+    <string name="laboratory_leave_locking_title">离开自动闭锁</string>
+    <string name="laboratory_leave_locking_tips">开启后，所有车门关闭且主副驾无人时，携钥匙（手机和NFC卡片钥匙除外）远离自动闭锁</string>
+    <string name="laboratory_tips_security">安全相关</string>
+    <string name="laboratory_tips_text">小鹏实验室使用协议</string>
+    <string name="laboratory_tips">小鹏实验室须知</string>
+    <string name="laboratory_tips_content">"尊敬的客户：
+感谢您使用小鹏实验室功能(本功能)，在您使用前，请认真阅读并充分理解以下条款：
+1. 本功能是由广州智鹏车联网科技有限公司（本公司）提供，通过使用本功能用户可提前体验小鹏汽车应用平台（应用平台）正在测试的实验性功能。
+2. 使用本功能可能存在一定的风险，包括但不限于：因本功能的缺陷或瑕疵可能直接或间接导致车辆的某些必备功能无法正常启动；可能导致部分或全部数据丢失并无法找回、车联网业务终止或本功能中止等。
+3. 本公司有权自行确定、更改、调整可以使用本功能的用户名单和范围。
+4. 本公司不保证本功能内实验性功能的全部或部分必然会应用于应用平台中。
+5. 本公司有权随时终止或中止向用户提供本功能或将本功能内的部分或全部下线。
+6. 本功能内的部分功能因需会将默认由系统自动设置为开启或关闭，用户可以在相应界面自行关闭和启用。
+7. 本公司将按照行业标准采取必要技术措施保护用户的信息安全，但是您知悉并同意本公司并不能完全保证。
+8. 您知悉并同意本公司不对用户因使用本功能造成的数据丢失、终端设备损坏、直接或间接的经济损失及其他损失承担任何责任。
+        "</string>
+    <string name="laboratory_app_limit_tips">"小鹏汽车应用平台提供了丰富多样的车载娱乐内容。鉴于部分娱乐内容在使用过程中需要较多的手动操作或更多的关注程度，为了避免驾驶员在行车过程中使用该车载娱乐内容导致注意力的分散，存在安全隐患，我们已将系统默认设置为行车过程中严禁使用任何娱乐内容。
+在您手动解除该系统限制后，即便您的车辆处于D挡或N挡，车联网平台的部分娱乐内容可以继续使用。
+您知悉并同意：
+①　行车过程中，车载娱乐内容的服务对象仅为乘客，驾驶员请勿使用。
+②　如驾驶员在行车过程中，认为乘客使用的某娱乐内容的可能影响行车安全，请立即关闭该内容，甚至关闭本功能。
+③　驾驶员需对车辆行驶过程中的一切行为负责，包括但不限于安全问题。如因驾驶员使用车载娱乐内容而违反法律法规或安全驾驶规范，导致自身、其他人员或任何第三方人身、财产损失的或行政处罚的，需由驾驶员或车辆所有人自行承担所引起任何和全部索赔、请求、损失、责任和费用，包括但不限于罚款、赔偿金、诉讼费、律师费等。我们对此不承担任何责任。"</string>
+    <string name="laboratory_read_tips">我已经阅读并知悉上述风险</string>
+    <string name="laboratory_camera_read_tips">我已经阅读并知悉上述说明</string>
+    <string name="laboratory_app_limit_title">功能使用须知</string>
+    <string name="laboratory_close">确认关闭</string>
+    <string name="laboratory_open">确认开启</string>
+    <string name="laboratory_view">"查看"</string>
+    <string name="laboratory_key_parking_device_fault">"功能故障，无法开启"</string>
+    <string name="laboratory_tts_broadcast_type">辅助驾驶播报形式</string>
+    <string name="laboratory_tts_broadcast_tips">选择辅助驾驶的安全提醒以详细还是简洁的方式播报</string>
+    <string name="laboratory_tts_broadcast_detail">详细播报</string>
+    <string name="laboratory_tts_broadcast_concise">简洁播报</string>
+    <string name="laboratory_camera_open_tips">"1、功能仅单次开启，每次解锁车辆后功能会关闭；
+2、功能开启期间，车辆会消耗一定的电量；
+3、频繁开启会消耗摄像功能的相关器件寿命，建议必要时再开启；"</string>
+    <string name="laboratory_sayhi_mode_1">"笑脸"</string>
+    <string name="laboratory_sayhi_mode_1_idle_label">"播放笑脸|笑脸"</string>
+    <string name="laboratory_sayhi_mode_1_playing_label">"停止播放|停止播放笑脸"</string>
+    <string name="laboratory_sayhi_mode_2">"穿梭"</string>
+    <string name="laboratory_sayhi_mode_2_idle_label">"播放穿梭|穿梭"</string>
+    <string name="laboratory_sayhi_mode_2_playing_label">"停止播放|停止播放穿梭"</string>
+    <string name="laboratory_sayhi_mode_3">"心跳"</string>
+    <string name="laboratory_sayhi_mode_3_idle_label">"播放心跳|心跳"</string>
+    <string name="laboratory_sayhi_mode_3_playing_label">"停止播放|停止播放心跳"</string>
+    <string name="laboratory_show_off">"SayHi"</string>
+    <string name="laboratory_show_off_desc">"开启“停车时自动播放SayHi”功能后，自动驻车激活或挂P挡时，会自动播放灯语和车外音。"</string>
+
+    <!--用户反馈-->
+    <string name="feedback_text_title">请输入文字反馈</string>
+    <string name="feedback_text_title_summary">你可以通过唤醒小P并说出「我要反馈」进行语音反馈</string>
+    <string name="feedback_function_fault">功能故障</string>
+    <string name="feedback_suggest_optimization">建议优化</string>
+    <string name="feedback_other_question">其他问题</string>
+    <string name="feedback_input_content">请输入你想要反馈的内容</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_history">我的历史反馈</string>
+    <string name="feedback_review">查看</string>
+    <string name="feedback_input_least">请至少输入5个字</string>
+    <string name="feedback_auto_save">已自动保存</string>
+    <string name="feedback_no_network">网络异常，已自动保存，请稍后重试</string>
+    <string name="feedback_network_weak">网络状况不佳，加载失败</string>
+    <string name="feedback_no_history">没有更多数据了</string>
+    <string name="feedback_just_now">刚刚</string>
+    <string name="feedback_before_minute">分钟前</string>
+    <string name="feedback_before_hour">小时前</string>
+    <string name="feedback_customer">客服回复：</string>
+    <string name="feedback_loading">内容加载中，请稍候</string>
+    <string name="feedback_empty">无反馈记录</string>
+    <string name="feedback_retry">加载超时，请点击界面重试</string>
+    <string name="feedback_no_more">———  没有更多数据  ———</string>
+
+    <!--download-->
+    <string name="download_remaining_time_none">计算中...</string>
+    <string name="download_remaining_time_greater_hour12">剩余 大于12小时</string>
+    <string name="download_remaining_time_greater_hour1">剩余 %02d小时 %02d分钟 %02d秒</string>
+    <string name="download_remaining_time_greater_minute1">剩余 %02d分钟 %02d秒</string>
+    <string name="download_remaining_time_minute0">剩余 00分钟 %02d秒</string>
+
+    <string name="download_status_waiting">等待中...</string>
+    <string name="download_status_pausing">已暂停</string>
+    <string name="download_status_success">已完成</string>
+    <string name="download_status_fail">下载失败</string>
+
+    <string name="download_action_success">打开</string>
+    <string name="download_action_stop">停止</string>
+    <string name="download_action_stop_confirm">确认停止</string>
+
+    <string name="download_no_data">无下载任务</string>
+
+    <string name="music_panel_unknown_title">无媒体</string>
+    <string name="music_panel_unknown_sub_title">无歌手</string>
+
+    <!--自动下电弹窗-->
+    <string name="laboratory_auto_power_off_dialog_message">为避免忘记下电导致亏电，车辆将在倒计时结束后自动下电，该功能可在[设置-小鹏实验室]关闭。</string>
+    <string name="laboratory_auto_power_off_dialog_btn">取消下电</string>
+
+    <!--qs-->
+    <string name="qs_panel_dc_charging">快充口开关</string>
+    <string name="qs_panel_ac_charging">慢充口开关</string>
+    <string name="qs_panel_auto_hold">自动驻车</string>
+    <string name="qs_panel_auto_wiper_speed">自动雨刮\n速度调节</string>
+    <string name="qs_panel_int_wiper_speed">INT档雨刮\n速度调节</string>
+    <string name="qs_panel_back_box_lock">解锁后备箱</string>
+    <string name="qs_panel_clean_mode">清洁屏幕</string>
+    <string name="qs_panel_deodorate">智能除味</string>
+    <string name="qs_panel_refrigeration">急速降温</string>
+    <string name="qs_panel_energy_recovery_regulation">能量回收强调节</string>
+    <string name="qs_panel_meditation_mode">冥想模式</string>
+    <string name="qs_panel_down_hill">下坡辅助</string>
+    <string name="qs_panel_full_window_open">车窗全开</string>
+    <string name="qs_panel_full_window_close">车窗全关</string>
+    <string name="qs_panel_air_conditioning_cleaning">空调净化</string>
+    <string name="qs_panel_air_conditioning_cleaning_short">净化</string>
+    <string name="qs_panel_back_box_open">后背箱打开</string>
+    <string name="qs_panel_back_box_close">后背箱关闭</string>
+    <string name="qs_panel_rear_mirror_close">后视镜折叠</string>
+    <string name="qs_panel_rear_mirror_open">后视镜展开</string>
+    <string name="qs_panel_rear_mirror_folding">后视镜折叠</string>
+    <string name="qs_panel_rear_mirror_angle">后视镜角度</string>
+    <string name="qs_panel_seat_memory">座椅记忆</string>
+    <string name="qs_panel_enter_account">进入个人中心</string>
+    <string name="qs_panel_click_account">点击登录账号</string>
+    <string name="qs_panel_welcome_title">你好，鹏友</string>
+    <string name="qs_panel_welcome_content">进入副驾控制中心</string>
+    <string name="qs_panel_edit">编辑</string>
+    <string name="qs_panel_trunk">后备箱</string>
+    <string name="qs_panel_open_trunk">开后备箱</string>
+    <string name="qs_panel_close_trunk">关后备箱</string>
+    <string name="qs_panel_trunk_pause">暂停</string>
+    <string name="qs_panel_energy_recovery">能量回收</string>
+    <string name="qs_panel_energy_saving">超级节能</string>
+    <string name="qs_panel_auto_parking">自动驻车</string>
+    <string name="qs_panel_wiper_speed">雨刮速度</string>
+    <string name="qs_panel_fast_charge">快充口</string>
+    <string name="qs_panel_fast_charge_off">快充口   关</string>
+    <string name="qs_panel_fast_charge_on">快充口   开</string>
+    <string name="qs_panel_slow_charge_error">慢充口故障</string>
+    <string name="qs_panel_fast_charge_error">快充口故障</string>
+    <string name="qs_panel_slow_charge_unknow">慢充口异常</string>
+    <string name="qs_panel_fast_charge_unknow">快充口异常</string>
+    <string name="qs_panel_slow_charge">慢充口</string>
+    <string name="qs_panel_charge_working">处理中...</string>
+    <string name="qs_panel_slow_charge_off">慢充口   关</string>
+    <string name="qs_panel_slow_charge_on">慢充口   开</string>
+    <string name="qs_panel_back_box">解锁后备箱</string>
+    <string name="qs_panel_rearview_mirror">后视镜</string>
+    <string name="qs_panel_open_rearview_mirror">开后视镜</string>
+    <string name="qs_panel_close_rearview_mirror">收后视镜</string>
+    <string name="qs_panel_sound_effect_settings">音效设置</string>
+    <string name="qs_panel_window_air">车窗通风</string>
+    <string name="qs_panel_close">关闭</string>
+    <string name="air_volume">空调风量</string>
+    <string name="auto_air_volume">自动风量</string>
+    <string name="screen_brightness">屏幕亮度</string>
+    <string name="media_volume">媒体音量</string>
+    <string name="air_temperature">副驾空调温度</string>
+    <string name="seat_memory">座椅位置记忆</string>
+
+    <plurals name="clean_str_num">
+        <item quantity="one">%d秒后退出清洁屏幕</item>
+        <item quantity="other">%d秒后退出清洁屏幕</item>
+    </plurals>
+    <string name="long_press_to_exit_clean_mode">按住可退出</string>
+    <string name="display_clean_mode_title">清洁屏幕</string>
+    <string name="ok">确定</string>
+
+    <string name="account_unlogin">未登录</string>
+    <string name="music_default_time">00:00</string>
+
+    <!-- 编辑面板   -->
+    <string name="qs_panel_edit_sub_title_my">我的控制项</string>
+    <string name="qs_panel_edit_sub_title_my_tips">长按拖动条目可自定义控制项的展示顺序</string>
+    <string name="qs_panel_edit_sub_title_more">更多控制项</string>
+    <string name="qs_panel_edit_sub_title_more_tips">新增%d个可选控制项</string>
+
+    <!-- 智能设备面板  -->
+    <string name="identifying_now">正在识别中，请稍候</string>
+    <string name="sm_device_panel_connect">已连接    </string>
+    <string name="sm_device_panel_connecting">连接中    </string>
+    <string name="sm_device_panel_unknow_device">未知设备</string>
+    <string name="sm_device_panel_default_capacity">-- GB</string>
+    <string name="sm_device_panel_no_data">无智能设备</string>
+
+    <!--  麦克风  -->
+    <string name="cb_title_connect_to_microphone">连接麦克风</string>
+    <string name="cb_title_buy_microphone">扫码购买麦克风</string>
+    <string name="cb_status_buy_microphone">我还没有麦克风，去购买</string>
+    <string name="cb_status_search_by_qrcode">请打开小鹏汽车APP扫一扫购买</string>
+    <string name="cb_status_connecting_to_microphone1">麦克风连接中.</string>
+    <string name="cb_status_connecting_to_microphone2">麦克风连接中..</string>
+    <string name="cb_status_connecting_to_microphone3">麦克风连接中...</string>
+    <string name="cb_status_connected_to_microphone">麦克风连接成功</string>
+    <string name="cb_status_conform_microphone_enabled">请确认麦克风已开启</string>
+    <string name="cb_result_ok">我知道了</string>
+    <string name="cb_result_cancel">取消</string>
+
+    <!--vui-->
+    <string name="vui_label_feedback">文字反馈</string>
+    <string name="vui_action_click_tab">Click:Tab,Null</string>
+    <string name="vui_action_click_connect">Click:Select,Connect</string>
+    <string name="vui_label_serial_number">第%1$d个|%2$s</string>
+    <string name="vui_label_detail">详情</string>
+    <string name="vui_label_password">密码</string>
+    <string name="vui_label_account">账号</string>
+    <string name="vui_label_name">名称|蓝牙名称</string>
+    <string name="vui_label_bluetooth">蓝牙|设备</string>
+    <string name="vui_label_wifi">网络|无线网络</string>
+    <string name="vui_label_multi_format">%1$s|%2$s</string>
+    <string name="vui_label_input_feedback">输入反馈内容</string>
+    <string name="vui_label_sound_field">拖动声波到你想要发声的区域</string>
+
+    <string name="nedc_mode_dialog_title">低耗省电已开启，无法使用</string>
+    <string name="nedc_mode_dialog_tips">请到“车辆控制面板-辅助驾驶”页面关闭“低耗省电”开关后，再尝试使用此功能。</string>
+    <string name="dialog_know">知道了</string>
+    <string name="nedc_mode_turning_off_dialog_title">低耗省电关闭中，无法使用</string>
+    <string name="nedc_mode_turning_off_dialog_tips">“低耗省电”正在关闭中，这可能需要一点时间，请稍后再尝试使用此功能。</string>
+
+    <!--about system begin-->
+    <string name="about_restore">恢复出厂设置</string>
+    <string name="about_clean">清理缓存数据</string>
+    <string name="about_clean_space_used">空间已使用%1$s</string>
+    <string name="about_clean_p_toast">请在P挡下使用该功能</string>
+    <string name="clean_settings_title">清理缓存数据</string>
+    <string name="clean_settings_content">执行后，系统缓存和应用数据将会被清理，正在下载的任务将会退出并清理缓存，是否继续？</string>
+    <string name="clean_settings_doing">正在清理中</string>
+    <string name="clean_settings_done">已清理缓存数据</string>
+    <string name="clean_tts_tips">清理缓存中，暂不支持语音</string>
+    <string name="clean_tts">清理缓存</string>
+    <string name="about_policy">隐私政策</string>
+    <string name="about_user_agreement">用户协议</string>
+    <string name="about_execute">执行</string>
+    <string name="about_check">查看</string>
+    <string name="restore_settings_title">"恢复出厂设置"</string>
+    <string name="restore_init_title">"执行恢复出厂设置后，您本地的数据会被清除，设置项会恢复到出厂时的状态，是否继续？"</string>
+    <string name="continue_btn">继续</string>
+    <string name="restore_safety_alert">满足恢复出厂设置条件</string>
+    <string name="restore_safety_alert_title">"检测到当前车辆满足恢复出厂设置条件"</string>
+    <string name="restore_safety_alert_title_2">"1.期间请务必保证车辆处于上电状态;\n2.期间请务必保证车辆处于P挡(驻车状态);\n点击“开始”进入恢复出厂设置进程。"</string>
+    <string name="start_recovery_btn">开始</string>
+    <string name="restore_warning_1">检测到当前车辆未处于P挡，不满足安全要求</string>
+    <string name="restore_warning_1_explain">"请按照以下步骤操作：\n1.将车辆切换到P挡 (驻车状态)；\n2.点击“重试”，以重新进行安全检查。"</string>
+    <string name="restore_warning_2">检测到车辆蓄电池电量低，不满足安全要求</string>
+    <string name="restore_warning_2_explain">如需要咨询相关问题，请联系小鹏客服 "%s" 或</string>
+    <string name="restore_warning_2_explain_ex">"%s"。</string>
+    <string name="restore_warning_phone_tts">"拨打"</string>
+    <string name="restore_warning_title">无法恢复出厂设置</string>
+    <string name="restore_retry">重试</string>
+    <string name="user_know">我知道了</string>
+    <string name="customer_service_number1">400-819-3388</string>
+    <string name="customer_service_number2">020-37520800</string>
+    <!--about system end-->
+
+    <string name="display_night_brightness_tips">仅调节黑夜模式大屏亮度，不影响白天模式</string>
+    <string name="display_night_meter_brightness_tips">仅调节黑夜模式仪表亮度，不影响白天模式</string>
+    <string name="display_day_brightness_tips">仅调节白天模式大屏亮度，不影响黑夜模式</string>
+    <string name="display_day_meter_brightness_tips">仅调节白天模式仪表亮度，不影响黑夜模式</string>
+    <string name="display_dark_brightness_tips">开启后，白天行车经过暗光环境，如隧道、地下车库，自动调暗大屏和仪表亮度。离开暗光环境后自动恢复大屏和仪表亮度。</string>
+
+
+    <!-- D21V新增 -->
+    <string name="title_protocol">隐私</string>
+    <string name="privacy_protocol_screen_title">车载大屏隐私协议</string>
+    <string name="privacy_protocol_check">查看</string>
+
+    <string name="privacy_protocol_map_service">地图数据授权</string>
+    <string name="privacy_protocol_map_service_tips">取消授权后，地图将不可用</string>
+    <string name="privacy_protocol_voice_service">语音数据授权</string>
+    <string name="privacy_protocol_voice_service_tips">取消授权后，智能语音将不可用</string>
+
+
+
+    <!-- 观影空间引导页 -->
+    <string name="cinema_screen_title">幕布安装</string>
+    <string name="cinema_screen_tips_1_title">将遮阳板一侧取下</string>
+    <string name="cinema_screen_tips_1_content">主副驾遮阳板从卡扣处取下后，将其前翻，并露出卡扣</string>
+    <string name="cinema_screen_tips_2_title">安装幕布杆</string>
+    <string name="cinema_screen_tips_2_content">将幕布杆挂钩按图示方向挂在遮阳板卡扣上</string>
+    <string name="cinema_screen_restore_tips_title">小贴士:如何收起幕布杆</string>
+    <string name="cinema_screen_restore_tips_content">按幕布杆右侧按钮，可自\n动收起幕布</string>
+    <string name="cinema_screen_tips_1_tts">座椅放平后，请按照指引安装幕布</string>
+    <string name="cinema_screen_tips_2_tts">首先，将遮阳板一侧取下</string>
+    <string name="cinema_screen_tips_3_tts">然后，安装幕布杆</string>
+    <string name="cinema_screen_tips_4_tts">请在安装完成后点击下一步</string>
+
+    <string name="cinema_projector_title">投影仪安装</string>
+    <string name="cinema_projector_tips_1_title">取出后排中间头枕</string>
+    <string name="cinema_projector_tips_1_content">取出后排中间座椅头枕</string>
+    <string name="cinema_projector_tips_2_title">固定投影仪</string>
+    <string name="cinema_projector_tips_2_content">将投影仪装于固定架</string>
+    <string name="cinema_projector_tips_3_title">固定架插入头枕插孔并通电</string>
+    <string name="cinema_projector_tips_3_content">打开头枕后方的点烟器电源盖，接上电源</string>
+    <string name="cinema_projector_tips_4_title">使用遥控器开启投影仪</string>
+    <string name="cinema_projector_tips_4_content">开启后根据幕布上的投影界面指引联网，享用影片资源</string>
+    <string name="cinema_projector_bt_no_found_tts">投影仪开启后，请进入下一步</string>
+    <string name="cinema_projector_tips_1_tts">请按照指引安装投影仪</string>
+    <string name="cinema_projector_tips_2_tts">首先，取出后排中间座椅头枕</string>
+    <string name="cinema_projector_tips_3_tts">然后，如图组装投影仪固定架</string>
+    <string name="cinema_projector_tips_4_tts">跟着，将固定架插入头枕插孔处，并插电</string>
+    <string name="cinema_projector_tips_5_tts">接下来，使用遥控器开启投影仪，开启后请按照投影界面指引联网</string>
+
+    <string name="cinema_projector_bt_title">连接投影仪蓝牙</string>
+    <string name="cinema_projector_bt_summary">使用座舱音响观影</string>
+    <string name="cinema_projector_bt_tips">建议不要修改投影仪的默认名称</string>
+    <string name="cinema_projector_bt_tips_name">自动连接蓝牙功能仅支持小鹏定制版投影仪</string>
+    <string name="cinema_projector_bt_search">蓝牙信号搜索中...</string>
+    <string name="cinema_projector_bt_search_tts">正在搜索蓝牙信号，请保证投影仪已开启</string>
+    <string name="cinema_projector_bt_search_wait_tts">蓝牙信号搜索中，请稍候</string>
+    <string name="cinema_projector_bt_pairing">请在投影仪上确认配对</string>
+    <string name="cinema_projector_bt_pairing_tts">蓝牙配对中，请拉下幕布并在投影仪确认配对请求</string>
+    <string name="cinema_projector_bt_connecting">蓝牙正在自动连接中...</string>
+    <string name="cinema_projector_bt_connecting_tts">正在连接投影仪蓝牙</string>
+    <string name="cinema_projector_bt_connect_success">已连接小鹏定制版投影仪</string>
+    <string name="cinema_projector_bt_connect_success_tts">已连接投影仪蓝牙，开始使用座舱音响播放投影仪声音</string>
+    <string name="cinema_projector_bt_connect_fail">蓝牙自动连接失败</string>
+    <string name="cinema_projector_bt_connect_fail_tts">蓝牙自动连接失败，请手动连接蓝牙</string>
+    <string name="cinema_projector_bt_connect_error">蓝牙功能异常，请稍后重试</string>
+
+
+    <string name="cinema_use_guide_pre_btn">上一步</string>
+    <string name="cinema_use_guide_next_btn">下一步</string>
+    <string name="cinema_use_guide_complete_btn">进入观影空间</string>
+    <string name="cinema_use_guide_connect_project_manually">手动连接蓝牙</string>
+
+    <string name="group_title_privacy">隐私</string>
+    <string name="group_title_other">其他</string>
+
+    <string name="se_type_title_original">原生</string>
+    <string name="se_type_title_dynamic">动感</string>
+    <string name="se_type_title_soft">轻柔</string>
+    <string name="se_type_title_custom">自定义</string>
+
+    <string name="se_equalizer_btn">音乐均衡器</string>
+    <string name="se_equalizer_title">音乐均衡器</string>
+    <string name="se_equalizer_mega_bass">重低音</string>
+    <string name="se_equalizer_bass">低音</string>
+    <string name="se_equalizer_mediant">中音</string>
+    <string name="se_equalizer_high">高音</string>
+
+    <string name="se_reset_to_default">恢复默认</string>
+    <string name="about_store_warning_title">储存空间不足</string>
+    <string name="about_store_warning_content">当前可用空间不足，是否前往清理</string>
+    <string name="about_store_warning_content_tts">当前可用空间不足，前往清理请说好的</string>
+    <string name="about_store_warning_ok">好的</string>
+    <string name="about_store_full_title">储存空间已满</string>
+    <string name="about_store_full_content">当前可用储存空间已满，是否前往清理？</string>
+    <string name="about_store_full_content_tts">当前可用空间已满，前往清理请说好的</string>
+    <string name="about_store_full_title2">储存空间严重不足</string>
+    <string name="about_store_full_content2">可用储存空间严重不足，请立即清理！</string>
+    <string name="about_store_full_content_tts2">当前可用空间严重不足，前往清理请说好的</string>
+
+    <string name="storage_clean_btn">清除数据</string>
+    <string name="storage_clean_cache_tip">将清除车机使用中产生的临时数据，包括缓存的音频文件。\n清除后不影响车机正常使用，可能会导致流量消耗、进入部分页面时加载时间延长等问题。</string>
+    <string name="storage_clean_cache_confirm_tip">将清除车机使用中产生的临时数据，包括缓存的音频文件。清除后不影响车机正常使用，可能会导致流量消耗、进入部分页面时加载时间延长等问题，确认清除吗？</string>
+    <string name="storage_clean_music_confirm_tip">将清除小鹏音乐的所有数据，包括账号信息、设置、缓存的音频文件等，确认清除吗？</string>
+    <string name="storage_clean_netease_music_confirm_tip">将删除此APP的安装包，确认删除吗？</string>
+    <string name="storage_clean_app_confirm_tip">将清除该应用的所有数据，包括账号信息、设置、缓存文件，确认清除吗？</string>
+    <string name="storage_uninstall_app_confirm_tip">将删除此APP及所有相关数据，确认卸载吗？</string>
+    <string name="clean_settings_doing1">清理中...</string>
+    <string name="clean_settings_doing2">卸载中...</string>
+    <string name="clean_settings_app_clean_finish">清理完成</string>
+    <string name="clean_settings_app_uninstall_finish">卸载完成</string>
+    <string name="storage_clean_cache_finish">已清理</string>
+    <string name="storage_zone_title">存储空间</string>
+    <string name="storage_size_used">已用空间</string>
+    <string name="storage_size_apps">应用空间</string>
+    <string name="storage_size_apps2">管理空间</string>
+    <string name="storage_cache">缓存</string>
+    <string name="storage_clean_app_tip">将清除该应用的所有数据，包括账号信息、设置、缓存文件</string>
+    <string name="storage_uninstall_tip">将删除APP及所有数据</string>
+    <string name="storage_app_data">应用数据</string>
+    <string name="storage_cache_data">缓存数据</string>
+    <string name="storage_app_size">APP大小</string>
+    <string name="storage_uninstall_btn">卸载APP</string>
+    <string name="storage_clean_music_tip">将清除小鹏音乐的所有数据，包括账号信息、设置、缓存的音频文件等</string>
+    <string name="storage_clean_netease_music_tip">将删除APP的安装包</string>
+    <string name="storage_clean_camera_tip">将清除360影像产生的所有数据，包括您拍摄的照片、视频，哨兵模式视频，以及缓存文件</string>
+    <string name="storage_clean_camera_confirm_tip">将清除360影像产生的所有数据，包括您拍摄的照片、视频，哨兵模式视频，以及缓存文件，确认清除吗？</string>
+    <string name="clean_tts_tips1">清理空间中，一会儿再叫我</string>
+    <string name="clean_finished_tip">已经清理空啦</string>
+    <string name="clean_not_gear_p">请在P挡下清理空间哦</string>
+    <string name="storage_music_app">小鹏音乐</string>
+    <string name="storage_camera_app">360影像</string>
+
+    <string name="notify_app_name">设置通知</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:width="60dp" android:height="60dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <!--                    <solid android:color="#00a94e" />-->
+                    <stroke android:width="3dp" android:color="#00a94e" />
+                </shape>
+            </item>
+            <item android:width="48dp" android:height="48dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="#45ffffff" />
+                </shape>
+            </item>
+            <item android:width="40dp" android:height="40dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="#300c1e39" />
+                </shape>
+            </item>
+            <item android:width="16dp" android:height="16dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="#fff" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:width="24dp" android:height="24dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="#00bb7d" />
+                </shape>
+            </item>
+            <item android:width="12dp" android:height="12dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="#fff" />
+                </shape>
+            </item>
+            <item android:width="6dp" android:height="6dp" android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="#e7edf5" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+
+</selector>
+

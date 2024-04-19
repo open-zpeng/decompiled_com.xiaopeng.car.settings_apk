@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="XAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="FallbackHome" parent="XAppTheme">
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowBackground">@color/bg_fallbackhome</item>
+    </style>
+
+    <style name="AppTheme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.CleanMode">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="XAppTheme.XPanel.Pop">
+        <!-- Customize your theme here. -->
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowBackground">@drawable/x_bg_dialog</item>
+    </style>
+
+    <style name="BluetoothDialog" parent="XDialogView.Large" >
+        <item name="dialog_height">@dimen/x_dialog_xlarge_height</item>
+    </style>
+
+    <style name="SoundDialog" parent="@style/XAppTheme.XDialog">
+        <item name="windowFixedWidthMajor">@dimen/sound_effect_dialog_width</item>
+        <item name="windowFixedWidthMinor">@dimen/sound_effect_dialog_width</item>
+    </style>
+
+    <style name="InputDialog" parent="@style/XAppTheme.XDialog">
+        <item name="windowFixedWidthMajor">1000dp</item>
+        <item name="windowFixedWidthMinor">1000dp</item>
+    </style>
+
+    <style name="XDialogView.input" >
+        <item name="dialog_width">1000dp</item>
+        <item name="dialog_content_style">@style/XDialogContentViewStyle.Custom</item>
+    </style>
+
+    <!--  XDialog 正文  -->
+    <!--  XDialog scrollView  -->
+
+    <!--  XDialog 正文  -->
+    <style name="XDialogContentViewStyle.Custom" >
+        <!-- 去掉button和正文之间62像素的间距 -->
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <!--<style name="AppTheme.Translucent.Fullscreen.Float" parent="XAppTheme.Translucent">-->
+    <!--<item name="android:windowAnimationStyle">@style/windowAnimationStyle</item>-->
+    <!--</style>-->
+    <!---->
+    <!--<style name="windowAnimationStyle"  parent="android:Animation">-->
+    <!--<item name="android:windowEnterAnimation">@null</item>-->
+    <!--<item name="android:windowExitAnimation">@null</item>-->
+    <!--</style>-->
+
+    <!-- line -->
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/line</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+    </style>
+
+    <!-- wifi pop -->
+
+    <style name="WlandetailPopItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/x_theme_text_02</item>
+    </style>
+
+    <!-- percent text -->
+    <style name="TextPercentTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/x_theme_text_01</item>
+        <item name="android:textSize">@dimen/x_font_title_04_size</item>
+        <item name="android:drawablePadding">@dimen/ic_dot_drawable_padding</item>
+    </style>
+
+    <style name="Percent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/view_percent_height</item>
+        <item name="android:layout_marginTop">@dimen/view_percent_margin_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/view_percent_margin_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/view_percent_margin_vertical</item>
+        <item name="android:layout_marginRight">@dimen/view_percent_margin_vertical</item>
+        <item name="android:background">@drawable/bg_percent</item>
+        <item name="colors">@array/percent_colors</item>
+    </style>
+
+
+    <style name="FloatingLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@drawable/line</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="FloatingSoundText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">38dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:textSize">@dimen/x_font_title_04_size</item>
+        <item name="android:textColor">@color/x_theme_text_03</item>
+    </style>
+
+    <style name="FloatingSoundSeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">33dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:layout_marginLeft">33dp</item>
+        <item name="android:layout_marginRight">33dp</item>
+    </style>
+
+    <style name="XProgressBar"  >
+        <item name="android:layout_width">@dimen/x_btn_icon_xsmall_bg_size</item>
+        <item name="android:layout_height">@dimen/x_btn_icon_xsmall_bg_size</item>
+    </style>
+
+    <style name="MusicPanel">
+        <item name="android:layout_width">@dimen/music_panel_width</item>
+        <item name="android:layout_height">@dimen/music_panel_height</item>
+        <item name="android:background">@drawable/bg_music_panel</item>
+    </style>
+
+    <style name="MusicProgress" parent="@style/Widget.AppCompat.SeekBar">
+        <item name="android:progressDrawable">@drawable/music_progress_bar_horizontal</item>
+        <item name="android:thumb">@drawable/music_seekbar_thumb</item>
+        <item name="android:background">@null</item>
+        <!--thumb突出两端的距离-->
+        <item name="android:thumbOffset">@dimen/music_panel_thumb_offset</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:splitTrack">false</item>
+        <item name="android:paddingStart">@dimen/music_panel_seek_bar_margin</item>
+        <item name="android:paddingEnd">@dimen/music_panel_seek_bar_margin</item>
+    </style>
+
+    <style name="QcSliderLayout">
+        <item name="sliderLayout_corner_radius">@dimen/bg_corner_radius</item>
+        <item name="sliderLayout_slider_inner_corner_radius">@dimen/slider_corner_radius</item>
+        <item name="sliderLayout_slider_outer_corner_radius">@dimen/slider_bg_corner_radius</item>
+        <item name="sliderLayout_bg_color">@color/qc_slider_bg_color</item>
+        <item name="sliderLayout_slider_color">@color/qc_slider_color</item>
+        <item name="sliderLayout_slider_inset">@dimen/slider_bg_inset</item>
+        <item name="sliderLayout_slide_scale">1.3333</item>
+        <!--        <item name="android:stateListAnimator">@animator/slider_layout_state_list_anim</item>-->
+    </style>
+
+
+    <!--  麦克风  -->
+    <style name="dialog_common_text_large_title_style" parent="AppTheme">
+        <item name="android:textColor">@color/main_title_text_color</item>
+        <item name="android:textSize">@dimen/x_font_body_01_size</item>
+    </style>
+
+    <style name="dialog_common_text_med_title_style" parent="AppTheme">
+        <item name="android:textColor">@color/main_title_text_color</item>
+        <item name="android:textSize">@dimen/x_font_body_03_size</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">26dp</item>
+    </style>
+
+    <style name="dialog_common_text_sub_title_style" parent="AppTheme">
+        <item name="android:textColor">@color/sub_title_text_color</item>
+        <item name="android:fontFamily">xpeng-fonts-regular</item>
+        <item name="android:textSize">@dimen/x_font_body_03_size</item>
+    </style>
+
+    <!--   应用使用限制 -->
+    <style name="XDialogView.Large.AppLimit">
+        <item name="dialog_content_style">@style/XDialogContentViewStyle.AppLimit</item>
+    </style>
+    <!--   修改底层边距，之前是62 -->
+    <style name="XDialogContentViewStyle.AppLimit">
+        <item name="android:paddingBottom">28dp</item>
+    </style>
+
+    <style name="XDialogView.Large.HeadrestAudioMode" >
+        <item name="dialog_height">860dp</item>
+        <item name="dialog_content_style">@style/XDialogContentViewStyle.HeadrestAudioMode</item>
+    </style>
+    <style name="XDialogContentViewStyle.HeadrestAudioMode">
+        <item name="android:paddingBottom">58dp</item>
+        <item name="android:paddingStart">84dp</item>
+        <item name="android:paddingEnd">84dp</item>
+    </style>
+
+
+    <style name="ProgressBarOnMask" parent="XProgressBar.Circular.Medium">
+        <item name="progress_indicator_play">@drawable/x_ic_appstore_xsmall_play</item>
+        <item name="progress_indicator_pause">@drawable/x_ic_appstore_xsmall_suspend</item>
+        <item name="progress_indicator_stop">@drawable/x_ic_appstore_xsmall_stop</item>
+        <item name="progress_indicator_start">@drawable/x_ic_small_startdownload_arrow</item>
+    </style>
+
+    <style name="XListMultipleStyle" parent="@style/XList.Multiple" />
+
+    <style name="XListTwoStyle" parent="@style/XList.Two" />
+
+    <style name="HeadrestModeTitleStyle">
+        <item name="android:layout_marginBottom">108dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="HeadrestSharedModeTitleStyle" parent="HeadrestModeTitleStyle" />
+
+    <style name="HeadrestDrivingModeTitleStyle" parent="HeadrestModeTitleStyle" />
+
+    <style name="HeadrestPrivateModeTitleStyle" parent="HeadrestModeTitleStyle" />
+
+    <style name="HeadrestModeMsgStyle">
+        <item name="android:paddingStart">40dp</item>
+        <item name="android:paddingEnd">40dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:textSize">@dimen/x_font_title_01_size</item>
+        <item name="android:textColor">@color/x_theme_text_01</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextStyleSummary">
+        <item name="android:textSize">@dimen/x_font_body_01_size</item>
+        <item name="android:textColor">@color/x_theme_text_03</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="XButton.Icon.Large.Close.Night">
+        <item name="android:src">@drawable/ic_small_close_night</item>
+        <item name="android:background">@drawable/x_btn_icon_bg_selector_night</item>
+    </style>
+    <style name="XButton.Real.Mid.Positive.Night">
+        <item name="android:textColor">@color/x_btn_real_color_selector_night</item>
+        <item name="android:background">@drawable/x_btn_real_positive_selector_night</item>
+    </style>
+    <style name="XButton.Ghost.Large.Positive.Night" >
+        <item name="android:textColor">@color/x_btn_ghost_color_selector_night</item>
+        <item name="android:background">@drawable/x_btn_ghost_large_positive_selector_night</item>
+    </style>
+    <style name="TitleTextStyle.Night">
+        <item name="android:textColor">@color/x_theme_text_01_night</item>
+    </style>
+    <style name="TextStyleSummary.Night">
+        <item name="android:textColor">@color/x_theme_text_03_night</item>
+    </style>
+
+    <style name="XDialogView.PopupDialog">
+        <item name="dialog_width">@dimen/x_dialog_large_width</item>
+        <item name="dialog_height">@dimen/x_dialog_xlarge_height</item>
+        <item name="dialog_max_height">@null</item>
+    </style>
+
+    <style name="SoundEffect_Button" parent="XButton.Ghost.Large.Positive">
+        <item name="android:textColor">@color/sound_effect_btn_txt_selector</item>
+        <item name="android:background">@drawable/sound_effect_btn_bg_selector</item>
+    </style>
+</resources>

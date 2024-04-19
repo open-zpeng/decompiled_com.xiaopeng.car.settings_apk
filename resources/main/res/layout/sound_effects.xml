@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xiaopeng.xui.widget.XRelativeLayout
+        android:id="@+id/dialog_root"
+        android:layout_width="@dimen/sound_effect_dialog_width"
+        android:layout_height="@dimen/sound_effect_dialog_height"
+        android:orientation="vertical"
+        android:background="@drawable/sound_effect_dialog_bg">
+
+        <com.xiaopeng.xui.widget.XFrameLayout
+            android:id="@+id/sound_field_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sound_effect_dialog_fld_height"
+            android:layout_alignParentBottom="true">
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:id="@+id/sound_field_roof"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sound_effect_dialog_fld_height"
+                app:vuiElementType="EDITTEXT"
+                app:vuiLabel="@string/vui_label_sound_field"/>
+
+        </com.xiaopeng.xui.widget.XFrameLayout>
+
+
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/sound_field_tips"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="35dp"
+            android:paddingRight="38dp"
+            android:drawablePadding="16dp"
+            android:drawableLeft="@drawable/sound_effect_small_tips_yellow"
+            android:textColor="@color/x_theme_text_01"
+            android:text="@string/sound_field_tips"
+            android:textSize="@dimen/x_font_body_01_size"
+            android:visibility="gone"
+            android:background="@drawable/sound_field_tips_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            app:vuiMode="DISABLED"/>
+
+
+
+        <!-- 遮底部 -->
+        <View
+            android:id="@+id/bottom_bg"
+            android:layout_alignParentBottom="true"
+            android:layout_width="@dimen/sound_effect_dialog_width"
+            android:layout_height="@dimen/sound_effect_bg_height"
+            android:background="@drawable/pic_mask_under"/>
+
+        <com.xiaopeng.xui.widget.XLinearLayout
+            android:id="@+id/effect_tips_layout"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.xiaopeng.xui.widget.XLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.xiaopeng.xui.widget.XImageView
+                    android:id="@+id/effect_img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:vuiMode="DISABLED" />
+
+                <com.xiaopeng.xui.view.XView
+                    android:id="@+id/effect_tips_line"
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@color/sound_effect_tips_line"
+                    app:vuiMode="DISABLED" />
+
+                <com.xiaopeng.xui.widget.XImageView
+                    android:id="@+id/effect_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:vuiMode="DISABLED" />
+            </com.xiaopeng.xui.widget.XLinearLayout>
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/effect_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/x_theme_text_04"
+                android:textSize="@dimen/x_font_body_03_size"
+                app:vuiMode="DISABLED"/>
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:id="@+id/effect_tips_icon"
+                android:layout_width="@dimen/sound_effect_tips_icon_width"
+                android:layout_height="33dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/sound_effect_tips_icon"
+                android:visibility="gone"
+                app:vuiMode="DISABLED"/>
+
+        </com.xiaopeng.xui.widget.XLinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/style_group"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- 遮左边 -->
+            <View
+                android:id="@+id/left_bg"
+                android:layout_alignParentLeft="true"
+                android:layout_width="@dimen/sound_effect_bg_width"
+                android:layout_height="@dimen/sound_effect_dialog_height"
+                android:background="@drawable/pic_mask_left" />
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/scenes_group"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- 遮右边 -->
+            <View
+                android:id="@+id/right_bg"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/sound_effect_bg_width"
+                android:layout_height="@dimen/sound_effect_dialog_height"
+                android:background="@drawable/pic_mask_right" />
+
+
+        </RelativeLayout>
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/xp_title"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="136dp"
+            android:text="@string/sound_effects_xp_effects"
+            android:textSize="@dimen/x_font_title_02_size"
+            android:visibility="gone"
+            android:textColor="@color/x_theme_text_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:vuiMode="DISABLED"/>
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/sound_effect_switch_btn"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="22dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:text="@string/sound_effects_switch_effects"
+            android:textSize="@dimen/x_font_title_03_size"
+            android:visibility="gone"
+            android:background="@drawable/sound_effect_switch_bg"
+            android:textColor="@color/x_theme_text_01"
+            android:layout_width="306dp"
+            android:layout_height="72dp"
+            app:vuiAction="Click"/>
+
+        <RelativeLayout
+            android:id="@+id/dialog_close_group"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.xiaopeng.xui.widget.XImageView
+                style="@style/XButton.Icon.Large.Close"
+                android:layout_alignStart="@+id/dialog_close"
+                android:layout_alignTop="@+id/dialog_close"
+                android:background="@drawable/ic_close_btn_bg"/>
+            <com.xiaopeng.xui.widget.XImageButton
+                android:id="@+id/dialog_close"
+                style="@style/XButton.Icon.Large.Close"
+                />
+        </RelativeLayout>
+
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</merge>
+

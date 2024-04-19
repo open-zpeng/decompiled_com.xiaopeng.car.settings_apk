@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:background="@drawable/x_bg_dialog">
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="456dp">
+        <com.xiaopeng.xui.widget.XRelativeLayout
+            android:id="@+id/headrest_mode_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/x_list_item_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:vuiAction="Click"
+            app:vuiLabel="@string/sound_headrest_audio_mode_off_title">
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:padding="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:vuiMode="DISABLED"
+                android:src="@drawable/headrest_mode_01_bg"/>
+
+            <com.xiaopeng.xui.widget.XRelativeLayout
+                android:id="@+id/mode1_tips"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:vuiMode="DISABLED"
+                android:gravity="center_horizontal">
+
+                <com.xiaopeng.xui.widget.XImageView
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/headrest_mode_ripple1"/>
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    style="@style/HeadrestSharedModeTitleStyle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/sound_headrest_audio_mode_off_title"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_body_01_size" />
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:id="@+id/shared_mode_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    style="@style/HeadrestModeMsgStyle"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="@string/sound_headrest_audio_mode_off_msg"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_body_03_size" />
+            </com.xiaopeng.xui.widget.XRelativeLayout>
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/headrest_mode_01_btn"
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textColor="@color/x_theme_text_01"
+                android:text="@string/sound_headrest_audio_mode_off_title"
+                app:vuiMode="DISABLED"
+                android:layout_marginBottom="32dp"
+                android:layout_alignParentBottom="true"
+                android:textSize="@dimen/x_font_body_01_size"
+                android:background="@drawable/headrest_mode_btn_selector"/>
+
+        </com.xiaopeng.xui.widget.XRelativeLayout>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <com.xiaopeng.xui.widget.XRelativeLayout
+            android:id="@+id/headrest_mode_02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/x_list_item_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:vuiAction="Click"
+            app:vuiLabel="@string/sound_headrest_audio_mode_drive_title">
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:padding="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:vuiMode="DISABLED"
+                android:src="@drawable/headrest_mode_02_bg"/>
+
+            <com.xiaopeng.xui.widget.XRelativeLayout
+                android:id="@+id/mode2_tips"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                app:vuiMode="DISABLED"
+                android:orientation="vertical">
+
+                <com.xiaopeng.xui.widget.XImageView
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/headrest_mode_ripple2"/>
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    style="@style/HeadrestDrivingModeTitleStyle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/sound_headrest_audio_mode_drive_title"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_body_01_size" />
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:id="@+id/driving_mode_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    style="@style/HeadrestModeMsgStyle"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="@string/sound_headrest_audio_mode_drive_msg"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_body_03_size" />
+
+            </com.xiaopeng.xui.widget.XRelativeLayout>
+
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/headrest_mode_02_btn"
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textColor="@color/x_theme_text_01"
+                android:text="@string/sound_headrest_audio_mode_drive_title"
+                app:vuiMode="DISABLED"
+                android:layout_marginBottom="32dp"
+                android:layout_alignParentBottom="true"
+                android:textSize="@dimen/x_font_body_01_size"
+                android:background="@drawable/headrest_mode_btn_selector"/>
+
+        </com.xiaopeng.xui.widget.XRelativeLayout>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <com.xiaopeng.xui.widget.XRelativeLayout
+            android:id="@+id/headrest_mode_03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/x_list_item_selector"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:vuiAction="Click"
+            app:vuiLabel="@string/sound_headrest_audio_mode_headrest_title">
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:padding="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:vuiMode="DISABLED"
+                android:src="@drawable/headrest_mode_03_bg"/>
+
+            <com.xiaopeng.xui.widget.XRelativeLayout
+                android:id="@+id/mode3_tips"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:vuiMode="DISABLED"
+                android:orientation="vertical">
+
+                <com.xiaopeng.xui.widget.XImageView
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/headrest_mode_ripple3"/>
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    style="@style/HeadrestPrivateModeTitleStyle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/sound_headrest_audio_mode_headrest_title"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_body_01_size" />
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:id="@+id/private_mode_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    style="@style/HeadrestModeMsgStyle"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="@string/sound_headrest_audio_mode_headrest_msg"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_body_03_size" />
+
+            </com.xiaopeng.xui.widget.XRelativeLayout>
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/headrest_mode_03_btn"
+                android:layout_width="230dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textColor="@color/x_theme_text_01"
+                android:text="@string/sound_headrest_audio_mode_headrest_title"
+                app:vuiMode="DISABLED"
+                android:layout_marginBottom="32dp"
+                android:layout_alignParentBottom="true"
+                android:textSize="@dimen/x_font_body_01_size"
+                android:background="@drawable/headrest_mode_btn_selector"/>
+        </com.xiaopeng.xui.widget.XRelativeLayout>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+    <com.xiaopeng.xui.widget.XListTwo
+        android:id="@+id/sound_headrest_intelligent_switching"
+        style="@style/XList.Two"
+        android:layout_marginTop="49dp"
+        app:list_two_left_right_touch_full="left"
+        app:list_two_left="@layout/x_list_action_switch"
+        app:list_two_text="@string/sound_headrest_intelligent_switching"
+        app:list_two_text_sub="@string/sound_headrest_intelligent_switching_msg"/>
+</com.xiaopeng.xui.widget.XLinearLayout>
+

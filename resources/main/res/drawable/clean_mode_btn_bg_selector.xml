@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/clean_mode_btn_radius" />
+                    <solid android:color="@color/x_theme_primary_pressed" />
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/clean_mode_btn_radius" />
+                    <solid android:color="@color/x_theme_primary_disable" />
+                </shape>
+            </item>
+            <item android:state_enabled="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/clean_mode_btn_radius" />
+                    <solid android:color="@color/x_theme_primary_normal" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <drawable
+            class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"
+            app:rippleRadius="@dimen/clean_mode_btn_radius"
+            app:rippleSupportScale="true" />
+    </item>
+</layer-list>
+

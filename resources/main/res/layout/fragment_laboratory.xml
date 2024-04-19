@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_laboratory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/scroll_bar_padding"
+    android:scrollbarSize="@dimen/scroll_bar_width"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    app:vuiAction="ScrollByY">
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/app_limit"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/laboratory_app_used_limit"
+            app:list_two_text_sub="@string/laboratory_app_used_limit_tips" />
+
+        <!--安全相关-->
+        <com.xiaopeng.xui.widget.XGroupHeader
+            android:id="@+id/laboratory_security_group"
+            style="@style/XGroupHeader"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            app:group_header_text="@string/laboratory_tips_security"
+            app:vuiMode="DISABLED" />
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/low_speed_e28"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/laboratory_low_speed_alarm_sound"
+            app:list_multiple_text_sub="@string/laboratory_low_speed_alarm_sound_tips" />
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/soldier_level"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="@drawable/list_item_top_arc_bg"
+            android:visibility="gone"
+            app:list_multiple_bottom="@layout/laboratory_list_multiple_action_segmented_level"
+            app:list_multiple_text="@string/laboratory_soldier_level"
+            app:list_multiple_text_sub="@string/laboratory_soldier_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/soldier_camera"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/laboratory_soldier_camera_level"
+            app:list_two_text_sub="@string/laboratory_soldier_camera_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/remote_control_key"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/laboratory_remote_control_key"
+            app:list_two_text_sub="@string/laboratory_remote_control_key_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/remote_control_advanced"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/laboratory_remote_control_advanced"
+            app:list_two_text_sub="@string/laboratory_remote_control_advanced_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/car_call_advanced"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/laboratory_car_call_advanced"
+            app:list_two_text_sub="@string/laboratory_car_call_advanced_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/low_speed_d21"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/low_speed_analog_cue_tone"
+            app:list_two_text_sub="@string/low_speed_tips2" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/remote_control_d21"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/laboratory_remote_control"
+            app:list_two_text_sub="@string/laboratory_remote_control_tips" />
+
+        <!--感应锁-->
+        <com.xiaopeng.xui.widget.XGroupHeader
+            android:id="@+id/inductive_unlocking"
+            style="@style/XGroupHeader"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginBottom="@dimen/laboratory_header_padding_bottom"
+            android:visibility="gone"
+            app:group_header_text="@string/laboratory_inductive_unlocking_title"
+            app:vuiMode="DISABLED" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/laboratory_near_unlock"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/laboratory_item_padding_top"
+            android:background="@drawable/list_item_top_arc_bg"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/laboratory_near_unlocking_title"
+            app:list_two_text_sub="@string/laboratory_near_unlocking_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/laboratory_leave_lock"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/laboratory_item_padding_top"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/laboratory_leave_locking_title"
+            app:list_two_text_sub="@string/laboratory_leave_locking_tips" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/d21_induction_lock"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/laboratory_item_padding_top"
+            android:visibility="gone"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_text="@string/laboratory_induction_lock"
+            app:list_two_text_sub="@string/laboratory_induction_lock_tips" />
+
+        <!--更多-->
+        <com.xiaopeng.xui.widget.XLinearLayout
+            android:id="@+id/laboratory_tips_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.xiaopeng.xui.widget.XGroupHeader
+                android:id="@+id/laboratory_more_header"
+                style="@style/XGroupHeader"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/padding_large"
+                app:group_header_text="@string/more"
+                app:vuiMode="DISABLED" />
+
+            <com.xiaopeng.xui.widget.XListTwo
+                android:id="@+id/auto_power_off"
+                style="@style/XList.Two"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:visibility="gone"
+                app:list_two_left="@layout/x_list_action_switch"
+                app:list_two_left_right_touch_full="left"
+                app:list_two_text="@string/laboratory_auto_power_off"
+                app:list_two_text_sub="@string/laboratory_auto_power_off_tips" />
+
+            <com.xiaopeng.xui.widget.XListMultiple
+                android:id="@+id/tts_broadcast"
+                style="@style/XList.Multiple"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:visibility="gone"
+                app:list_multiple_bottom="@layout/laboratory_tts_broadcast_segmented_level"
+                app:list_multiple_text="@string/laboratory_tts_broadcast_type"
+                app:list_multiple_text_sub="@string/laboratory_tts_broadcast_tips" />
+
+            <com.xiaopeng.xui.widget.XListSingle
+                android:id="@+id/laboratory_tips_list"
+                style="@style/XList.Singe"
+                android:layout_marginTop="@dimen/padding_normal"
+                app:list_single_left="@layout/x_list_action_button"
+                app:list_single_left_right_touch_full="left"
+                app:list_single_text="@string/laboratory_tips_text"
+                app:vuiLabel="@string/laboratory_tips_text" />
+
+        </com.xiaopeng.xui.widget.XLinearLayout>
+
+        <com.xiaopeng.xui.widget.XLinearLayout
+            android:id="@+id/laboratory_no_views"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:vuiMode="DISABLED">
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:layout_width="@dimen/laboratory_empty_icon_wh"
+                android:layout_height="@dimen/laboratory_empty_icon_wh"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/laboratory_empty_padding_top1"
+                android:src="@drawable/ic_xxlarge_xpeng" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/laboratory_empty_padding_top2"
+                android:text="@string/laboratory_no_function_tips"
+                android:textColor="@color/x_theme_text_01"
+                android:textSize="@dimen/x_font_title_01_size" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/laboratory_empty_padding_top3"
+                android:text="@string/laboratory_coming_soon"
+                android:textColor="@color/x_theme_text_03"
+                android:textSize="@dimen/x_font_title_04_size" />
+
+        </com.xiaopeng.xui.widget.XLinearLayout>
+
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XScrollView>

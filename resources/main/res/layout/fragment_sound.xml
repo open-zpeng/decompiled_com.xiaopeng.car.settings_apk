@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_sound"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/scroll_bar_padding"
+    android:scrollbars="vertical"
+    android:scrollbarSize="@dimen/scroll_bar_width"
+    android:scrollbarStyle="outsideOverlay"
+    app:vuiAction="ScrollByY">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include android:id="@+id/sound_tts_settings"
+            layout="@layout/sound_tts_settings_preview"/>
+
+        <include android:id="@+id/sound_effect"
+            layout="@layout/sound_effects_preview"/>
+
+        <ViewStub
+            android:id="@+id/sound_headrest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/page_padding_top"
+            android:layout="@layout/sound_headrest_layout"/>
+
+        <include android:id="@+id/sound_outside_mode"
+            layout="@layout/sound_outside_mode"/>
+
+        <com.xiaopeng.xui.widget.XGroupHeader
+            style="@style/XGroupHeader"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/padding_large"
+            app:group_header_text="@string/sound_subtitle_volume"
+            app:vuiLabel="@string/sound_subtitle_volume"
+            />
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_media"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="@drawable/list_item_top_arc_bg"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/sound_volume_media"
+            app:list_multiple_text_sub="@string/sound_volume_media_tip"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_media_outside"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="@drawable/list_item_top_arc_bg"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/sound_volume_media"
+            app:list_multiple_text_sub="@string/sound_volume_media_tip_out_side"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_speech"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_center_bg"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/sound_volume_speech"
+            app:list_multiple_text_sub="@string/sound_volume_speech_tip"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_tts"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/sound_volume_tts"
+            app:list_multiple_text_sub="@string/sound_volume_tts_tip"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_by_speed"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_multiple_bottom="@layout/sound_list_multiple_action_segmented_volume_by_speed"
+            app:list_multiple_text="@string/sound_volume_by_speed"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_outside_low_speed_simulate"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_multiple_bottom="@layout/sound_list_multiple_action_segmented_volume_outside_low_speed_simulate"
+            app:list_multiple_text="@string/sound_outside_low_speed_simulate"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/sound_volume_car"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_multiple_bottom="@layout/sound_list_multiple_action_segmented_car"
+            app:list_multiple_text="@string/sound_volume_car"
+            app:list_multiple_text_sub="@string/sound_volume_car_tip_low"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"/>
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/sound_volume_system"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/sound_volume_system"
+            app:list_two_text_sub="@string/sound_volume_system_tip"
+            app:vuiFatherLabel="@string/sound_subtitle_volume" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/sound_volume_position"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/sound_volume_position"
+            app:list_two_text_sub="@string/sound_volume_position_tip"
+            app:vuiFatherLabel="@string/sound_subtitle_volume"
+            android:visibility="gone"/>
+
+        <com.xiaopeng.xui.widget.XGroupHeader
+            style="@style/XGroupHeader"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/padding_large"
+            app:group_header_text="@string/sound_subtitle_intelligence"
+            app:vuiLabel="@string/sound_subtitle_intelligence"/>
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/sound_decrease_volume"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_two_left_right_touch_full="left"
+            android:background="@drawable/list_item_top_arc_bg"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/sound_decrease_volume"
+            app:list_two_text_sub="@string/sound_decrease_volume_tip_low"
+            app:vuiFatherLabel="@string/sound_subtitle_intelligence"/>
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/sound_open_door"
+            style="@style/XListTwoStyle"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            app:list_two_left_right_touch_full="left"
+            android:background="@drawable/list_item_center_bg"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/sound_open_door"
+            app:list_two_text_sub="@string/sound_open_door_tips"
+            app:vuiFatherLabel="@string/sound_subtitle_intelligence"/>
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/sound_gear_r"
+            style="@style/XListTwoStyle"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            app:list_two_left_right_touch_full="left"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/sound_gear_r"
+            app:list_two_text_sub="@string/sound_gear_r_tips"
+            app:vuiFatherLabel="@string/sound_subtitle_intelligence"/>
+
+    </LinearLayout>
+
+</com.xiaopeng.xui.widget.XScrollView>
+

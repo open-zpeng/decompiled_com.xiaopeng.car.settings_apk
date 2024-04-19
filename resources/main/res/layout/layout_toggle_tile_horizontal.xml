@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/qs_panel_toggle_button"
+    android:layout_width="@dimen/qs_panel_toggle_width_horizontal"
+    android:layout_height="@dimen/qs_panel_toggle_height_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    >
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/btn"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="36dp"
+        android:layout_width="wrap_content"
+        android:minWidth="56dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        tools:src="@drawable/ic_mid_qc_mirror_close"
+        />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/toggle_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="23dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        tools:text="hello"
+        android:focusable="false"
+        android:gravity="end|center_vertical"
+        android:textSize="@dimen/x_font_body_02_size" />
+
+</com.xiaopeng.xui.widget.XRelativeLayout>
+
+
+
+
+
+

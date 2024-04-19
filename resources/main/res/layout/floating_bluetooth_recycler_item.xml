@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="@dimen/floating_item_left_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <com.xiaopeng.xui.widget.XButton
+            android:id="@+id/button1"
+            style="@style/XButton.Ghost.Small"
+            android:layout_centerInParent="true"
+            android:text="@string/disconnect" />
+
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_floating_bluetooth"
+            tools:ignore="ContentDescription" />
+        <com.xiaopeng.xui.widget.XLoading
+            android:id="@+id/progressBar"
+            style="@style/XLoading.Small"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/floating_item_height"/>
+        <!--<View
+            android:id="@+id/largeHeight"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/floating_item_large_height"/>-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginStart="@dimen/floating_item_left_width"
+        android:layout_marginEnd="@dimen/floating_item_margin_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/text1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                tools:text="hello"
+                android:textColor="@color/x_theme_text_01"
+                android:textSize="@dimen/x_font_title_04_size" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:maxLines="1"
+                android:text="@string/connected"
+                android:textColor="@color/x_theme_text_03"
+                android:textSize="@dimen/x_font_body_03_size"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/action1"
+                style="@style/XButton.Mix.Small.Call"
+                android:text="@string/floating_phone" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/action2"
+                style="@style/XButton.Mix.Small.Music"
+                android:layout_marginStart="10dp"
+                android:text="@string/floating_music" />
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/ic_mid_phone"
+        tools:ignore="ContentDescription" />-->
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/floating_item_line_height"
+        android:layout_marginStart="@dimen/floating_item_line_margin"
+        android:layout_marginEnd="@dimen/floating_item_line_margin"
+        android:background="@drawable/line"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

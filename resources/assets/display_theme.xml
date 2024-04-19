@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <view id="display_title_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="linkage_switch">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="meter_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="adptive_brightness">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="auto_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="auto_summary_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="theme_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="day_mode">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="night_mode">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="auto_mode">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="clean_mode">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="font_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="datetime_tips">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="datetime_tips2">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="date_time">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+    <view id="intelligent_perception">
+        <item name="textColor" value="@color/text_color"/>
+    </view>
+</theme>

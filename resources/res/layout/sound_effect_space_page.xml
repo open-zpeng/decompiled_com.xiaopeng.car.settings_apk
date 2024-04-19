@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="28sp" android:textColor="@color/x_theme_text_03" android:id="@+id/sound_effect_space_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sound_effect_left_left_margin" android:layout_marginTop="@dimen/sound_effect_left_equalizer_top_margin" android:text="@string/sound_effects_space_title"/>
+    <com.xiaopeng.xui.widget.XSegmented android:id="@+id/sound_effect_space_segment" android:layout_width="@dimen/sound_effect_left_equalizer_custom_width" android:layout_height="@dimen/sound_effect_btn_height" android:layout_marginTop="24dp" android:layout_below="@+id/sound_effect_space_title" app:segment_texts="@array/sound_effect_space_labels" app:vuiLabel="@string/sound_effects_space_title" style="@style/XSegmented.Rect.Text"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

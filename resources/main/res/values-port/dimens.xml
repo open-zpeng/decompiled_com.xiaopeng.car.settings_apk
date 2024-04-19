@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="radio_button_height">76dp</dimen>
+    <!-- page -->
+    <dimen name="page_tab_padding_top">0dp</dimen>
+    <dimen name="page_padding_top">30dp</dimen>
+    <dimen name="page_padding_bottom">30dp</dimen>
+    <dimen name="page_padding_left">36dp</dimen>
+    <dimen name="page_padding_right">16dp</dimen>
+
+    <!--  40 - 16 = 24   -->
+    <dimen name="scroll_bar_padding">24dp</dimen>
+    <!--  Bluetooth  -->
+    <dimen name="none_device_tip_height">62dp</dimen>
+    <!-- feedback   -->
+    <dimen name="feedback_text_margin_top">20dp</dimen>
+    <dimen name="feedback_commit_margin_top">27dp</dimen>
+    <dimen name="feedback_commit_margin_bottom">44dp</dimen>
+    <dimen name="feedback_commit_width">185dp</dimen>
+    <dimen name="feedback_commit_height">51dp</dimen>
+    <dimen name="feedback_input_text_bottom">16dp</dimen>
+    <dimen name="feedback_history_view_top">150dp</dimen>
+    <dimen name="feedback_content_padding_bottom">6dp</dimen>
+
+    <!--  sound -->
+    <dimen name="sound_effect_dialog_width">981dp</dimen>
+    <dimen name="sound_effect_dialog_height">1220dp</dimen>
+    <dimen name="sound_effect_dialog_fld_height">763dp</dimen>
+    <dimen name="sound_effect_dialog_field_height">680dp</dimen>
+    <dimen name="sound_effect_dialog_field_width">900dp</dimen>
+    <dimen name="sound_effect_dialog_field_drag_tips_width">594dp</dimen>
+    <dimen name="sound_effect_bg_width">220dp</dimen>
+    <dimen name="sound_effect_bg_height">280dp</dimen>
+    <dimen name="sound_effect_entrance_height">200dp</dimen>
+    <dimen name="sound_pic_top">60dp</dimen>
+    <dimen name="sound_pic_left">40dp</dimen>
+    <dimen name="sound_line_padding">12dp</dimen>
+    <dimen name="sound_tts_tips_top_padding">58dp</dimen>
+    <dimen name="sound_tts_tips_left_padding">192dp</dimen>
+    <dimen name="sound_effect_equalizer_item_width">70dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_height">644dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_padding_top">20dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_padding_bottom">20dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_margin">32dp</dimen>
+
+    <!--  float -->
+    <!--   800 -10-20 (阴影) -->
+    <dimen name="floating_dialog_bottom">770dp</dimen>
+
+    <dimen name="floating_dialog_width">530dp</dimen>
+    <dimen name="floating_dialog_width_mid">580dp</dimen>
+
+    <dimen name="floating_item_title_height">112dp</dimen>
+    <dimen name="floating_item_height">100dp</dimen>
+    <dimen name="floating_item_left_width">122dp</dimen>
+    <dimen name="floating_item_line_margin">25dp</dimen>
+    <dimen name="floating_item_margin_end">37dp</dimen>
+
+
+    <dimen name="floating_padding">0dp</dimen>
+
+    <!-- qspanel-->
+    <dimen name="qs_panel_tips_size">22sp</dimen>
+    <dimen name="qs_panel_selector_width">384dp</dimen>
+    <dimen name="qs_panel_selector_height">118dp</dimen>
+    <dimen name="qs_panel_toggle_item_space">24dp</dimen>
+    <dimen name="qs_panel_header_item_space">26dp</dimen>
+    <dimen name="qs_panel_toggle_width">112dp</dimen>
+    <dimen name="qs_panel_toggle_height">118dp</dimen>
+    <dimen name="qs_panel_toggle_icon_height">48dp</dimen>
+    <dimen name="qs_panel_toggle_icon_margintop">18dp</dimen>
+    <dimen name="qs_panel_toggle_text_marginbottom">14dp</dimen>
+    <dimen name="qs_panel_padding_recyclerview">24dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_top">24dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_left">30dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_right" >30dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_bottom">31dp</dimen>
+    <dimen name="qs_panel_title_drawable_padding">12dp</dimen>
+    <dimen name="qs_panel_edit_width">248dp</dimen>
+    <dimen name="qs_panel_edit_height">56dp</dimen>
+    <dimen name="qs_panel_edit_width_edge">272dp</dimen>
+    <dimen name="qs_panel_edit_height_edge">68dp</dimen>
+    <dimen name="qs_panel_toggle_button_padding">5dp</dimen>
+    <dimen name="qs_panel_more_options_icon_width">14dp</dimen>
+
+    <!--edit panel-->
+    <dimen name="edit_panel_control_option_height">98dp</dimen>
+    <dimen name="edit_panel_control_option_padding">7dp</dimen>
+    <dimen name="edit_panel_control_option_margin">30dp</dimen>
+    <dimen name="edit_panel_control_option_icon_margin">20dp</dimen>
+    <dimen name="edit_panel_control_option_text_margin">16dp</dimen>
+    <dimen name="edit_panel_icon_drag_width">48dp</dimen>
+    <dimen name="edit_panel_sub_title_margin_top">24dp</dimen>
+    <dimen name="edit_panel_sub_title_margin_left">30dp</dimen>
+    <dimen name="edit_panel_sub_title_margin_bottom">14dp</dimen>
+    <dimen name="edit_panel_divider_line_margin_top">12dp</dimen>
+    <dimen name="edit_panel_new_item_tips_height">36dp</dimen>
+    <dimen name="edit_panel_complete_button_width">248dp</dimen>
+    <dimen name="edit_panel_complete_button_height">56dp</dimen>
+    <dimen name="edit_panel_complete_button_margin">30dp</dimen>
+    <dimen name="edit_panel_bottom_margin">30dp</dimen>
+
+
+    <!--QcSlider-VolumeSlider-->
+    <dimen name="volume_slider_svg_margin">21dp</dimen>
+
+    <!-- dropdownmenu -->
+    <dimen name="drop_down_menu_icon_width">48dp</dimen>
+    <dimen name="drop_down_menu_icon_margin">37dp</dimen>
+    <dimen name="drop_down_menu_textview_margin2">12dp</dimen>
+    <dimen name="drop_down_menu_progressbar_margintop">10dp</dimen>
+    <integer name="usb_recycler_item_height">100</integer>
+    <integer name="disk_recycler_item_height">116</integer>
+    <dimen name="drop_down_menu_device_name_width">320dp</dimen>
+
+    <!--    x_dialog_content_scrollbar_in_padding- 20 = 28-->
+    <dimen name="app_limit_dialog_radio_margin_start">24dp</dimen>
+
+    <dimen name="clean_mode_btn_radius">36dp</dimen>
+    <dimen name="clean_mode_btn_width">216dp</dimen>
+    <dimen name="clean_mode_btn_height">66dp</dimen>
+    <dimen name="clean_mode_btn_text">@dimen/x_font_body_01_size</dimen>
+
+    <dimen name="laboratory_empty_padding_top1">445dp</dimen>
+    <dimen name="laboratory_empty_padding_top2">62dp</dimen>
+    <dimen name="laboratory_empty_padding_top3">24dp</dimen>
+    <dimen name="laboratory_empty_icon_wh">172dp</dimen>
+    <dimen name="about_clean_progress_width">423dp</dimen>
+    <dimen name="about_clean_progress_height">26dp</dimen>
+    <dimen name="about_clean_progress_margin_right">56dp</dimen>
+</resources>

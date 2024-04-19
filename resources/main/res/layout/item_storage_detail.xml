@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="96dp">
+
+    <com.xiaopeng.xui.view.XView
+        android:id="@+id/v_bg_app_data"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/x_list_item_selector"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/tv_apps_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="应用数据"
+        android:textColor="@color/x_theme_text_01"
+        android:textSize="@dimen/x_font_body_01_size"
+        app:layout_constraintTop_toTopOf="@+id/v_bg_app_data"
+        app:layout_constraintBottom_toBottomOf="@+id/v_bg_app_data"
+        app:layout_constraintLeft_toLeftOf="@+id/v_bg_app_data"/>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/tv_storage_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111MB"
+        android:maxLines="1"
+        android:textColor="@color/x_theme_text_01"
+        android:textSize="@dimen/x_font_body_01_size"
+        android:layout_marginRight="40dp"
+        app:layout_constraintTop_toTopOf="@+id/v_bg_app_data"
+        app:layout_constraintBottom_toBottomOf="@+id/v_bg_app_data"
+        app:layout_constraintRight_toRightOf="@+id/v_bg_app_data" />
+
+</com.xiaopeng.xui.widget.XConstraintLayout>

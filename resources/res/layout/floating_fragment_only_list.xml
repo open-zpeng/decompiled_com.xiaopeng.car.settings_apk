@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:orientation="horizontal" android:id="@+id/progressBar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/drop_down_menu_icon_margin">
+        <com.xiaopeng.xui.widget.XLoading android:layout_gravity="center_vertical" android:layout_height="@dimen/floating_item_height" android:layout_marginEnd="26dp" style="@style/XLoading.Small"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_01" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/identifying_now" android:maxLines="1"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</LinearLayout>

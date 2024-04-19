@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sound_effect_left_left_margin">0dp</dimen>
+    <dimen name="sound_effect_left_equalizer_top_margin">48dp</dimen>
+    <dimen name="sound_effect_left_top_margin_content">24dp</dimen>
+    <dimen name="sound_effect_left_equalizer_custom_width">492dp</dimen>
+    <dimen name="sound_effect_btn_height">80dp</dimen>
+    <dimen name="sound_effect_btn_width">232dp</dimen>
+    <dimen name="sound_effect_left_top_margin_mid">210dp</dimen>
+    <dimen name="sound_effect_left_top_margin">146dp</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bluetooth_header_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/external_bluetooth_switch"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_left="@layout/x_list_action_switch"
+        app:list_single_text="@string/back_seat_driver_bluetooth_power"/>
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/external_tts_switch"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_left="@layout/x_list_action_switch"
+        app:list_single_text="@string/psn_tts_switch"
+        android:visibility="gone"/>
+
+</com.xiaopeng.xui.widget.XLinearLayout>
+

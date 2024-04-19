@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/x_theme_bg_dialog_color">
+
+    <com.xiaopeng.xui.widget.XTitleBarLight
+        android:id="@+id/x_title_bar"
+        style="@style/XTitleBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_main_action="close"
+        app:title_text="@string/storage_zone_title"
+        app:title_text_type="sparse" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="84dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="@dimen/storage_dialog_padding2"
+        android:layout_marginRight="@dimen/storage_dialog_padding2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/x_title_bar">
+
+        <com.xiaopeng.xui.widget.XConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/tv_title_storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/storage_dialog_padding2"
+                android:layout_marginTop="78dp"
+                android:text="@string/storage_size_used"
+                android:textColor="@color/x_theme_text_01"
+                android:textSize="@dimen/x_font_title_04_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.xiaopeng.xui.widget.XProgressBar
+                android:id="@+id/view_free_space"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/storage_dialog_padding2"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="@dimen/storage_dialog_padding2"
+                android:max="100"
+                android:min="0"
+                android:visibility="invisible"
+                android:progress="50"
+                android:progressDrawable="@drawable/bg_free_storage_space"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_storage" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/tv_used_storage_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_clean_space_used"
+                android:textColor="@color/color_text_storage_used"
+                android:textSize="26sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/view_free_space"
+                app:layout_constraintLeft_toLeftOf="@+id/view_free_space"
+                app:layout_constraintRight_toRightOf="@+id/view_free_space"
+                app:layout_constraintTop_toTopOf="@+id/view_free_space" />
+
+            <com.xiaopeng.xui.widget.XLoading
+                android:id="@+id/l_storage_usage_loading_view"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                app:loading_type="small"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="@+id/view_free_space"
+                app:layout_constraintLeft_toLeftOf="@+id/view_free_space"
+                app:layout_constraintRight_toRightOf="@+id/view_free_space"
+                app:layout_constraintTop_toTopOf="@+id/view_free_space"
+                android:background="@drawable/x_list_item_selector"/>
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/tv_title_apps_space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/storage_dialog_padding2"
+                android:layout_marginTop="40dp"
+                android:text="@string/storage_size_apps"
+                android:textColor="@color/x_theme_text_01"
+                android:textSize="@dimen/x_font_title_04_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_free_space" />
+
+            <com.xiaopeng.xui.widget.XFrameLayout
+                android:id="@+id/fl_storage_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/storage_dialog_padding2"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="@dimen/storage_dialog_padding2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_apps_space">
+
+                <com.xiaopeng.xui.widget.XRecyclerView
+                    android:id="@+id/rv_storage_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_storage" />
+
+                <com.xiaopeng.xui.widget.XLoading
+                    android:id="@+id/l_storage_list_loading_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:loading_type="small"
+                    android:layout_gravity="center"
+                    android:background="@drawable/x_list_item_selector"/>
+            </com.xiaopeng.xui.widget.XFrameLayout>
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/tv_title_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/storage_dialog_padding2"
+                android:layout_marginTop="24dp"
+                android:text="@string/storage_cache"
+                android:textColor="@color/x_theme_text_01"
+                android:textSize="@dimen/x_font_title_04_size"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fl_storage_list" />
+
+            <com.xiaopeng.xui.widget.XFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/storage_dialog_padding2"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="@dimen/storage_dialog_padding2"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_cache">
+
+                <include
+                    android:visibility="gone"
+                    layout="@layout/item_storage" />
+
+                <com.xiaopeng.xui.widget.XLoading
+                    android:id="@+id/l_cache_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    app:loading_type="small"
+                    android:layout_gravity="center"
+                    android:background="@drawable/x_list_item_selector"/>
+            </com.xiaopeng.xui.widget.XFrameLayout>
+
+
+        </com.xiaopeng.xui.widget.XConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.xiaopeng.xui.widget.XConstraintLayout>

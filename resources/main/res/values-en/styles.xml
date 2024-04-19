@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="XListMultipleStyle" parent="@style/XList.Multiple.Two" />
+
+    <style name="XListTwoStyle" parent="@style/XList.Two.WrapHeight" />
+
+    <style name="HeadrestSharedModeTitleStyle">
+        <item name="android:layout_above">@id/shared_mode_msg</item>
+    </style>
+
+    <style name="HeadrestDrivingModeTitleStyle">
+        <item name="android:layout_above">@id/driving_mode_msg</item>
+    </style>
+
+    <style name="HeadrestPrivateModeTitleStyle">
+        <item name="android:layout_above">@id/private_mode_msg</item>
+    </style>
+
+    <style name="HeadrestModeMsgStyle">
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+</resources>

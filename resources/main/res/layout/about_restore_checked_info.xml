@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_about_restore_checked_info"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/restore_warning_1"
+        android:textSize="@dimen/x_font_title_04_size" />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/content_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp"
+        app:vuiAction="Click"
+        app:vuiDisableHitEffect="true"
+        android:text="@string/restore_warning_1_explain"
+        android:textColor="@color/x_theme_text_03"
+        android:textSize="@dimen/x_font_body_02_size" />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/content_explain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        app:vuiAction="Click"
+        android:text="@string/restore_warning_2_explain_ex"
+        android:textColor="@color/x_theme_text_03"
+        android:textSize="@dimen/x_font_body_02_size"
+        app:vuiDisableHitEffect="true"
+        android:visibility="gone"/>
+
+</com.xiaopeng.xui.widget.XLinearLayout>

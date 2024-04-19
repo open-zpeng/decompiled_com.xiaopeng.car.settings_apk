@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35dp" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:transformPivotX="0dp" android:transformPivotY="-100dp" android:scaleX="1.1" android:rotationY="20" android:outlineSpotShadowColor="#00000000" android:outlineAmbientShadowColor="#00000000">
+            <FrameLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_02_size" android:textColor="@color/x_theme_text_01" android:layout_gravity="center_vertical" android:id="@+id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:alpha="0.1"/>
+                <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_02_size" android:textColor="@color/x_theme_text_01" android:layout_gravity="center_vertical" android:id="@+id/text2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="3.5dp"/>
+            </FrameLayout>
+            <com.xiaopeng.xui.widget.XButton android:textSize="@dimen/x_font_body_03_size" android:textColor="#fff" android:layout_gravity="center_vertical" android:id="@+id/btn_equalizer" android:background="@drawable/se_btn_equalizer" android:paddingLeft="12dp" android:paddingTop="2dp" android:paddingRight="12dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="2dp" android:layout_marginBottom="10dp" android:text="@string/se_equalizer_btn" android:shadowColor="#00000000" android:textAllCaps="false" android:outlineSpotShadowColor="#00000000" android:outlineAmbientShadowColor="#00000000"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XFrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xiaopeng.xui.widget.XRecyclerView
+        android:id="@+id/recyclerView"
+        android:paddingLeft="@dimen/x_dialog_content_scrollbar_in_padding"
+        android:paddingRight="@dimen/x_dialog_content_scrollbar_in_padding"
+        android:scrollbars="vertical"
+        android:scrollbarSize="@dimen/scroll_bar_width"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:vuiLayoutLoadable="true" />
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:id="@+id/loading_view"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:vuiMode="DISABLED">
+        <com.xiaopeng.xui.widget.XLoading
+            style="@style/XLoading.XLarge"
+            android:layout_marginTop="@dimen/feedback_history_view_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.xiaopeng.xui.widget.XTextView
+            android:text="@string/feedback_loading"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/feedback_loading"
+            android:textSize="@dimen/x_font_title_04_size"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:id="@+id/empty_view"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:vuiMode="DISABLED">
+        <com.xiaopeng.xui.widget.XImageView
+            android:layout_marginTop="@dimen/feedback_history_view_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/x_ic_xxlarge_nodata"/>
+        <com.xiaopeng.xui.widget.XTextView
+            android:text="@string/feedback_empty"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/feedback_loading"
+            android:textSize="@dimen/x_font_title_04_size"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:id="@+id/net_error_view"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:vuiMode="DISABLED">
+        <com.xiaopeng.xui.widget.XImageView
+            android:layout_marginTop="@dimen/feedback_history_view_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_xxlarge_refreshqr"/>
+        <com.xiaopeng.xui.widget.XTextView
+            android:text="@string/feedback_retry"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/feedback_loading"
+            android:textSize="@dimen/x_font_title_04_size"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

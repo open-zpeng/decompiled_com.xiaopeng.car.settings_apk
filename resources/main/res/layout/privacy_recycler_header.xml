@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        app:group_header_text="隐私"
+        />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left="@layout/x_list_action_switch"
+        app:list_single_text="隐私模式"
+        app:list_single_tag="true"
+        app:list_single_tag_icon="@drawable/x_ic_tag_green"
+        />
+
+    <com.xiaopeng.xui.widget.XListTwo
+        style="@style/XList.Two"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_two_left="@layout/x_list_action_switch"
+        app:list_two_text="隐藏我的位置"
+        app:list_two_text_sub="开启后，无法通过「小鹏 APP」寻找到车辆的位置" />
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        android:id="@+id/privacy_header"
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_large"
+        android:layout_marginBottom="22dp"
+        app:group_header_action_mode="loading"
+        app:group_header_text="应用访问权限" />
+
+</LinearLayout>

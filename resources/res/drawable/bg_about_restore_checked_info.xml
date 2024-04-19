@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="16dp"/>
+    <size android:height="@dimen/restore_checked_info_bg_height" android:width="1032dp"/>
+    <solid android:color="@color/bg_checked_info_color"/>
+</shape>

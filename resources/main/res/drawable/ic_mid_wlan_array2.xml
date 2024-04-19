@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+    <path
+        android:fillAlpha="0.35999998"
+        android:fillColor="@color/ic_wifi_color"
+        android:fillType="nonZero"
+        android:pathData="M48,44C48,45.1046 47.1046,46 46,46C44.8954,46 44,45.1046 44,44C44,26.8792 30.1208,13 13,13C11.8954,13 11,12.1046 11,11C11,9.8954 11.8954,9 13,9C32.33,9 48,24.67 48,44ZM38,44C38,45.1046 37.1046,46 36,46C34.8954,46 34,45.1046 34,44C34,32.402 24.598,23 13,23C11.8954,23 11,22.1046 11,21C11,19.8954 11.8954,19 13,19C26.8071,19 38,30.1929 38,44Z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.35999998"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillColor="@color/ic_wifi_color"
+        android:fillType="nonZero"
+        android:pathData="M28,44C28,35.7157 21.2843,29 13,29C11.8954,29 11,29.8954 11,31C11,32.1046 11.8954,33 13,33C19.0751,33 24,37.9249 24,44C24,45.1046 24.8954,46 26,46C27.1046,46 28,45.1046 28,44Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+    <path
+        android:fillAlpha="0.35999998"
+        android:fillColor="@color/ic_wifi_color"
+        android:fillType="nonZero"
+        android:pathData="M13,40L13,40A3,3 0,0 1,16 43L16,43A3,3 0,0 1,13 46L13,46A3,3 0,0 1,10 43L10,43A3,3 0,0 1,13 40z"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.35999998"
+        android:strokeColor="#00000000" />
+</vector>
+

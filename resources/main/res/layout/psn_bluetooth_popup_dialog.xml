@@ -1,0 +1,10 @@
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.xiaopeng.car.settingslibrary.ui.view.PsnBluetoothView
+        android:id="@+id/psnBluetoothPop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:is_system_dialog="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

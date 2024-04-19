@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="storage_dialog_width">900dp</dimen>
+    <dimen name="storage_dialog_padding">74dp</dimen>
+    <dimen name="storage_dialog_padding2">37dp</dimen>
+    <dimen name="sound_effect_equalizer_top_padding">227dp</dimen>
+    <dimen name="sound_effect_equalizer_restore_bottom">73dp</dimen>
+</resources>

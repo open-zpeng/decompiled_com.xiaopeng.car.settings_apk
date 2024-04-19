@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 国际版去除字体图标显示 Start -->
+    <string-array name="round_effect_styles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="round_effect_text">
+        <item>@string/sound_common_text</item>
+        <item>@string/sound_people_text</item>
+        <item>@string/sound_jazz_text</item>
+        <item>@string/sound_rock_text</item>
+    </string-array>
+
+    <string-array name="hifi_effect_styles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="hifi_effect_text">
+        <item>@string/sound_original_text</item>
+        <item>@string/sound_dynamic_text</item>
+        <item>@string/sound_soft2_text</item>
+        <item>@string/sound_speak_text</item>
+    </string-array>
+
+</resources>
+

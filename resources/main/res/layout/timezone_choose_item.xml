@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <com.xiaopeng.xui.widget.XLinearLayout
+            android:id="@+id/itemRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/prefix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="GMT"
+                android:textColor="@color/timezone_choose_item_color"
+                android:textSize="@dimen/x_font_body_02_size" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/offset"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:text="+08:00"
+                android:textColor="@color/timezone_choose_item_color"
+                android:textSize="@dimen/x_font_body_02_size" />
+
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/timezone_choose_item_color"
+                android:textSize="@dimen/x_font_body_02_size" />
+
+        </com.xiaopeng.xui.widget.XLinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_cling_margin"
+            android:background="@color/divider_line"
+            android:visibility="gone" />
+    </com.xiaopeng.xui.widget.XFrameLayout>
+
+    <!--    scrollTo的时候占位置用的-->
+    <View
+        android:id="@+id/bottom_place_holder"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:tag="" />
+</LinearLayout>

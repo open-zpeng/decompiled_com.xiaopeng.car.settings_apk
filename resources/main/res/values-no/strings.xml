@@ -1,0 +1,224 @@
+<?xml version="1.0" ?>
+<resources>
+
+
+    <!--    维修-->
+
+
+    <!--    授权模式-->
+
+
+    <string name="cancel">Avbryt</string>
+
+
+    <!--紧急下电-->
+
+
+    <!-- common -->
+
+
+    <string name="connected">Tilkoblet</string>
+
+
+    <string name="disconnect">Koble fra</string>
+
+
+    <string name="btn_off">Lukk</string>
+
+
+    <!-- title -->
+
+
+    <string name="title_bluetooth">Bluetooth</string>
+
+
+    <string name="title_usb">Smartenhet</string>
+
+
+    <string name="title_download">Administrasjon av nedlasting</string>
+
+
+    <!-- 蓝牙 -->
+
+
+    <!-- header -->
+
+
+    <!--<string name="bluetooth_subtitle_connected">连接过的设备</string>-->
+
+
+    <string name="bluetooth_subtitle_bonded">Sammenkoblede enheter</string>
+
+
+    <string name="bluetooth_subtitle_new">Ingen tilgjengelige enheter</string>
+
+
+    <!--item -->
+
+
+    <string name="bluetooth_none_device_tip">Ingen ny enhet tilgjengelig. Trykk på \&quot;Søk\&quot; senere.</string>
+
+
+    <string name="bluetooth_power">Bluetooth</string>
+
+
+    <string name="bluetooth_profile_unavailable">Ikke aktivert</string>
+
+
+    <!-- popup -->
+
+
+    <string name="bluetooth_popup_disconnect_title">Bluetooth er ikke tilkoblet</string>
+
+
+    <string name="bluetooth_popup_ignore_btn">Ignorer</string>
+
+
+    <!-- 配对 -->
+
+
+    <string name="bluetooth_search">Søk</string>
+
+
+    <!-- WLAN -->
+
+
+    <!-- header -->
+
+
+    <string name="wlan_power">Bryter for trådløst nettverk</string>
+
+
+    <string name="wlan_subtitle_wifi">Velg et nettverk</string>
+
+
+    <!-- item -->
+
+
+    <!-- popup -->
+
+
+    <string name="wlan_popup_ignore_btn">Ignorer</string>
+
+
+    <!-- 流量 -->
+
+
+    <!-- 显示 -->
+
+
+    <!-- 亮度 -->
+
+
+    <!-- 外观 -->
+
+
+    <!-- 语言 -->
+
+
+    <!-- 地区 -->
+
+
+    <!-- 声音 -->
+
+
+    <!-- volume -->
+
+
+    <!-- effects -->
+
+
+    <!--  头枕音效  -->
+
+
+    <string name="sound_effects_close">Lukk</string>
+
+
+    <!-- Intelligence -->
+
+
+    <!-- speech -->
+
+
+    <!-- 权限 -->
+
+
+    <!-- about -->
+
+
+    <!-- floating -->
+
+
+    <!--input-->
+
+
+    <string name="input_hint_wifi_account">Angi brukernavn</string>
+
+
+    <string name="input_hint_wifi_pass">OK</string>
+
+
+    <!--小鹏实验室-->
+
+
+    <!--用户反馈-->
+
+
+    <!--download-->
+
+
+    <string name="download_action_success">Åpne</string>
+
+
+    <!--自动下电弹窗-->
+
+
+    <!--qs-->
+
+
+    <string name="qs_panel_close">Lukk</string>
+
+
+    <plurals name="clean_str_num">
+
+
+        <item quantity="one">%d秒后退出清洁屏幕</item>
+
+
+        <item quantity="other">%d秒后退出清洁屏幕</item>
+
+
+    </plurals>
+
+
+    <!-- 编辑面板   -->
+
+
+    <!-- 智能设备面板  -->
+
+
+    <!--  麦克风  -->
+
+
+    <string name="cb_result_cancel">Avbryt</string>
+
+
+    <!--vui-->
+
+
+    <!--about system begin-->
+
+
+    <!--about system end-->
+
+
+    <!-- D21V新增 -->
+
+
+    <!-- 观影空间引导页 -->
+    <string name="sound_headrest_sharing_model" >Byttet delingsmodus</string>
+    <string name="sound_headrest_enjoy_driving_model" >Byttet til Kjøremodus</string>
+    <string name="sound_headrest_private_model">Byttet til privat-modus</string>
+
+</resources>
+

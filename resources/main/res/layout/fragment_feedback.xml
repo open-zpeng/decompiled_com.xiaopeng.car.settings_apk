@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/scroll_bar_padding"
+    android:saveEnabled="true"
+    android:scrollbarSize="@dimen/scroll_bar_width"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    app:vuiAction="ScrollByY">
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!--<com.xiaopeng.xui.widget.XRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/x_list_item_selector"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="33dp"
+            app:vuiMode="DISABLED">
+                <com.xiaopeng.xui.widget.XTextView
+                    android:id="@+id/feedback_p_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/feedback_speech_title"
+                    android:textColor="@color/x_theme_text_01"
+                    android:layout_marginTop="33dp"
+                    android:textSize="@dimen/x_font_title_04_size" />
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignBottom="@+id/feedback_p_title"
+                    android:layout_toEndOf="@+id/feedback_p_title"
+                    android:layout_marginStart="@dimen/padding_normal"
+                    android:text="@string/feedback_speech_title_summary"
+                    android:textColor="@color/x_theme_text_04"
+                    android:textSize="@dimen/x_font_body_03_size" />
+
+            <com.xiaopeng.xui.widget.XImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/feedback_top_pic_margin_top"
+                android:src="@drawable/pic_placeholder" />
+
+        </com.xiaopeng.xui.widget.XRelativeLayout>-->
+
+        <com.xiaopeng.xui.widget.XRelativeLayout
+            android:id="@+id/commit_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/x_list_item_selector"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            app:vuiLabel="@string/vui_label_feedback">
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:layout_marginTop="33dp"
+                    android:id="@+id/feedback_input_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/feedback_text_title"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_title_04_size"
+                    app:vuiMode="DISABLED"/>
+
+                <com.xiaopeng.xui.widget.XTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toEndOf="@+id/feedback_input_title"
+                    android:layout_alignBottom="@+id/feedback_input_title"
+                    android:layout_marginStart="@dimen/padding_normal"
+                    android:text="@string/feedback_text_title_summary"
+                    android:textColor="@color/x_theme_text_04"
+                    android:textSize="@dimen/x_font_body_03_size"
+                    app:vuiMode="DISABLED"/>
+
+            <RadioGroup
+                android:layout_below="@+id/feedback_input_title"
+                android:id="@+id/feedback_input_feature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/feedback_text_margin_top"
+                android:orientation="horizontal">
+
+                <com.xiaopeng.xui.widget.XRadioButton
+                    android:id="@+id/feedback_feature_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/radio_button_height"
+                    android:text="@string/feedback_function_fault"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_title_04_size" />
+
+                <com.xiaopeng.xui.widget.XRadioButton
+                    android:id="@+id/feedback_feature_suggest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/radio_button_height"
+                    android:layout_marginStart="42dp"
+                    android:textColor="@color/x_theme_text_01"
+                    android:text="@string/feedback_suggest_optimization"
+                    android:textSize="@dimen/x_font_title_04_size" />
+
+                <com.xiaopeng.xui.widget.XRadioButton
+                    android:id="@+id/feedback_feature_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/radio_button_height"
+                    android:layout_marginStart="42dp"
+                    android:text="@string/feedback_other_question"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_title_04_size" />
+            </RadioGroup>
+
+                <com.xiaopeng.xui.widget.XEditText
+                    android:id="@+id/feedback_input"
+                    android:layout_below="@+id/feedback_input_feature"
+                    android:background="@drawable/feedback_input_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="40dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="54dp"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:gravity="left|top"
+                    android:hint="@string/feedback_input_content"
+                    android:textColorHint="@color/x_theme_text_04"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/x_theme_text_01"
+                    android:textSize="@dimen/x_font_title_04_size"
+                    app:vuiLabel="@string/vui_label_input_feedback"
+                    />
+                <com.xiaopeng.xui.widget.XTextView
+                    android:id="@+id/feedback_input_count"
+                    android:layout_alignBottom="@+id/feedback_input"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="@dimen/feedback_input_text_bottom"
+                    android:text="0/500"
+                    android:textSize="@dimen/x_font_body_03_size"
+                    android:textColor="@color/x_theme_text_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:vuiMode="DISABLED"/>
+
+
+            <com.xiaopeng.xui.widget.XButton
+                android:layout_below="@+id/feedback_input"
+                android:id="@+id/feedback_submit"
+                android:layout_marginTop="@dimen/feedback_commit_margin_top"
+                android:layout_marginBottom="@dimen/feedback_commit_margin_bottom"
+                android:layout_width="@dimen/feedback_commit_width"
+                android:layout_height="@dimen/feedback_commit_height"
+                android:text="@string/feedback_submit"
+                android:clickable="false"
+                style="@style/XButton.Real.Mid.Positive"/>
+        </com.xiaopeng.xui.widget.XRelativeLayout>
+
+        <com.xiaopeng.xui.widget.XListSingle
+            android:id="@+id/feedback_history"
+            style="@style/XList.Singe"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_single_left_right_touch_full="left"
+            app:list_single_left="@layout/x_list_action_button"
+            app:list_single_text="@string/feedback_history"
+            app:vuiLabel="@string/feedback_history"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+
+</com.xiaopeng.xui.widget.XScrollView>
+

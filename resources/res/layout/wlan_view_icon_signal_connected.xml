@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLoading android:id="@+id/x_list_action_loading" android:visibility="invisible" android:layout_centerInParent="true" app:vuiMode="DISABLED" style="@style/XLoading.Small"/>
+    <ImageView android:id="@+id/wlan_list_action_icon" android:layout_width="@dimen/x_list_icon_size" android:layout_height="@dimen/x_list_icon_size" android:layout_centerInParent="true"/>
+</RelativeLayout>

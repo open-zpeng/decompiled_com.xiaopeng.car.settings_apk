@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <solid android:color="@color/x_primary_neutral_color_selector_night" />
+        </shape>
+    </item>
+    <item>
+        <drawable class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"
+            app:rippleRadius="@dimen/x_btn_icon_large_bg_size"
+            app:rippleSupportScale="true" />
+    </item>
+</layer-list>
+

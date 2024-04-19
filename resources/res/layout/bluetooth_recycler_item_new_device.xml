@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XListSingle xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/new_device_bluetooth_item" android:layout_marginTop="@dimen/padding_normal" app:list_single_left="@layout/bluetooth_list_action_custom" app:list_single_text="device" style="@style/XList.Singe"/>

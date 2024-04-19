@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x_list_multiple_bottom_height"
+    android:orientation="horizontal">
+
+    <com.xiaopeng.xui.widget.XTabLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sound_volume_outside_low_speed_simulate_tab"
+        android:layout_width="800dp"
+        android:layout_height="@dimen/x_list_multiple_bottom_height"
+        app:titles="@array/sound_volume_outside_low_speed_simulate_labels"
+        app:vuiLabel="@string/sound_outside_low_speed_simulate" />
+</LinearLayout>
+

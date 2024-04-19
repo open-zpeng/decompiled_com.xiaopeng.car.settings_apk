@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/page_main" android:layout_width="@dimen/sound_effect_dialog_width" android:layout_height="@dimen/sound_effect_dialog_height">
+    <com.xiaopeng.car.settingslibrary.ui.widget.SoundEffectBackgroundPositionView android:id="@+id/position_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.xiaopeng.xui.widget.XFrameLayout android:id="@+id/function_area" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.xiaopeng.xui.widget.XFrameLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.xui.widget.XFrameLayout android:id="@+id/masks" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.xiaopeng.xui.widget.XImageView android:layout_gravity="bottom" android:id="@+id/mask_bottom" android:layout_width="@dimen/sound_effect_dialog_width" android:layout_height="@dimen/sound_effect_bg_height" android:src="@drawable/pic_mask_under" android:layout_alignParentBottom="true"/>
+                <com.xiaopeng.xui.widget.XImageView android:id="@+id/mask_left" android:layout_width="@dimen/sound_effect_bg_width" android:layout_height="@dimen/sound_effect_dialog_height" android:src="@drawable/pic_mask_left" android:layout_alignParentLeft="true"/>
+                <com.xiaopeng.xui.widget.XImageView android:layout_gravity="right" android:id="@+id/mask_right" android:layout_width="@dimen/sound_effect_bg_width" android:layout_height="@dimen/sound_effect_dialog_height" android:src="@drawable/pic_mask_right" android:layout_alignParentRight="true"/>
+            </com.xiaopeng.xui.widget.XFrameLayout>
+        </com.xiaopeng.xui.widget.XFrameLayout>
+        <com.xiaopeng.xui.widget.XFrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.car.settingslibrary.ui.widget.AdaptivePickerView android:id="@+id/picker_view_left" android:layout_width="350dp" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginTop="150dp" android:layout_marginBottom="150dp" app:se_item_height="153dp" app:se_item_reserved_size="4"/>
+            <com.xiaopeng.xui.widget.XImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/se_type_mask"/>
+            <com.xiaopeng.xui.widget.XButton android:textSize="@dimen/x_font_body_03_size" android:textColor="#fff" android:layout_gravity="center_vertical" android:id="@+id/btn_equalizer" android:background="@drawable/se_btn_equalizer" android:paddingLeft="12dp" android:paddingTop="2dp" android:paddingRight="12dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="288dp" android:layout_marginTop="-10dp" android:text="@string/se_equalizer_btn" android:shadowColor="#00000000" android:transformPivotX="0dp" android:transformPivotY="-100dp" android:rotationY="20" android:outlineSpotShadowColor="#00000000" android:outlineAmbientShadowColor="#00000000"/>
+        </com.xiaopeng.xui.widget.XFrameLayout>
+        <RelativeLayout android:id="@+id/dialog_close_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp">
+            <com.xiaopeng.xui.widget.XImageView android:background="@drawable/ic_close_btn_bg" android:layout_alignTop="@+id/close" android:layout_alignStart="@+id/close" style="@style/XButton.Icon.Large.Close"/>
+            <com.xiaopeng.xui.widget.XImageButton android:id="@+id/close" style="@style/XButton.Icon.Large.Close"/>
+        </RelativeLayout>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_01_size" android:textColor="@color/x_theme_text_01" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qs_panel_title_layout_margin_top" android:text="@string/sound_effects_mode_title"/>
+        <com.xiaopeng.xui.widget.XFrameLayout android:id="@+id/bottom" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/bottom_effect_low" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.xiaopeng.xui.widget.XImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/se_footer_low"/>
+                <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/x_theme_text_03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/effect_3d_tips"/>
+            </com.xiaopeng.xui.widget.XLinearLayout>
+            <com.xiaopeng.xui.widget.XImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/bottom_effect_high" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/se_footer_high"/>
+        </com.xiaopeng.xui.widget.XFrameLayout>
+    </com.xiaopeng.xui.widget.XFrameLayout>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_01_size" android:textColor="@color/x_theme_text_01" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@+id/sound_field_tips" android:background="@drawable/sound_field_tips_bg" android:paddingLeft="35dp" android:paddingRight="38dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="60dp" android:layout_marginTop="30dp" android:text="@string/sound_field_tips" android:drawableLeft="@drawable/sound_effect_small_tips_yellow" android:drawablePadding="16dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:vuiMode="DISABLED"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

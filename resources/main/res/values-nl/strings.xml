@@ -1,0 +1,224 @@
+<?xml version="1.0" ?>
+<resources>
+
+
+    <!--    维修-->
+
+
+    <!--    授权模式-->
+
+
+    <string name="cancel">Annuleren</string>
+
+
+    <!--紧急下电-->
+
+
+    <!-- common -->
+
+
+    <string name="connected">Verbonden</string>
+
+
+    <string name="disconnect">Verbinding verbreken</string>
+
+
+    <string name="btn_off">Sluiten</string>
+
+
+    <!-- title -->
+
+
+    <string name="title_bluetooth">Bluetooth</string>
+
+
+    <string name="title_usb">Slim apparaat</string>
+
+
+    <string name="title_download">Downloadbeheer</string>
+
+
+    <!-- 蓝牙 -->
+
+
+    <!-- header -->
+
+
+    <!--<string name="bluetooth_subtitle_connected">连接过的设备</string>-->
+
+
+    <string name="bluetooth_subtitle_bonded">Gekoppelde apparaten</string>
+
+
+    <string name="bluetooth_subtitle_new">Nieuwe beschikbare apparaten</string>
+
+
+    <!--item -->
+
+
+    <string name="bluetooth_none_device_tip">Geen nieuw apparaat beschikbaar. Tik later op \&quot;Zoeken\&quot;.</string>
+
+
+    <string name="bluetooth_power">Bluetooth</string>
+
+
+    <string name="bluetooth_profile_unavailable">Niet geactiveerd</string>
+
+
+    <!-- popup -->
+
+
+    <string name="bluetooth_popup_disconnect_title">Bluetooth niet verbonden</string>
+
+
+    <string name="bluetooth_popup_ignore_btn">Negeren</string>
+
+
+    <!-- 配对 -->
+
+
+    <string name="bluetooth_search">Zoeken</string>
+
+
+    <!-- WLAN -->
+
+
+    <!-- header -->
+
+
+    <string name="wlan_power">Schakeling draadloos netwerk</string>
+
+
+    <string name="wlan_subtitle_wifi">Kies een netwerk</string>
+
+
+    <!-- item -->
+
+
+    <!-- popup -->
+
+
+    <string name="wlan_popup_ignore_btn">Negeren</string>
+
+
+    <!-- 流量 -->
+
+
+    <!-- 显示 -->
+
+
+    <!-- 亮度 -->
+
+
+    <!-- 外观 -->
+
+
+    <!-- 语言 -->
+
+
+    <!-- 地区 -->
+
+
+    <!-- 声音 -->
+
+
+    <!-- volume -->
+
+
+    <!-- effects -->
+
+
+    <!--  头枕音效  -->
+
+
+    <string name="sound_effects_close">Sluiten</string>
+
+
+    <!-- Intelligence -->
+
+
+    <!-- speech -->
+
+
+    <!-- 权限 -->
+
+
+    <!-- about -->
+
+
+    <!-- floating -->
+
+
+    <!--input-->
+
+
+    <string name="input_hint_wifi_account">Voer de gebruikersnaam in</string>
+
+
+    <string name="input_hint_wifi_pass">OK</string>
+
+
+    <!--小鹏实验室-->
+
+
+    <!--用户反馈-->
+
+
+    <!--download-->
+
+
+    <string name="download_action_success">Openen</string>
+
+
+    <!--自动下电弹窗-->
+
+
+    <!--qs-->
+
+
+    <string name="qs_panel_close">Sluiten</string>
+
+
+    <plurals name="clean_str_num">
+
+
+        <item quantity="one">%d秒后退出清洁屏幕</item>
+
+
+        <item quantity="other">%d秒后退出清洁屏幕</item>
+
+
+    </plurals>
+
+
+    <!-- 编辑面板   -->
+
+
+    <!-- 智能设备面板  -->
+
+
+    <!--  麦克风  -->
+
+
+    <string name="cb_result_cancel">Annuleren</string>
+
+
+    <!--vui-->
+
+
+    <!--about system begin-->
+
+
+    <!--about system end-->
+
+
+    <!-- D21V新增 -->
+
+
+    <!-- 观影空间引导页 -->
+    <string name="sound_headrest_sharing_model" >Overgeschakeld naar deelmodus</string>
+    <string name="sound_headrest_enjoy_driving_model" >Overgeschakeld naar de rijmodus</string>
+    <string name="sound_headrest_private_model">Overgeschakeld naar privémodus</string>
+
+</resources>
+

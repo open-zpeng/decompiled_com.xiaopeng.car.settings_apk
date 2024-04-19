@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle"
+    tools:keep="@drawable/bg_list_position">
+    <corners
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="14dp"
+        android:topLeftRadius="0dp"
+        android:topRightRadius="14dp" />
+    <solid android:color="@color/x_theme_primary_neutral_normal" />
+</shape>

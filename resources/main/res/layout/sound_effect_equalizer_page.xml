@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/sound_effect_equalizer_switch_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/sound_effect_equalizer_start"
+        android:textColor="@color/x_theme_text_01"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="32dp"
+        android:textSize="31dp"
+        android:visibility="gone"/>
+
+    <com.xiaopeng.xui.widget.XSwitch
+        android:layout_toLeftOf="@id/sound_effect_equalizer_switch_tips"
+        android:layout_alignTop="@id/sound_effect_equalizer_switch_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="34dp"
+        android:id="@+id/sound_effect_equalizer_switch"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/sound_effect_equalizer_mid_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout="@layout/sound_effect_equalizer"/>
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_equalizer_custom1"
+        style="@style/SoundEffect_Button"
+        android:layout_marginTop="352dp"
+        android:text="@string/sound_effect_equalizer_custom1"
+        android:layout_marginLeft="124dp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:visibility="gone"/>
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_equalizer_custom2"
+        style="@style/SoundEffect_Button"
+        android:layout_marginTop="476dp"
+        android:text="@string/sound_effect_equalizer_custom2"
+        android:layout_marginLeft="124dp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:visibility="gone"/>
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

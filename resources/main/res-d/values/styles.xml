@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="XAppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+</resources>

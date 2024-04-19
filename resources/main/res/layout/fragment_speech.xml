@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingRight="@dimen/scroll_bar_padding"
+    android:scrollbars="vertical"
+    android:scrollbarSize="@dimen/scroll_bar_width"
+    android:scrollbarStyle="outsideOverlay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.xiaopeng.xui.widget.XGroupHeader
+            style="@style/XGroupHeader"
+            android:layout_width="match_parent"
+            app:group_header_text="@string/speech_subtitle_set" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/speech_01"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="@drawable/list_item_top_arc_bg"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/speech_awaken"
+            app:list_two_text_sub="@string/speech_awaken_tip" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/speech_02"
+            style="@style/XList.Two"
+            android:background="@drawable/list_item_center_bg"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/speech_quick"
+            app:list_two_text_sub="@string/speech_quick_tip" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/speech_03"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/speech_oneshot"
+            app:list_two_text_sub="@string/speech_oneshot_tip" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/speech_04"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/speech_interrupt"
+            app:list_two_text_sub="@string/speech_interrupt_tip" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/speech_05"
+            style="@style/XList.Two"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/speech_hello"
+            app:list_two_text_sub="@string/speech_hello_tip" />
+    </LinearLayout>
+</ScrollView>

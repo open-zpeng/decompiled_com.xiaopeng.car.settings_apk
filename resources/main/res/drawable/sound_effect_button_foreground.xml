@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:rippleRadius="60dp"
+    app:rippleColor="@color/sound_effect_btn_ripple_color" />

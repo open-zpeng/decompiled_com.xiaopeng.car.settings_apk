@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/x_list_multiple_bottom_height">
+    <com.xiaopeng.xui.widget.XTabLayout android:id="@+id/sound_volume_by_speed_tab" android:layout_width="800dp" android:layout_height="@dimen/x_list_multiple_bottom_height" app:titles="@array/sound_volume_by_speed_labels" app:vuiLabel="@string/sound_volume_by_speed"/>
+</LinearLayout>

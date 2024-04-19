@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XRecyclerView android:scrollbarSize="@dimen/scroll_bar_width" android:scrollbarStyle="outsideOverlay" android:id="@+id/recyclerView" android:paddingLeft="@dimen/x_dialog_content_scrollbar_in_padding" android:paddingRight="@dimen/x_dialog_content_scrollbar_in_padding" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:vuiLayoutLoadable="true"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/no_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.xiaopeng.xui.widget.XImageView android:background="@drawable/x_ic_xxlarge_nodata" style="@style/XIcon.XXLarge"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_03_size" android:textColor="@color/x_theme_text_01" android:id="@+id/no_data_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/padding_normal"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

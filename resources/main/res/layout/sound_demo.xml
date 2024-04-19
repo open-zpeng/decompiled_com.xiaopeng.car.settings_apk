@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="单声场："
+        android:textSize="@dimen/x_font_body_02_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/single_seat1"
+            android:text="座位1"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/single_seat2"
+            android:text="座位2"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/single_seat3"
+            android:text="座位3"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/single_seat4"
+            android:text="座位4"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/single_seat5"
+            android:text="座位5"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/single_seat6"
+            android:text="座位6"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/single_seat7"
+            android:text="座位7"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginLeft="60dp"
+            android:id="@+id/slient"
+            android:text="静音"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="双声场："
+        android:textSize="@dimen/x_font_body_02_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/double_group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/double_seat1"
+                    android:text="座位1"
+                    android:textSize="@dimen/x_font_body_02_size"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/double_seat2"
+                    android:text="座位2"
+                    android:textSize="@dimen/x_font_body_02_size"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/double_seat3"
+                    android:text="座位3"
+                    android:textSize="@dimen/x_font_body_02_size"/>
+            </RadioGroup>
+            <RadioGroup
+                android:id="@+id/double_group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/double_seat5"
+                    android:text="座位5"
+                    android:textSize="@dimen/x_font_body_02_size"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/double_seat6"
+                    android:text="座位6"
+                    android:textSize="@dimen/x_font_body_02_size"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/double_seat7"
+                    android:text="座位7"
+                    android:textSize="@dimen/x_font_body_02_size"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/double_ok"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:text="双声场确认"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="50dp"
+        android:background="#00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="@dimen/x_font_body_02_size"
+            android:text="音效设置："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/effecttype_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+            android:id="@+id/effcttype1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/x_font_title_04_size"
+            android:text="X-Sound"/>
+            <RadioButton
+                android:id="@+id/effcttype2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x_font_title_04_size"
+                android:text="Dynaudio"/>
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="原生:"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/origin"
+                android:thumb="@drawable/ic_dot_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="柔和:"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/soft"
+                android:thumb="@drawable/ic_dot_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="动感:"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <SeekBar
+                android:id="@+id/hard"
+                android:thumb="@drawable/ic_dot_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/effect_ok"
+            android:text="音效确认"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:id="@+id/effectmode_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/effctmode0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="自定义"/>
+            <RadioButton
+                android:id="@+id/effctmode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="智能EQ"/>
+            <RadioButton
+                android:id="@+id/effctmode2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="爵士"/>
+            <RadioButton
+                android:id="@+id/effctmode3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="摇滚"/>
+            <RadioButton
+                android:id="@+id/effctmode4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/x_font_body_02_size"
+                android:text="安静"/>
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:text="@string/sound_volume_media" style="@style/FloatingSoundText"/>
+    <com.xiaopeng.xui.widget.slider.XSlider android:id="@+id/seekBarMedia" android:progress="50" style="@style/FloatingSoundSeekBar"/>
+    <com.xiaopeng.xui.widget.XImageView style="@style/FloatingLine"/>
+    <com.xiaopeng.xui.widget.XTextView android:text="@string/sound_volume_speech" style="@style/FloatingSoundText"/>
+    <com.xiaopeng.xui.widget.slider.XSlider android:id="@+id/seekBarSpeech" android:progress="50" style="@style/FloatingSoundSeekBar"/>
+    <com.xiaopeng.xui.widget.XImageView style="@style/FloatingLine"/>
+    <com.xiaopeng.xui.widget.XTextView android:text="@string/sound_volume_tts" style="@style/FloatingSoundText"/>
+    <com.xiaopeng.xui.widget.slider.XSlider android:id="@+id/seekBarTts" android:progress="50" style="@style/FloatingSoundSeekBar"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/line" android:background="@drawable/line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_03_size" android:textColor="@color/x_blue_color" android:gravity="center" android:id="@+id/button1" android:background="@drawable/bg_floating_button" android:layout_width="match_parent" android:layout_height="116dp" android:text="@string/floating_sound"/>
+</LinearLayout>

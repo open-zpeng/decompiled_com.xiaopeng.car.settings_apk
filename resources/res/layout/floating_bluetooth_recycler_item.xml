@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="@dimen/floating_item_left_width" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/button1" android:text="@string/disconnect" android:layout_centerInParent="true" style="@style/XButton.Ghost.Small"/>
+        <ImageView android:id="@+id/icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_floating_bluetooth" android:layout_centerInParent="true"/>
+        <com.xiaopeng.xui.widget.XLoading android:id="@+id/progressBar" android:visibility="invisible" android:layout_centerInParent="true" style="@style/XLoading.Small"/>
+        <View android:layout_width="match_parent" android:layout_height="@dimen/floating_item_height"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/floating_item_left_width" android:layout_marginEnd="@dimen/floating_item_margin_end">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_01" android:id="@+id/text1" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/x_theme_text_03" android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connected" android:maxLines="1" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+            <com.xiaopeng.xui.widget.XTextView android:id="@+id/action1" android:text="@string/floating_phone" style="@style/XButton.Mix.Small.Call"/>
+            <com.xiaopeng.xui.widget.XTextView android:id="@+id/action2" android:text="@string/floating_music" android:layout_marginStart="10dp" style="@style/XButton.Mix.Small.Music"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/line" android:background="@drawable/line" android:layout_width="match_parent" android:layout_height="@dimen/floating_item_line_height" android:layout_marginStart="@dimen/floating_item_line_margin" android:layout_marginEnd="@dimen/floating_item_line_margin"/>
+</RelativeLayout>

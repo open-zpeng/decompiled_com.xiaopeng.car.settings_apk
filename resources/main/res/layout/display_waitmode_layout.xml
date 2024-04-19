@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XListSingle xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/display_wait_mode"
+    style="@style/XList.Singe"
+    app:list_single_right="@layout/x_list_action_button_icon"
+    app:list_single_left_right_touch_full="left"
+    app:list_single_left="@layout/x_list_action_button"
+    app:list_single_text="@string/display_wait_mode"
+    app:vuiLabel="@string/display_wait_mode"
+    app:vuiFatherLabel="@string/more" />

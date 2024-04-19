@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:saveEnabled="true"
+    android:paddingRight="@dimen/scroll_bar_padding"
+    android:scrollbars="vertical"
+    android:scrollbarSize="@dimen/scroll_bar_width"
+    android:scrollbarStyle="outsideOverlay"
+    app:vuiAction="ScrollByY">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.xiaopeng.xui.widget.XGroupHeader
+            style="@style/XGroupHeader"
+            android:layout_width="match_parent"
+            app:group_header_text="@string/display_subtitle_brightness"
+            app:vuiLabel="@string/display_subtitle_brightness"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/display_brightness_center"
+            style="@style/XListMultipleStyle"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="@drawable/list_item_top_arc_bg"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/display_brightness_center" />
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/display_brightness_meter"
+            style="@style/XListMultipleStyle"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_center_bg"
+            app:list_multiple_bottom="@layout/x_list_multiple_action_slider"
+            app:list_multiple_text="@string/display_brightness_meter" />
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/display_brightness_auto"
+            style="@style/XListTwoStyle"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            app:list_two_right="@layout/x_list_action_button_icon"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/display_brightness_auto"
+            app:list_two_text_sub="@string/display_brightness_auto_tip"
+            app:vuiFatherLabel="@string/display_subtitle_brightness"/>
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/display_brightness_auto_main"
+            style="@style/XListTwoStyle"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_center_bg"
+            app:list_two_right="@layout/x_list_action_button_icon"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/display_brightness_auto_main"
+            app:list_two_text_sub="@string/display_brightness_auto_tip"
+            app:vuiFatherLabel="@string/display_subtitle_brightness"/>
+
+        <com.xiaopeng.xui.widget.XListTwo
+            android:id="@+id/display_brightness_auto_psn"
+            style="@style/XListTwoStyle"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_center_bg"
+            app:list_two_right="@layout/x_list_action_button_icon"
+            app:list_two_left_right_touch_full="left"
+            app:list_two_left="@layout/x_list_action_switch"
+            app:list_two_text="@string/display_brightness_auto_psn"
+            app:list_two_text_sub="@string/display_brightness_auto_tip"
+            app:vuiFatherLabel="@string/display_subtitle_brightness"/>
+
+        <com.xiaopeng.xui.widget.XFrameLayout
+            style="@style/XListTwoStyle"
+            android:layout_height="@dimen/x_list_two_height"
+            android:id="@+id/display_brightness_close_psn_screen_container"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            >
+            <com.xiaopeng.xui.widget.XButton
+                android:id="@+id/display_brightness_close_psn_screen"
+                style="@style/XButton.Ghost.Large.Positive"
+                android:layout_gravity="center_vertical"
+                android:text="@string/display_brightness_close_psn_screen"
+                android:textSize="@dimen/x_font_title_04_size"
+                android:layout_marginLeft="@dimen/x_list_left_width"
+                app:vuiLabel="@string/display_brightness_close_psn_screen"
+                app:vuiFatherLabel="@string/display_subtitle_brightness"/>
+        </com.xiaopeng.xui.widget.XFrameLayout>
+
+        <com.xiaopeng.xui.widget.XGroupHeader
+            style="@style/XGroupHeader"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/padding_large"
+            app:group_header_text="@string/display_subtitle_facade"
+            app:vuiLabel="@string/display_subtitle_facade"
+            />
+
+
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/display_theme_dayNight"
+            style="@style/XListMultipleStyle"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_multiple_bottom="@layout/display_list_multiple_action_segmented_day"
+            app:list_multiple_text="@string/display_day_night"
+            app:list_multiple_text_sub="@string/display_day_night_tip"
+            app:vuiFatherLabel="@string/display_subtitle_facade"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/display_font_size"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:background="@drawable/x_list_item_selector"
+            app:list_multiple_bottom="@layout/display_list_multiple_action_segmented_font"
+            app:list_multiple_text="@string/display_fontsize"
+            app:vuiFatherLabel="@string/display_subtitle_facade"/>
+
+        <com.xiaopeng.xui.widget.XListMultiple
+            android:id="@+id/display_time_format"
+            style="@style/XList.Multiple"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_multiple_bottom="@layout/display_list_multiple_action_segmented_time"
+            app:list_multiple_text="@string/display_time_format"
+            app:list_multiple_text_sub="15:04:29"
+            app:vuiFatherLabel="@string/display_subtitle_facade"/>
+
+        <include
+            android:id="@+id/display_language"
+            layout="@layout/display_language"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/display_region"
+            layout="@layout/display_region"
+            android:visibility="gone"/>
+
+        <com.xiaopeng.xui.widget.XGroupHeader
+            style="@style/XGroupHeader"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/padding_large"
+            app:group_header_text="@string/more"
+            app:vuiLabel="@string/more"/>
+
+        <com.xiaopeng.xui.widget.XListSingle
+            android:id="@+id/display_btn_clear"
+            style="@style/XList.Singe"
+            android:layout_marginTop="@dimen/padding_normal"
+            app:list_single_left_right_touch_full="left"
+            app:list_single_left="@layout/x_list_action_button"
+            app:list_single_text="@string/display_day_night_clear"
+            app:vuiLabel="@string/display_day_night_clear"
+            app:vuiFatherLabel="@string/more"/>
+
+        <ViewStub
+            android:id="@+id/display_wait"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x_list_single_height"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout="@layout/display_waitmode_layout"/>
+
+
+      <!--  <com.xiaopeng.xui.widget.XLinearLayout
+            android:id="@+id/display_clear_layout"
+            android:layout_marginTop="@dimen/list_cling_margin"
+            android:background="@drawable/list_item_bottom_arc_bg"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="136dp">
+            <com.xiaopeng.xui.widget.XTextView
+                android:id="@+id/display_btn_clear"
+                style="@style/XButton.Ghost.Large.Positive"
+                android:text="@string/display_day_night_clear"
+                android:layout_marginStart="33dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>-->
+
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XScrollView>
+

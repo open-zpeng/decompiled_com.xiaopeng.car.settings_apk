@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/step_enable" android:visibility="visible" layout="@layout/layout_mic_step_enable"/>
+    <include android:id="@+id/step_connecting" android:visibility="gone" layout="@layout/layout_mic_step_connecting"/>
+    <include android:id="@+id/step_connected" android:visibility="gone" layout="@layout/layout_mic_step_connected"/>
+    <include android:id="@+id/step_sell" android:visibility="gone" layout="@layout/layout_mic_step_sell"/>
+</RelativeLayout>

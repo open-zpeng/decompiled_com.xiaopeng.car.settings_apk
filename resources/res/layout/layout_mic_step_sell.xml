@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:layout_centerHorizontal="true">
+        <com.xiaopeng.xui.widget.XImageView android:gravity="center" android:id="@+id/img_for_sell" android:background="@drawable/layer_bg_sell" android:padding="18dp" android:layout_width="280dp" android:layout_height="280dp" android:scaleType="fitCenter"/>
+        <com.xiaopeng.xui.widget.XImageView android:visibility="invisible" android:layout_width="80dp" android:layout_height="80dp" android:src="#0000" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.xiaopeng.xui.widget.XTextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cb_status_search_by_qrcode" android:textAlignment="center" style="@style/dialog_common_text_med_title_style"/>
+</RelativeLayout>

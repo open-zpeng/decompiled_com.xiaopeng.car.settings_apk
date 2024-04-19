@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/x_bg_dropdown"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:paddingLeft="@dimen/qs_panel_padding"
+            android:paddingRight="@dimen/qs_panel_padding"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/qs_panel_complete"
+            android:text="完成"
+            android:textSize="@dimen/x_font_body_02_size"
+            android:textColor="#3B99FF"
+            android:background="@drawable/qs_panel_complete_bg"
+            android:layout_width="@dimen/qs_panel_edit_width"
+            android:layout_height="@dimen/qs_panel_edit_height"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/qs_panel_padding_recyclerview"
+            android:layout_marginBottom="@dimen/qs_panel_padding_recyclerview"/>
+</LinearLayout>

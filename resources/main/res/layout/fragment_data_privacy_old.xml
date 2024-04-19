@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/maps_service"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left="@layout/x_list_action_switch"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_right="@layout/x_list_action_button_icon"
+        app:list_single_text="@string/privacy_protocol_map_service" />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/voice_service"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left="@layout/x_list_action_switch"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_right="@layout/x_list_action_button_icon"
+        app:list_single_text="@string/privacy_protocol_voice_service" />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/privacy_screen"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left="@layout/x_list_action_button"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_text="@string/privacy_protocol_screen_title" />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/about_restore"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left="@layout/x_list_action_button"
+        app:list_single_left_right_touch_full="left"
+        app:list_single_text="@string/about_restore" />
+
+</LinearLayout>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/bluetooth_list_position"
+        style="@style/ListIndexTextLabel"
+        android:layout_centerVertical="true"
+        app:vuiMode="DISABLED"
+        tools:text="1111" />-->
+
+    <com.xiaopeng.xui.widget.XLoading
+        android:id="@id/x_list_action_loading"
+        style="@style/XLoading.Medium"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:vuiMode="DISABLED" />
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/bluetooth_icon"
+        android:layout_width="@dimen/x_list_icon_size"
+        android:layout_height="@dimen/x_list_icon_size"
+        android:layout_centerInParent="true"
+        app:vuiMode="DISABLED"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/ic_floating_bluetooth" />
+</RelativeLayout>

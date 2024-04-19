@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<com.xiaopeng.xui.widget.XGroupHeader
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        app:group_header_text="@string/wlan_popup_subtitle_ip" />
+
+    <RelativeLayout style="@style/WlanPopItem">
+
+        <TextView
+            style="@style/WlanPopItemTextLabel"
+            android:text="@string/wlan_popup_ip" />
+
+        <TextView
+            android:id="@+id/wlan_tv_ip"
+            style="@style/WlanPopItemTextValue"
+            tools:text="10.89.170" />
+    </RelativeLayout>
+
+    <ImageView style="@style/Line" />
+
+    <RelativeLayout style="@style/WlanPopItem">
+
+        <TextView
+            style="@style/WlanPopItemTextLabel"
+            android:text="@string/wlan_popup_subnet_maskp" />
+
+        <TextView
+            android:id="@+id/wlan_tv_subnet_maskp"
+            style="@style/WlanPopItemTextValue"
+            tools:text="225.225.224.8" />
+    </RelativeLayout>
+
+    <ImageView style="@style/Line" />
+
+    <RelativeLayout style="@style/WlanPopItem">
+
+        <TextView
+            style="@style/WlanPopItemTextLabel"
+            android:text="@string/wlan_popup_router" />
+
+        <TextView
+            android:id="@+id/wlan_tv_router"
+            style="@style/WlanPopItemTextValue"
+            tools:text="10.99.166.1" />
+    </RelativeLayout>
+
+    <ImageView style="@style/Line" />
+
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        app:group_header_text="@string/wlan_popup_subtitle_dns" />
+
+    <RelativeLayout style="@style/WlanPopItem">
+
+        <TextView
+            android:id="@+id/wlan_tv_dns1"
+            style="@style/WlanPopItemTextLabel"
+            tools:text="10.89.26.20" />
+    </RelativeLayout>
+
+    <ImageView style="@style/Line" />
+
+    <RelativeLayout style="@style/WlanPopItem">
+
+        <TextView
+            android:id="@+id/wlan_tv_dns2"
+            style="@style/WlanPopItemTextLabel"
+            tools:text="10.89.33.22" />
+    </RelativeLayout>
+
+    <ImageView style="@style/Line" />-->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.xiaopeng.xui.widget.XTextView
+            style="@style/WlandetailPopItem"
+            android:text="@string/wlan_signal_strength"/>
+        <com.xiaopeng.xui.widget.XTextView
+            style="@style/WlandetailPopItem"
+            android:id="@+id/signal_strength"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/wifi_pop_tv_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.xiaopeng.xui.widget.XTextView
+            style="@style/WlandetailPopItem"
+            android:text="@string/wlan_security"/>
+        <com.xiaopeng.xui.widget.XTextView
+            style="@style/WlandetailPopItem"
+            android:id="@+id/security"/>
+    </LinearLayout>
+</LinearLayout>

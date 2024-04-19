@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="round_effect_styles">
+        <item>@string/sound_common</item>
+        <item>@string/sound_people</item>
+        <item>@string/sound_jazz</item>
+        <item>@string/sound_rock</item>
+    </string-array>
+
+    <string-array name="round_effect_text">
+        <item>@string/sound_common_text</item>
+        <item>@string/sound_people_text</item>
+        <item>@string/sound_jazz_text</item>
+        <item>@string/sound_rock_text</item>
+    </string-array>
+
+    <string-array name="hifi_effect_styles">
+        <item>@string/sound_real</item>
+        <item>@string/sound_dynamic</item>
+        <item>@string/sound_soft</item>
+        <item>@string/sound_people</item>
+    </string-array>
+
+    <string-array name="hifi_effect_text">
+        <item>@string/sound_original_text</item>
+        <item>@string/sound_dynamic_text</item>
+        <item>@string/sound_soft2_text</item>
+        <item>@string/sound_speak_text</item>
+    </string-array>
+
+    <string-array name="supported_languages_display_name">
+        <item>English</item>
+        <item>Dansk</item>
+        <item>French</item>
+        <item>Nederlands</item>
+        <item>Norsk</item>
+    </string-array>
+
+    <string-array name="supported_languages_code">
+        <item>en</item>
+        <item>da</item>
+        <item>fr</item>
+        <item>nl</item>
+        <item>nb</item>
+    </string-array>
+
+    <string-array name="supported_countries_display_name">
+        <item>Belgium</item>
+        <item>Denmark</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+    </string-array>
+
+    <string-array name="supported_countries_code">
+        <item>BE</item>
+        <item>DK</item>
+        <item>NL</item>
+        <item>NO</item>
+    </string-array>
+</resources>
+

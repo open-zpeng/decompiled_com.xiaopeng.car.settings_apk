@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XScrollView
+        style="@style/XDialogContentScrollViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:vuiAction="ScrollByY"
+        >
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/protocol_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/x_theme_text_02"
+            android:textSize="@dimen/x_font_title_04_size"
+            app:vuiMode="DISABLED"/>
+    </com.xiaopeng.xui.widget.XScrollView>
+
+    <com.xiaopeng.xui.widget.XCheckBox
+        android:layout_marginStart="@dimen/app_limit_dialog_radio_margin_start"
+        android:id="@+id/checkboxbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laboratory_read_tips"
+        android:singleLine="true"
+        android:textColor="@color/x_theme_text_02"
+        android:textSize="@dimen/x_font_title_04_size" />
+
+</com.xiaopeng.xui.widget.XLinearLayout>

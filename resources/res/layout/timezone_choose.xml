@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="872dp" android:layout_height="744dp"/>

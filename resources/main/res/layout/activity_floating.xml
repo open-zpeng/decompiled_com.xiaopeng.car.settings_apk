@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.xiaopeng.xui.widget.XRelativeLayout
+        android:id="@+id/panel_layout"
+        android:layout_width="@dimen/floating_dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/dropdown_shadow"
+        android:paddingStart="@dimen/floating_dialog_shadow_padding_left"
+        android:paddingEnd="@dimen/floating_dialog_shadow_padding_right"
+        android:paddingTop="@dimen/floating_dialog_shadow_padding_top"
+        android:paddingBottom="@dimen/floating_dialog_shadow_padding_bottom"
+        android:layout_marginBottom="@dimen/floating_dialog_bottom">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/dialog_fragment"
+            android:layout_alignBottom="@id/dialog_fragment"
+            android:clickable="true" />
+
+        <com.xiaopeng.xui.widget.XFrameLayout
+            android:id="@+id/dialog_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/x_bg_dropdown"
+            />
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+
+</RelativeLayout>

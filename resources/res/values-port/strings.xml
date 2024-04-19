@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="laboratory_leave_locking_tips">所有车门关闭且主驾无人，携实体钥匙远离后自动闭锁</string>
+    <string name="laboratory_near_unlocking_tips">所有车门关闭且主驾无人，携实体钥匙靠近后自动解锁</string>
+    <string name="qs_panel_deodorate">除味</string>
+    <string name="sound_effects_equalizer_title">自定义</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/step_enable"
+        layout="@layout/layout_mic_step_enable"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/step_connecting"
+        layout="@layout/layout_mic_step_connecting"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/step_connected"
+        layout="@layout/layout_mic_step_connected"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/step_sell"
+        layout="@layout/layout_mic_step_sell"
+        android:visibility="gone" />
+</RelativeLayout>
+

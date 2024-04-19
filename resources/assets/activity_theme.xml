@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <view id="root_main">
+        <item name="background" value="@drawable/background_selector"/>
+    </view>
+</theme>

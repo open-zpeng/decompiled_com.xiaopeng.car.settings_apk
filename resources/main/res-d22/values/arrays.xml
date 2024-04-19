@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supported_languages_display_name">
+        <item>Norsk</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="supported_languages_code">
+        <item>nb</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

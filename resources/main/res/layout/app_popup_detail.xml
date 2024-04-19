@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextPercentTitle"
+                    android:drawableStart="@drawable/ic_dot_green"
+                    android:text="@string/about_storage_app_space_code"
+                    android:textColor="@color/x_gray_color"
+                    android:textSize="@dimen/x_font_body_02_size" />
+
+                <TextView
+                    android:id="@+id/app_package_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="24dp"
+                    android:textColor="@color/x_white_color"
+                    android:textSize="@dimen/x_font_title_01_size"
+                    tools:text="865.6MB" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextPercentTitle"
+                    android:drawableStart="@drawable/ic_dot_blue"
+                    android:text="@string/about_storage_app_space_data"
+                    android:textColor="@color/x_gray_color"
+                    android:textSize="@dimen/x_font_body_02_size" />
+
+                <TextView
+                    android:id="@+id/app_data_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding_normal"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="24dp"
+                    android:textColor="@color/x_white_color"
+                    android:textSize="@dimen/x_font_title_01_size"
+                    tools:text="865.6MB" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/sound_effect_left_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="124dp" android:layout_marginTop="@dimen/sound_effect_left_top_margin">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="28sp" android:textColor="@color/x_theme_text_03" android:id="@+id/sound_effect_mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sound_effect_left_left_margin" android:text="@string/sound_subtitle_effects_mode"/>
+    <com.xiaopeng.xui.widget.XRelativeLayout android:id="@+id/sound_effect_mode_group" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/sound_effect_recent_mode_layout" android:visibility="gone" android:layout="@layout/sound_effect_recent_mode" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/sound_effect_recent_mode_layout_high" android:visibility="gone" android:layout="@layout/sound_effect_recent_mode_high" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/sound_effect_mode_layout" android:visibility="gone" android:layout="@layout/sound_effect_mode" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/sound_effect_mode_layout_hifi" android:visibility="gone" android:layout="@layout/sound_effect_mode_hifi_xp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/sound_effect_mode_layout_dyna" android:visibility="gone" android:layout="@layout/sound_effect_mode_dyna" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <ViewStub android:id="@+id/sound_effect_scene_layout" android:layout="@layout/sound_effect_scene" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/sound_effect_equalizer_layout" android:layout="@layout/sound_effect_equalizer_entrance" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/sound_effect_space_layout" android:layout="@layout/sound_effect_space_page" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

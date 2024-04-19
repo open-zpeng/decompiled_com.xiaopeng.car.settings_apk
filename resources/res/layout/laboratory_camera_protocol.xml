@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:vuiAction="ScrollByY" style="@style/XDialogContentScrollViewStyle">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/camera_protocol_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:vuiMode="DISABLED"/>
+    </com.xiaopeng.xui.widget.XScrollView>
+    <com.xiaopeng.xui.widget.XCheckBox android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_02" android:id="@+id/camera_checkboxbtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/laboratory_camera_read_tips" android:singleLine="true" android:layout_marginStart="@dimen/app_limit_dialog_radio_margin_start"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

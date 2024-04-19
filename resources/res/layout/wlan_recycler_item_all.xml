@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XListSingle android:id="@+id/wifi_item_singe" android:layout_marginTop="@dimen/padding_normal" app:list_single_left="@layout/wlan_view_icon_signal" app:list_single_right="@layout/x_list_action_button_icon" app:list_single_text="device" app:vuiFatherLabel="@string/wlan_subtitle_wifi" style="@style/XList.Singe"/>
+    <com.xiaopeng.xui.widget.XListTwo android:id="@+id/wifi_item_two" android:visibility="gone" android:layout_marginTop="@dimen/padding_normal" app:list_two_left="@layout/wlan_view_icon_signal_connected" app:list_two_right="@layout/x_list_action_button_icon" app:list_two_text="WIFI" app:list_two_text_sub="@string/connected" app:list_two_text_sub_highlight="true" app:vuiFatherLabel="@string/wlan_subtitle_wifi" style="@style/XList.Two"/>
+</RelativeLayout>

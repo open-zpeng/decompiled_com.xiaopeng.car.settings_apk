@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="disk_recycler_item_height">136</integer>
+    <integer name="sound_effect_style1">1</integer>
+    <integer name="sound_effect_style2">3</integer>
+    <integer name="sound_effect_style3">2</integer>
+    <integer name="sound_effect_style4">0</integer>
+    <integer name="sound_effect_style5">4</integer>
+    <integer name="sound_effect_style6">7</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="tile_anim_time">100</integer>
+    <integer name="usb_recycler_item_height">136</integer>
+    <integer name="x_config_dialogEnterTime">150</integer>
+    <integer name="x_config_dialogExitTime">150</integer>
+    <integer name="x_prompt_longTime">4500</integer>
+    <integer name="x_prompt_shortTime">2500</integer>
+    <integer name="x_ripple_default_anim">250</integer>
+    <integer name="x_switch_animTime100">100</integer>
+    <integer name="x_switch_animTime150">150</integer>
+    <integer name="x_switch_animTime200">200</integer>
+    <integer name="x_switch_animTime300">300</integer>
+    <integer name="x_switch_animTime350">350</integer>
+</resources>

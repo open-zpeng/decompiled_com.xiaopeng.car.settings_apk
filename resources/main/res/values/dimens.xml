@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <dimen name="scroll_bar_padding">36dp</dimen>
+    <dimen name="scroll_bar_width">@dimen/x_scrollbar_vertical_width</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_large">40dp</dimen>
+    <dimen name="padding_medium">30dp</dimen>
+
+    <dimen name="list_cling_margin">2dp</dimen>
+
+    <dimen name="view_nothing_height">48dp</dimen>
+
+    <dimen name="ic_dot_size">16dp</dimen>
+    <dimen name="ic_dot_drawable_padding">8dp</dimen>
+
+    <dimen name="view_percent_height">18dp</dimen>
+    <dimen name="view_percent_margin_vertical">21dp</dimen>
+    <dimen name="radio_button_height">90dp</dimen>
+
+
+    <!-- page -->
+    <dimen name="page_tab_padding_top">0dp</dimen>
+    <dimen name="page_padding_top">16dp</dimen>
+    <dimen name="page_padding_bottom">16dp</dimen>
+    <dimen name="page_padding_left">48dp</dimen>
+    <dimen name="page_padding_right">52dp</dimen>
+
+    <!-- popup -->
+    <dimen name="wifi_pop_tv_margin">24dp</dimen>
+
+    <!-- bluetooth -->
+    <dimen name="bluetooth_connect__function_icon_height">40dp</dimen>
+    <dimen name="none_device_tip_height">82dp</dimen>
+
+    <!--  about -->
+    <dimen name="about_system_info_tv_height">44dp</dimen>
+
+    <!-- float -->
+    <dimen name="floating_dialog_radius">20dp</dimen>
+    <dimen name="floating_dialog_shadow_padding_left">15dp</dimen>
+    <dimen name="floating_dialog_shadow_padding_right">15dp</dimen>
+    <dimen name="floating_dialog_shadow_padding_top">10dp</dimen>
+    <dimen name="floating_dialog_shadow_padding_bottom">20dp</dimen>
+
+    <dimen name="floating_dialog_width">700dp</dimen>
+    <dimen name="floating_dialog_width_small">900dp</dimen>
+    <dimen name="floating_dialog_width_mid">628dp</dimen>
+
+    <dimen name="floating_dialog_bottom">0dp</dimen>
+
+    <dimen name="floating_item_title_height">120dp</dimen>
+    <dimen name="floating_item_height">135dp</dimen>
+    <dimen name="floating_item_margin_end">40dp</dimen>
+    <dimen name="floating_item_left_width">136dp</dimen>
+    <dimen name="floating_item_line_height">2dp</dimen>
+    <dimen name="floating_item_line_margin">30dp</dimen>
+    <dimen name="floating_padding">30dp</dimen>
+    <!--input-->
+
+    <!--Music panel-->
+    <dimen name="music_bg_corner_radius">20dp</dimen>
+    <dimen name="music_panel_width">600dp</dimen>
+    <dimen name="music_panel_height">330dp</dimen>
+    <dimen name="music_btn_width">192dp</dimen>
+    <dimen name="music_btn_height">98dp</dimen>
+    <dimen name="music_panel_title_margin_top">24dp</dimen>
+    <dimen name="music_panel_text_margin_start">22dp</dimen>
+    <dimen name="music_panel_sub_title_margin_top">10dp</dimen>
+    <dimen name="music_panel_progress_margin_top">12dp</dimen>
+    <dimen name="music_panel_button_margin">8dp</dimen>
+    <dimen name="music_panel_button_space">4dp</dimen>
+    <dimen name="music_panel_seek_bar_margin">22dp</dimen>
+    <dimen name="music_panel_thumb_size">46dp</dimen>
+    <!--thumb突出两端的距离：thumbSize的一半（23），减掉边框的距离（8）-->
+    <dimen name="music_panel_thumb_offset">15dp</dimen>
+
+    <!--QcSlider-->
+    <dimen name="bg_corner_radius">32dp</dimen>
+    <dimen name="slider_bg_corner_radius">27dp</dimen>
+    <dimen name="slider_corner_radius">5dp</dimen>
+    <dimen name="slider_bg_inset">4dp</dimen>
+
+    <dimen name="qc_temperature_text_size">48sp</dimen>
+    <dimen name="qc_temperature_text_sub_size">36sp</dimen>
+    <dimen name="qc_temperature_suffix_size">18sp</dimen>
+    <dimen name="qc_temperature_suffix_offset">24dp</dimen>
+
+    <!--QcSlider-VolumeSlider-->
+    <dimen name="volume_slider_svg_margin">30dp</dimen>
+
+    <!-- qspanel-->
+    <dimen name="qs_panel_title_size">26sp</dimen>
+    <dimen name="qs_panel_tips_size">24sp</dimen>
+    <dimen name="qs_panel_selector_width">420dp</dimen>
+    <dimen name="qs_panel_selector_height">130dp</dimen>
+    <dimen name="qs_panel_padding">41dp</dimen>
+    <dimen name="qs_panel_toggle_width">124dp</dimen>
+    <dimen name="qs_panel_toggle_width_horizontal">290dp</dimen>
+    <dimen name="qs_panel_toggle_height">130dp</dimen>
+    <dimen name="qs_panel_toggle_height_horizontal">144dp</dimen>
+    <dimen name="qa_panel_recycle_view_margin">6dp</dimen>
+    <dimen name="qs_panel_padding_recyclerview">24dp</dimen>
+    <dimen name="qs_panel_toggle_item_space">24dp</dimen>
+    <dimen name="qs_panel_selector_space">30dp</dimen>
+    <dimen name="qs_panel_header_item_space">24dp</dimen>
+    <dimen name="qs_panel_header_item_margintop">35dp</dimen>
+    <dimen name="qs_panel_psg_item_edge">40dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_top">28dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_left">40dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_right">35dp</dimen>
+    <dimen name="qs_panel_title_layout_margin_bottom">28dp</dimen>
+    <dimen name="qs_panel_title_drawable_padding">14dp</dimen>
+    <dimen name="qs_panel_edit_width">272dp</dimen>
+    <dimen name="qs_panel_edit_height">64dp</dimen>
+    <dimen name="qs_panel_edit_width_edge">296dp</dimen>
+    <dimen name="qs_panel_edit_height_edge">76dp</dimen>
+    <dimen name="qs_panel_toggle_button_padding">6dp</dimen>
+    <dimen name="qs_panel_more_options_icon_width">18dp</dimen>
+    <dimen name="qs_panel_toggle_icon_height">52dp</dimen>
+    <dimen name="qs_panel_toggle_icon_margintop">20dp</dimen>
+    <dimen name="qs_panel_toggle_text_marginbottom">14dp</dimen>
+    <dimen name="qs_panel_new_icon_width">24dp</dimen>
+    <dimen name="quick_menu_margin">20dp</dimen>
+    <dimen name="quick_menu_selector_width">552dp</dimen>
+    <dimen name="quick_menu_tab_width">600dp</dimen>
+    <dimen name="quick_menu_selector_height">144dp</dimen>
+    <dimen name="quick_menu_large_space">54dp</dimen>
+    <dimen name="quick_menu_volume_slider_svg_margin_start">44dp</dimen>
+    <dimen name="quick_menu_volume_slider_svg_margin_end">30dp</dimen>
+    <dimen name="quick_menu_top_space">40dp</dimen>
+    <dimen name="quick_menu_large_view_width">600dp</dimen>
+    <dimen name="quick_menu_radius">20dp</dimen>
+    <dimen name="quick_menu_radius_inner">16dp</dimen>
+
+    <!--edit panel-->
+    <dimen name="edit_panel_control_option_height">106dp</dimen>
+    <dimen name="edit_panel_control_option_padding">8dp</dimen>
+    <dimen name="edit_panel_control_option_margin">40dp</dimen>
+    <dimen name="edit_panel_control_option_icon_margin">22dp</dimen>
+    <dimen name="edit_panel_control_option_text_margin">25dp</dimen>
+    <dimen name="edit_panel_icon_drag_width">56dp</dimen>
+    <dimen name="edit_panel_sub_title_margin_top">54dp</dimen>
+    <dimen name="edit_panel_sub_title_margin_left">40dp</dimen>
+    <dimen name="edit_panel_sub_title_margin_bottom">20dp</dimen>
+    <dimen name="edit_panel_divider_line_margin_top">16dp</dimen>
+    <dimen name="edit_panel_new_item_tips_height">40dp</dimen>
+    <dimen name="edit_panel_complete_button_width">272dp</dimen>
+    <dimen name="edit_panel_complete_button_height">64dp</dimen>
+    <dimen name="edit_panel_complete_button_margin">22dp</dimen>
+    <dimen name="edit_panel_bottom_margin">24dp</dimen>
+
+
+    <!-- feedback   -->
+    <dimen name="feedback_text_margin_top">9dp</dimen>
+    <dimen name="feedback_commit_margin_top">33dp</dimen>
+    <dimen name="feedback_commit_margin_bottom">33dp</dimen>
+    <dimen name="feedback_commit_width">188dp</dimen>
+    <dimen name="feedback_commit_height">72dp</dimen>
+    <dimen name="feedback_input_text_bottom">13dp</dimen>
+    <dimen name="feedback_history_view_top">36dp</dimen>
+    <dimen name="feedback_content_padding_bottom">4dp</dimen>
+
+    <!--  sound -->
+    <dimen name="sound_effect_dialog_width_large">1700dp</dimen>
+    <dimen name="sound_effect_dialog_width">1200dp</dimen>
+    <dimen name="sound_effect_dialog_height">700dp</dimen>
+    <dimen name="sound_effect_dialog_height_large">900dp</dimen>
+    <dimen name="sound_effect_dialog_fld_height">580dp</dimen>
+    <dimen name="sound_effect_dialog_field_height">556dp</dimen>
+    <dimen name="sound_effect_dialog_field_width">900dp</dimen>
+    <dimen name="sound_effect_dialog_field_drag_tips_width">604dp</dimen>
+    <dimen name="sound_effect_bg_width">371dp</dimen>
+    <dimen name="sound_effect_bg_height">180dp</dimen>
+    <dimen name="sound_effect_entrance_height">150dp</dimen>
+    <dimen name="sound_effect_spread_height">266dp</dimen>
+    <dimen name="sound_effect_spread_width">266dp</dimen>
+    <dimen name="sound_effect_spread_left">312dp</dimen>
+    <dimen name="sound_effect_spread_top">40dp</dimen>
+    <dimen name="sound_effect_tips_icon_width">416dp</dimen>
+    <dimen name="sound_pic_top">28dp</dimen>
+    <dimen name="sound_pic_left">40dp</dimen>
+    <dimen name="sound_line_padding">20dp</dimen>
+    <dimen name="sound_tts_tips_top_padding">34dp</dimen>
+    <dimen name="sound_tts_tips_left_padding">218dp</dimen>
+    <dimen name="sound_effect_btn_width">208dp</dimen>
+    <dimen name="sound_effect_btn_height">72dp</dimen>
+    <dimen name="sound_effect_btn_width_recent">352dp</dimen>
+
+    <!-- dropdownmenu -->
+    <dimen name="drop_down_menu_icon_width">56dp</dimen>
+    <dimen name="drop_down_menu_icon_margin">38dp</dimen>
+    <dimen name="drop_down_menu_textview_margin1">12dp</dimen>
+    <dimen name="drop_down_menu_textview_margin2">16dp</dimen>
+    <dimen name="drop_down_menu_progressbar_width">200dp</dimen>
+    <dimen name="drop_down_menu_progressbar_height">20dp</dimen>
+    <dimen name="drop_down_menu_progressbar_margintop">16dp</dimen>
+    <dimen name="drop_down_menu_device_name_width">440dp</dimen>
+    <integer name="usb_recycler_item_height">136</integer>
+    <integer name="disk_recycler_item_height">136</integer>
+
+    <!--    x_dialog_content_scrollbar_in_padding- 20 = 38-->
+    <dimen name="app_limit_dialog_radio_margin_start">35dp</dimen>
+
+    <integer name="tile_anim_time">100</integer>
+    <dimen name="laboratory_header_padding_bottom">14dp</dimen>
+    <dimen name="laboratory_item_padding_top">2dp</dimen>
+
+    <dimen name="clean_mode_btn_radius">54dp</dimen>
+    <dimen name="clean_mode_btn_width">374dp</dimen>
+    <dimen name="clean_mode_btn_height">108dp</dimen>
+    <dimen name="clean_mode_btn_text">@dimen/x_font_display_03_size</dimen>
+
+    <dimen name="laboratory_empty_padding_top1">120dp</dimen>
+    <dimen name="laboratory_empty_padding_top2">36dp</dimen>
+    <dimen name="laboratory_empty_padding_top3">32dp</dimen>
+    <dimen name="laboratory_empty_icon_wh">216dp</dimen>
+
+    <dimen name="sound_effect_line_ms">198dp</dimen>
+    <dimen name="sound_effect_image1_ms">220dp</dimen>
+    <dimen name="sound_effect_image2_ms">344dp</dimen>
+    <dimen name="sound_effect_type_scene_ms">220dp</dimen>
+
+    <dimen name="restore_checked_info_bg_height">300dp</dimen>
+    <dimen name="about_clean_progress_width">746dp</dimen>
+    <dimen name="about_clean_progress_height">40dp</dimen>
+    <dimen name="about_clean_progress_margin_right">39dp</dimen>
+
+    <dimen name="timezone_dialog_init_offset">260dp</dimen>
+
+    <!-- storage zone -->
+    <dimen name="storage_dialog_width">1000dp</dimen>
+    <dimen name="storage_activity_content_width">1300dp</dimen>
+    <dimen name="storage_dialog_main_height">1072dp</dimen>
+    <dimen name="storage_dialog_padding">84dp</dimen>
+    <dimen name="storage_dialog_padding2">42dp</dimen>
+
+    <dimen name="sound_effect_amp_left_margin">440dp</dimen>
+    <dimen name="sound_effect_left_margin">310dp</dimen>
+    <dimen name="sound_effect_left_top_margin">137dp</dimen>
+    <dimen name="sound_effect_left_top_margin_mid">121dp</dimen>
+    <dimen name="sound_effect_left_top_margin_content">19dp</dimen>
+    <dimen name="sound_effect_left_top_margin_content_recent">32dp</dimen>
+    <dimen name="sound_effect_left_left_margin">8dp</dimen>
+    <dimen name="sound_effect_left_equalizer_top_margin">38dp</dimen>
+    <dimen name="sound_effect_left_equalizer_custom_width">448dp</dimen>
+    <dimen name="sound_effect_mask_pic_left">500dp</dimen>
+    <dimen name="sound_effect_title_left_margin">136dp</dimen>
+    <dimen name="sound_effect_title_top_margin">32dp</dimen>
+    <dimen name="sound_effect_equalizer_switch_txt_right">32dp</dimen>
+    <dimen name="sound_effect_equalizer_switch_txt_top">31dp</dimen>
+    <dimen name="sound_effect_equalizer_switch_txt_size">31dp</dimen>
+    <dimen name="sound_effect_equalizer_switch_padding">27dp</dimen>
+    <dimen name="sound_effect_equalizer_top_padding">118dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_padding_top">16dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_padding_bottom">12dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_height">520dp</dimen>
+    <dimen name="sound_effect_equalizer_custom1_margin_top">352dp</dimen>
+    <dimen name="sound_effect_equalizer_custom1_margin_left">124dp</dimen>
+    <dimen name="sound_effect_equalizer_custom2_margin_top">476dp</dimen>
+    <dimen name="sound_effect_equalizer_restore_bottom">48dp</dimen>
+    <dimen name="sound_effect_field_tips_right">303dp</dimen>
+    <dimen name="sound_effect_field_tips_top">148dp</dimen>
+    <dimen name="sound_effect_car_bottom">61dp</dimen>
+    <dimen name="sound_effect_field_tips_size">@dimen/x_font_body_01_size</dimen>
+    <dimen name="sound_effect_equalizer_switch_top_margin">0dp</dimen>
+    <dimen name="sound_effect_close_btn_margin_top">23dp</dimen>
+    <dimen name="sound_effect_close_btn_margin_left">23dp</dimen>
+    <dimen name="sound_effect_equalizer_slider_margin">0dp</dimen>
+    <dimen name="sound_effect_btn_margin_left">28dp</dimen>
+    <dimen name="sound_effect_btn_margin_top">32dp</dimen>
+    <dimen name="sound_effect_btn_to_title">24dp</dimen>
+    <dimen name="sound_effect_equalizer_restore_width">216dp</dimen>
+    <dimen name="sound_effect_equalizer_restore_height">80dp</dimen>
+    <dimen name="sound_effect_bottom_bg_margin">0dp</dimen>
+    <dimen name="sound_effect_equalizer_item_width">120dp</dimen>
+
+    <dimen name="pannel_width">1600dp</dimen>
+    <dimen name="pannel_height">1000dp</dimen>
+    <dimen name="dialog_width">@dimen/x_dialog_large_width</dimen>
+    <dimen name="dialog_height">@dimen/x_dialog_xlarge_height</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="drop_down_menu_device_name_width">280dp</dimen>
+    <dimen name="qs_panel_tips_size">20sp</dimen>
+    <dimen name="clean_mode_btn_width">420dp</dimen>
+
+    <dimen name="sound_effect_line_ms">295dp</dimen>
+    <dimen name="sound_effect_image1_ms">317dp</dimen>
+    <dimen name="sound_effect_image2_ms">445dp</dimen>
+    <dimen name="sound_effect_type_scene_ms">172dp</dimen>
+    <dimen name="sound_effect_tips_icon_width">814dp</dimen>
+
+    <dimen name="restore_checked_info_bg_height">380dp</dimen>
+</resources>

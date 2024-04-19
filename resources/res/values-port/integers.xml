@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="disk_recycler_item_height">116</integer>
+    <integer name="usb_recycler_item_height">100</integer>
+</resources>

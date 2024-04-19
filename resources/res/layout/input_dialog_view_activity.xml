@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="1000dp" android:layout_height="wrap_content" android:minWidth="1000dp">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_01_size" android:textColor="@color/input_text" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:layout_marginBottom="74dp"/>
+    <com.xiaopeng.xui.widget.XTextFields android:layout_gravity="center_horizontal" android:id="@+id/edit1" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginLeft="84dp" android:layout_marginRight="84dp" android:layout_marginBottom="10dp" app:input_edit_max_length="500" app:input_error_enabled="false" app:input_reset_enabled="true" app:text_fields_password_enabled="false" style="@style/XTextFields"/>
+    <com.xiaopeng.xui.widget.XTextFields android:layout_gravity="center_horizontal" android:id="@+id/edit2" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginLeft="84dp" android:layout_marginRight="84dp" android:inputType="textPassword" app:input_edit_max_length="64" app:input_error_enabled="false" app:input_reset_enabled="true" app:text_fields_password_enabled="true" style="@style/XTextFields"/>
+    <View android:background="@color/input_line_color" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="62dp"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/ok" android:layout_margin="8dp" android:text="@string/connect" android:layout_weight="1" style="@style/XButton.Flat.Large.Positive"/>
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/cancel" android:layout_margin="8dp" android:text="@string/cancel" android:layout_weight="1" style="@style/XButton.Flat.Large.Positive"/>
+    </LinearLayout>
+</LinearLayout>

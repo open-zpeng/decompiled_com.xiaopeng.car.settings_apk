@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound_switch_to_restore_headrest">When the passenger seat is vacated, headrest audio will switch to \"%s\"</string>
+    <string name="sound_switch_to_driver_headrest">When the passenger seat is occupied, headrest audio will switch to \"Driving Mode\"</string>
+    <string name="sound_switch_to_restore_headrest_1">The passenger has left. The driver audio will be switched to \"%s\"</string>
+    <string name="sound_switch_to_driver_headrest_1">When the passenger seat is occupied, the driver audio will switch to the \"Driving Mode\"</string>
+    <string name="sound_headrest_audio_mode_off_title">Shared Mode</string>
+    <string name="sound_headrest_audio_mode_drive_title">Driving Mode</string>
+    <string name="sound_headrest_audio_mode_headrest_title">Private Mode</string>
+    <string name="dark_brightness_toast">Low-light adaptive intelligence is currently activated, the degree of brightness will not be remembered</string>
+    <string name="bluetooth_pairing_request_local">Confirm the pairing request on \"%s\".</string>
+    <string name="wlan_popup_error_title">&#160;Connection failed</string>
+    <string name="wlan_popup_error_timeout">&#160;connection timeout</string>
+    <string name="wlan_password_error">&#160;Incorrect password</string>
+    <string name="wlan_authentication_fail">&#160;Authentication failed</string>
+    <string name="not_found_activity">TO is not supported</string>
+
+    <!--    维修-->
+    <string name="repair_dialog_title">Inspection Mode</string>
+    <string name="repair_dialog_msg">The car is in inspection mode, do you want to exit this mode?</string>
+
+    <!--    授权模式-->
+    <string name="auth_mode_dialog_title">Authorization Mode</string>
+    <string name="auth_mode_dialog_msg">Automatically exiting authorization mode in %s.</string>
+    <string name="auth_mode_dialog_quit">EXIT NOW</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="cancel">CANCEL</string>
+
+    <!--紧急下电-->
+    <string name="urgent_power_title">Emergency power off</string>
+    <string name="urgent_power_msg">Press and hold for 5 seconds to power off</string>
+
+    <string name="sm_device_panel_officialmic">Xpeng U7</string>
+    <string name="app_name">Settings</string>
+
+    <!-- common -->
+    <string name="determine">OK</string>
+    <string name="edit">Edit</string>
+    <string name="connect">CONNECT</string>
+    <string name="connected">Connected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="smaller">SMALLER</string>
+    <string name="larger">LARGER</string>
+    <string name="time_format_24">24-HOUR</string>
+    <string name="time_format_12">12-HOUR</string>
+    <string name="enter">Enter</string>
+    <string name="notice">Notification</string>
+    <string name="nothing">Nothing</string>
+    <string name="pair">PAIR</string>
+    <string name="refuse">REFUSE</string>
+    <string name="commit_success">Successful</string>
+    <string name="commit_fail">Unsuccessful</string>
+    <string name="complete">Done</string>
+    <string name="confirm_open">Confirm</string>
+    <string name="btn_on">ON</string>
+    <string name="btn_off">OFF</string>
+
+    <!-- title -->
+    <string name="title_bluetooth">Bluetooth</string>
+    <string name="title_co_driver_bluetooth">Passenger Seat Bluetooth</string>
+    <string name="title_wifi">Wi-Fi</string>
+    <string name="title_sound">Sound</string>
+    <string name="title_display">Display</string>
+    <string name="title_upgrade">Upgrade</string>
+    <string name="title_laboratory">XP Lab</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_about_system">About System</string>
+    <string name="title_about">About</string>
+    <string name="title_usb">Smart Devices</string>
+    <string name="title_download">Download Management</string>
+
+    <!-- 蓝牙 -->
+    <!-- header -->
+    <string name="bluetooth_subtitle_set">Bluetooth</string>
+    <!--<string name="bluetooth_subtitle_connected">连接过的设备</string>-->
+    <string name="bluetooth_subtitle_bonded">My Devices</string>
+    <string name="bluetooth_subtitle_new">New Devices Available</string>
+    <string name="bluetooth_subtitle_footer">More Settings</string>
+    <!--item -->
+    <string name="bluetooth_none_device_tip">No new device available</string>
+    <string name="bluetooth_power">Bluetooth</string>
+    <string name="co_driver_bluetooth_power">Passenger Seat Bluetooth</string>
+    <string name="bluetooth_visible">Discoverable</string>
+    <string name="bluetooth_visible_tip">Discoverable by other Bluetooth devices</string>
+    <string name="bluetooth_car_name">Name</string>
+    <string name="bluetooth_car_name_tip">XPengCar</string>
+    <string name="bluetooth_profile_unavailable">Unavailable</string>
+    <!-- popup -->
+    <string name="bluetooth_popup_connect_error_msg">Make sure \"%s\" is turned on and in range</string>
+    <string name="bluetooth_popup_connect_operate_error_tips">Connection error. Please try again</string>
+    <string name="bluetooth_popup_bond_error_msg">Unable to pair with \"%s\"</string>
+    <string name="bluetooth_popup_connected_title">Connected</string>
+    <string name="bluetooth_popup_disconnect_title">Not Connected</string>
+    <string name="bluetooth_popup_ignore_btn">FORGET</string>
+    <string name="bluetooth_error_device_connecting">Device connecting... Please wait</string>
+    <string name="bluetooth_error_device_disconnecting">Device disconnecting. Please wait</string>
+    <!-- 配对 -->
+    <string name="bluetooth_pairing_popup_title">Pairing Request</string>
+    <string name="bluetooth_pairing_request">\"%s\" would like to pair with your device.</string>
+    <string name="bluetooth_pairing_request_busy">Pairing… Please wait</string>
+    <string name="bluetooth_search">Search</string>
+    <string name="bluetooth_phone_tips">Enable \"Bluetooth - Call Audio\" permissions or reconnect to Bluetooth on your phone</string>
+    <string name="bluetooth_a2dp_tips">Please Tap \"PLAY\" in Bluetooth Music</string>
+    <string name="bluetooth_busy_tips">Bluetooth device is in use. Please try again later.</string>
+
+    <!-- WLAN -->
+    <!-- header -->
+    <string name="wlan_subtitle_set">Wi-Fi</string>
+    <string name="wlan_power">Wi-Fi</string>
+    <string name="wlan_subtitle_wifi">Choose a Network</string>
+    <!-- item -->
+    <string name="wlan_connected_no_security">Unsecured network Connected</string>
+    <!-- popup -->
+    <string name="wlan_popup_error_msg">Unable to connect the network \"%s\"</string>
+
+    <string name="wlan_popup_ignore_btn">FORGET</string>
+    <string name="wlan_signal_strength">Strength: </string>
+    <string name="wlan_security">Security: </string>
+
+    <!-- 流量 -->
+    <string name="traffic_subtitle_set">车载热点</string>
+    <string name="traffic_power">车载热点开关</string>
+    <string name="traffic_power_short">热点开关</string>
+    <string name="traffic_name">热点名称</string>
+    <string name="traffic_name_tip">小鹏汽车</string>
+    <string name="traffic_password">车载热点密码</string>
+    <string name="traffic_password_tip">12345678</string>
+    <string name="traffic_connected_device">已连接热点的设备</string>
+    <string name="traffic_uninstall_app_title">已卸载应用</string>
+    <string name="traffic_use_title">流量使用状况</string>
+    <string name="traffic_use_month">%s月网络使用情况</string>
+    <string name="traffic_permission_title">流量使用权限</string>
+
+    <!-- 显示 -->
+    <!-- 亮度 -->
+    <string name="display_subtitle_brightness">Brightness</string>
+    <string name="display_brightness_center">Touchscreen Brightness</string>
+    <string name="display_brightness_meter">Dashboard Brightness</string>
+    <string name="display_brightness_auto">Auto Brightness</string>
+    <string name="display_brightness_auto_main">Main Screen Auto Brightness</string>
+    <string name="display_brightness_auto_psn">Passenger Screen Auto Brightness</string>
+    <string name="display_brightness_auto_tip">Adjust touchscreen and dashboard brightness automatically based on ambient light</string>
+    <string name="display_brightness_auto_ciu_tip">Automatic brightness adjustment according to the environment</string>
+    <string name="display_brightness_auto_low_conf_tip">Adaptive Brightness</string>
+    <string name="display_brightness_auto_low_conf_active_tip">Adaptive Brightness (Activated)</string>
+    <string name="display_brightness_auto_low_conf_tip_main">Main Screen Adaptive Brightness</string>
+    <string name="display_brightness_auto_low_conf_active_tip_main">Main Screen Adaptive Brightness (Activated)</string>
+    <string name="display_brightness_auto_low_conf_tip_psn">Passenger Screen Adaptive Brightness</string>
+    <string name="display_brightness_auto_low_conf_active_tip_psn">Passenger Screen Adaptive Brightness (Activated)</string>
+    <string name="display_brightness_low_config_tips">The display brightness is automatically dimmed when you enter a dark environment</string>
+    <string name="display_brightness_close_psn_screen">Turn Off Passenger Screen</string>
+    <!-- 外观 -->
+    <string name="display_subtitle_facade">Appearance</string>
+    <string name="display_day_night">Day/Night Mode</string>
+    <string name="display_day_night_tip">Adapt to the surrounding environment automatically when AUTO is on </string>
+    <string name="display_day_night_clear">Screen Clean</string>
+    <string name="display_fontsize">Text Size</string>
+    <string name="display_time_format">Time Format</string>
+    <string name="more">More</string>
+    <string name="display_wait_mode">Standby Mode</string>
+    <string name="display_wait_mode_toast">Please use this mode when car is in P</string>
+    <string name="display_wait_mode_tips">Standby Mode is only available when the car is in P. After activating Standby Mode, the headlights and touchscreen will be turned off, and the dashboard light set to the lowest level. Standby mode will automatically exit if you touch the screen, open doors, shift gears, or activate voice assistant.</string>
+
+    <!-- 语言 -->
+    <string name="display_language">Language</string>
+    <string name="display_current_language">Current Language: %1$s</string>
+    <string name="display_language_desc">The selected language will be displayed on the touchscreen and the dashboard interface.</string>
+    <string name="display_choose_language">Select Your Language</string>
+    <string name="confirm_language_title">"Change Language"</string>
+    <string name="confirm_language_init_title">"Changing the language requires restarting the touchscreen system. Please ensure that the vehicle is in a safe state.\nDo you want to change the language setting?"</string>
+
+    <!-- 地区 -->
+    <string name="display_region">Region</string>
+    <string name="display_current_region">Current Region:  %1$s</string>
+    <string name="display_sample_region">Region Format Example</string>
+    <string name="display_choose_region">Select Your Region</string>
+    <string name="display_format_sample">%1$s&#160;&#160;%2$s</string>
+    <string name="display_region_park_toast">Adjust it when in P</string>
+    <string name="display_timezone_auto_title">Automatic Time Zone</string>
+    <string name="display_timezone_auto_subtitle">Use the local time zone provided by the carrier network</string>
+    <string name="display_timezone_manual_title">Current Time Zone: %s</string>
+    <string name="display_timezone_manual_title_unset">Choose Time Zone</string>
+    <string name="display_timezone_choose_dialog_title">Time Zone</string>
+
+
+    <!-- 声音 -->
+    <string name="sound_speech_set">Voice Assistant</string>
+    <string name="sound_speech_set_tips">Hello, I am XPENG Assistant.</string>
+    <string name="sound_speech_mic_set_tips">Microphone is Off</string>
+    <string name="sound_settings_subtitle">Settings</string>
+    <string name="sound_subtitle_effects_mode">Sound Mode</string>
+
+    <!-- volume -->
+    <string name="sound_subtitle_volume">Volume</string>
+    <string name="sound_volume_media">Media</string>
+    <string name="sound_volume_media_tip">Music &amp; Video</string>
+    <string name="sound_volume_media_tip_out_side">Music &amp; Video playback volume outside of the Vehicle</string>
+    <string name="sound_volume_speech">Speech</string>
+    <string name="sound_volume_speech_tip">Voice Interaction &amp; Ringtone</string>
+    <string name="sound_volume_tts">Navigation</string>
+    <string name="sound_volume_tts_tip">Navigation Broadcast</string>
+    <string name="sound_volume_system">System Sounds</string>
+    <string name="sound_volume_system_tip">Keyboard Clicks &amp; Notifications</string>
+    <string name="sound_volume_car">Safety Alerts</string>
+    <string name="sound_volume_car_tip">Dashboard &amp; Vehicle &amp; XPILOT Alerts</string>
+    <string name="sound_volume_car_tip_low">Dashboard &amp; vehicle alerts</string>
+    <string name="sound_volume_position">Directional Sound Alerts</string>
+    <string name="sound_volume_position_tip">System, dashboard and safety alerts partially support directional sounds.</string>
+    <string name="sound_decrease_volume">Volume Decrease while Navigating</string>
+    <string name="sound_decrease_volume_tip_low">Media volume will automatically decrease during navigation instructions</string>
+    <string name="sound_decrease_volume_tip_high">Media volume will automatically decrease during navigation instructions (In private mode and share mode)</string>
+
+    <string name="sound_headrest_intelligent_switching">Headrest Mode Switching</string>
+    <string name="sound_headrest_intelligent_switching_msg">Automatically switch to "Driving Mode" when passenger seat is occupied</string>
+
+    <string name="sound_volume_by_speed">Adjusted With Speed</string>
+    <string name="sound_outside_low_speed_simulate">Low Speed Simulate</string>
+    <string name="sound_outside_low_speed_simulate_tips">According to relevant national regulations, when driving at low speed, pure electric vehicles should be able to emit low-speed analog sound to pedestrians to reduce safety risks.  The low speed analog tone is only turned off during the current drive and will be turned on again next time the vehicle starts.  Are you sure you want to keep it closed?</string>
+
+    <string name="sound_outside_mode">Boombox Mode</string>
+    <string name="sound_outside_mode_dialog_title">Boombox Mode</string>
+    <string name="sound_outside_mode_dialog_content">Play music outside of the Vehicle.</string>
+    <string name="sound_outside_mode_quit_prompt">Shifted out of P Gear, Boombox Mode is disabled.</string>
+
+    <!-- effects -->
+    <string name="sound_effects_mode_title">Audio Mode</string>
+    <!--  头枕音效  -->
+    <string name="sound_subtitle_headrest_audio_mode">Headrest Mode</string>
+    <string name="sound_headrest_audio_mode_off_msg">Audio is played in all sections and headrest audio is inactive</string>
+    <string name="sound_headrest_audio_mode_drive_msg">Only navigation and calls are routed to the headrest</string>
+    <string name="sound_headrest_audio_mode_headrest_msg">All audio is routed to the headrest</string>
+
+    <string name="sound_common">b</string>
+    <string name="sound_hifi">h</string>
+    <string name="sound_people">e</string>
+    <string name="sound_jazz">d</string>
+    <string name="sound_rock">f</string>
+    <string name="sound_disco">j</string>
+    <string name="sound_classical">k</string>
+    <string name="sound_original">l</string>
+    <string name="sound_common_text">General</string>
+    <string name="sound_hifi_text">Hi-Fi</string>
+    <string name="sound_people_text">Vocal</string>
+    <string name="sound_jazz_text">Jazz</string>
+    <string name="sound_rock_text">Rock</string>
+    <string name="sound_disco_text">Disco</string>
+    <string name="sound_classical_text">Classic</string>
+    <string name="sound_original_text">Original</string>
+    <string name="sound_custom_text">Custom</string>
+    <string name="sound_subtitle_effects_equalizer">Equalizer</string>
+    <string name="sound_subtitle_effects_equalizer1">Custom 1</string>
+    <string name="sound_effects_equalizer_title">Equalizer</string>
+    <string name="sound_effect_bass_frequency">Bass</string>
+    <string name="sound_effect_low_frequency">Woofer</string>
+    <string name="sound_effect_mid_frequency">Tenor</string>
+    <string name="sound_effect_high_frequency">Tweeter</string>
+    <string name="sound_effect_super_high_frequency">Super Tweeter</string>
+    <string name="sound_effect_equalizer_restore_default">Default</string>
+    <string name="sound_effect_equalizer_start">Turn on Equalizer</string>
+    <string name="sound_effect_equalizer_custom1">Custom 1</string>
+    <string name="sound_effect_equalizer_custom2">Custom 2</string>
+    <string name="sound_effect_equalizer_no_work">Off</string>
+    <string name="sound_effect_equalizer_start_work">Equalizer is on</string>
+    <string name="sound_effect_field_cannot_adjustment">Private Mode on. Sound Field Setting is not supported.</string>
+
+    <string name="sound_scenes_live">Live</string>
+
+    <string name="sound_effect1_text">Surround</string>
+    <string name="sound_effect3_text">Bass</string>
+    <string name="sound_effect4_text">Live</string>
+    <string name="sound_effect2_text">Pure</string>
+    <string name="sound_effect5_text">Original</string>
+    <string name="sound_effect_title_text">X-Sound</string>
+
+    <string name="sound_scenes_theater">Cinema</string>
+    <string name="sound_scenes_recording">Hall</string>
+    <string name="sound_scenes_ktv">KTV</string>
+    <string name="sound_high_fidelity">Dynaudio</string>
+    <string name="sound_real">g</string>
+    <string name="sound_soft">a</string>
+    <string name="sound_dynamic">c</string>
+    <string name="sound_real_text">Authentic</string>
+    <string name="sound_soft_text">Soft</string>
+    <string name="sound_soft2_text">Soft</string>
+    <string name="sound_dynamic_text">Dynamic</string>
+    <string name="sound_speak_text">Speak</string>
+
+    <string name="sound_effect_round">Surround</string>
+    <string name="sound_effects_xp_effects">Xpeng Sound</string>
+    <string name="sound_effects_switch_effects">%s</string>
+    <string name="effect_round_tips_no_dts">Xpeng professional calibration ensures an exceptional audio experience</string>
+    <string name="effect_low_speaker_round_tips">DTS NEURAL: surround sound technology provides total immersion</string>
+    <string name="effect_high_speaker_round_tips">DTS NEURAL: X surround sound technology provides total immersion</string>
+    <string name="effect_hifi_tips">The Dynaudio system is precisely calibrated for true-to-life sound</string>
+    <string name="effect_3d_tips">Xpeng professional adjustment provides you with extraordinary sound experience</string>
+    <string name="sound_field_tips">Drag the sound wave to select the appropriate sound field position.</string>
+
+    <!-- Intelligence -->
+    <string name="sound_subtitle_intelligence">Advanced</string>
+    <string name="sound_open_door">Volume Decreases with Door Open</string>
+    <string name="sound_open_door_tips">Media volume is automatically decreased when the driver\'s door is opened</string>
+    <string name="sound_gear_r">Volume Drops in Reverse</string>
+    <string name="sound_gear_r_tips">Media, navigation and voice volume is automatically reduced when the vehicle is in Reverse</string>
+
+    <!-- speech -->
+    <string name="speech_subtitle_set">小P设置</string>
+    <string name="speech_awaken">允许语音唤醒</string>
+    <string name="speech_awaken_tip">开启后，可通过“你好小 P”唤醒 AI 助手</string>
+    <string name="speech_quick">允许快捷操作</string>
+    <string name="speech_quick_tip">开启后，无需唤醒，直接说出指令即可实现部分快捷操作</string>
+    <string name="speech_oneshot">允许 Oneshot</string>
+    <string name="speech_oneshot_tip">开启后，支持“你好小 P”+指令 连着说，如“你好小 P，打开空调</string>
+    <string name="speech_interrupt">打断语音播报</string>
+    <string name="speech_interrupt_tip">开启后，可以在多轮对话的过程中打断语音播报</string>
+    <string name="speech_hello">小P问候</string>
+    <string name="speech_hello_tip">开启后，每次唤醒小P主页将收到小P的声音问候</string>
+
+    <!-- 权限 -->
+    <string name="permission_popup_title">%s的访问权限</string>
+    <string name="permission_popup_all">一键开启</string>
+
+    <!-- about -->
+    <string name="about_subtitle_device_info">Device Info</string>
+
+    <string name="about_storage_app_space_code">应用</string>
+    <string name="about_storage_app_space_data">文稿与数据</string>
+
+    <!-- floating -->
+    <string name="floating_bluetooth">Bluetooth Settings</string>
+    <string name="floating_sound">Voice Settings</string>
+    <string name="floating_traffic">Data Center</string>
+    <string name="floating_wlan">Wi-Fi Settings</string>
+
+    <string name="sd_push_off">Launch</string>
+    <string name="sd_space">%s/%s</string>
+    <string name="floating_phone">Phone</string>
+    <string name="floating_music">Music</string>
+
+    <!--input-->
+    <string name="input_title_bluetooth">Edit Bluetooth Name</string>
+    <string name="input_hint_wifi_account">Please enter username</string>
+    <string name="input_hint_wifi_pass">Enter password</string>
+    <string name="input_wifi_connecting">Connecting...</string>
+
+    <!--小鹏实验室-->
+    <string name="laboratory_coming_soon">Stay tuned</string>
+    <string name="laboratory_no_function_tips">No available trial function</string>
+    <string name="laboratory_app_used_limit">App Limitations</string>
+    <string name="laboratory_app_used_limit_tips">There might be safety hazards once switched off. Please proceed with caution.</string>
+    <string name="laboratory_low_speed_alarm_sound">Pedestrian Warning</string>
+    <string name="laboratory_low_speed_alarm_sound_tips">Volume adjustments are permanent. If you lower the volume, pedestrians may not be able to hear the car. Please proceed with caution.</string>
+    <string name="low_speed_analog_cue_tone">Pedestrian Warning</string>
+    <string name="low_speed_tips2">This setting is permanent. If the warning is switched off, pedestrians may not be able to hear the car. Please proceed with caution.</string>
+    <string name="laboratory_remote_control_key">Remote Parking from Key</string>
+    <string name="laboratory_remote_control_key_tips">Use your key to control automatic parking and departure </string>
+    <string name="laboratory_auto_power_off">Auto Power Off</string>
+    <string name="laboratory_auto_power_off_tips">Once switched on, the vehicle will be powered off automatically if there is no operation within 1 hour when there is no driver</string>
+    <string name="laboratory_induction_lock">靠近自动解锁与离开自动闭锁</string>
+    <string name="laboratory_induction_lock_tips">开启后，所有车门关闭时，携智能蓝牙钥匙靠近自动解锁、远离自动闭锁</string>
+    <string name="laboratory_induction_title">感应式解闭锁功能使用须知</string>
+    <string name="laboratory_induction_lock_pop">"1. 离开闭锁条件为四门两盖关闭，且车辆停止；
+2. 解闭锁感应范围为，靠近解锁需钥匙进入距离前门把手2.5m内，离开闭锁需钥匙离开距离前门把手3.5m外；
+3. 若后尾门在四门关闭期间单独开启过，需要满足如上解闭锁条件才能启动自动解闭锁功能，建议关闭尾门后从车头一侧离开；
+4. 若要使用闭锁不下电功能（手机APP），需下车后携带钥匙在距离前门把手3.5m范围内启动，避免因为超过3.5m范围自动闭锁启动，而引起锁车下电；
+5. 钥匙泊车完成后需携带钥匙靠近车辆，车辆感应钥匙信号再离开车辆激活离开闭锁；"</string>
+    <string name="laboratory_remote_control">Remote Parking</string>
+    <string name="laboratory_remote_control_tips">Remote parking function will be unavailable once this function is switched off</string>
+    <string name="laboratory_soldier_tips">When the function is activated, if scrapes occur while the vehicle is powered off, a notification will be sent to the mobile phone.</string>
+    <string name="laboratory_soldier_tips_disable"> 当前续航里程低，哨兵模式已关闭，充电后会自动恢复</string>
+    <string name="laboratory_soldier_level">哨兵模式灵敏度</string>
+    <string name="laboratory_soldier_camera_level">Record videos and send to mobile phone</string>
+    <string name="laboratory_soldier_camera_tips">Once activated, the panoramic camera will record a video when a scrape occurs and send it to your mobile phone with a notification.</string>
+    <string name="laboratory_soldier_camera_tips_disable">当前续航里程低，不支持开启拍摄功能，请充电后开启</string>
+    <string name="laboratory_soldier_toast">哨兵模式开启中，请稍候</string>
+    <string name="laboratory_soldier_dialog_title">Activate \"Record videos and send to mobile phone\"</string>
+    <string name="laboratory_soldier_dialog_msg">1. Activated for once. When the vehicle is unlocked next time, the function will resume to deactivated; \n
+2. Once activated, the camera will work and consume a certain amount of power while the vehicle is powered off;\n
+3. Uploading recorded videos may lead to a certain amount of data consumption;</string>
+
+    <string name="laboratory_inductive_unlocking_title">Inductive Lock &amp; Unlock</string>
+    <string name="laboratory_near_unlocking_title">Auto Unlock by Approaching</string>
+    <string name="laboratory_near_unlocking_tips">Once activated, when all doors are closed and both driver and passenger seats are free, the vehicle will automatically unlock when the key (mobile phone and NFC card keys excluded) is close to the vehicle</string>
+    <string name="laboratory_leave_locking_title">Auto Lock by Leaving</string>
+    <string name="laboratory_leave_locking_tips">Once activated, when all doors are closed and both driver and passenger seats are free, the vehicle will automatically unlock when the key (mobile phone and NFC card keys excluded) leave the vehicle</string>
+    <string name="laboratory_tips_security">安全相关</string>
+    <string name="laboratory_tips_text">Xpeng Lab User Agreement</string>
+    <string name="laboratory_tips">Xpeng Lab Notices</string>
+    <string name="laboratory_tips_content">Dear user:
+Thank you for using Xpeng Lab (hereinafter referred to as \"This function\"). Before you start using this function, please read and understand the following terms carefully and thoroughly:
+1. This function is provided by Guangzhou Zhipeng Connectivity Technology Co. Ltd. (hereinafter referred to as \"The company\"). By using this function, users can experience the trial functions being tested by Xpeng Motors Application Platform (hereinafter referred to as \"Application Platform\").
+2. There may be certain risks in using this function, including but not limited to: initiation failure of partial necessary functions of the vehicle in a direct or indirect manner due to defects or drawbacks of this function, loss of partial or even all data without restoring method, termination of Internet of Vehicles business or suspension of this function.
+3. The company has the right to determine, change or adjust the list and scope of users who can use this function.
+4. The company does not guarantee that partial or all trial functions in this function will be applied to Application Platform definitely;
+5. The company has the right to terminate or suspend the access to this function of users or take part of this function or even the whole function off at any time;
+6. Some of the functions in this function may be automatically set to on or off by default according to actual needs. Users can turn on or turn off them on their own.
+7. The company will take necessary measures to protect user\'s information security according industry standards. However, you know and agree that the company cannot guarantee the security completely.
+8. You know and agree that the company will not bear any liabilities for data loss, terminal device damage, direct or indirect economic losses or other losses caused by using this function.</string>
+    <string name="laboratory_app_limit_tips">Xpeng Motors Application Platform provides various and diversified vehicle-mounted entertainment content. Since partial entertainment content needs frequent manual operation or more attention, to avoid attention distraction by the mounted entertainment in the course of driving and to diminish safety hazards, we have set by default that all entertainment content are prohibited to be used during driving.
+When you manually remove this system limitation, even if you vehicle stays at D gear, all entertainment content on the Internet of Vehicles platform could be used.
+You know and agree that:
+① In the course of driving, the service of vehicle mounted entertainment is only provided for passengers. The driver shall not use it.
+② If the driver believes that certain entertainment service used by passengers may affect driving safety, please turn it off immediately or even quit this function;
+③ The driver shall be responsible for all behaviors, including but not limited to safety related issues, in the course of driving. If the driver violates laws, regulations or safe driving norms due to the use of vehicle mounted entertainment content, leading to physical and financial losses of himself (herself), other individual(s) or any other third-party or administrative penalties, the driver or the vehicle owner shall bear all responsibilities for any and all claims for compensation, requests, losses, liabilities, and costs arising from it, including but not limited to fines, compensation, legal costs, and attorney fees. We bear no liabilities for such behaviors.</string>
+    <string name="laboratory_read_tips">I have read and understood the above mentioned risks</string>
+    <string name="laboratory_app_limit_title">Function Notices</string>
+    <string name="laboratory_close">DEACTIVATE</string>
+    <string name="laboratory_view">CHECK</string>
+    <string name="laboratory_key_parking_device_fault">"功能故障，无法开启"</string>
+    <string name="laboratory_tts_broadcast_type">XPILOT Driving Assistant</string>
+    <string name="laboratory_tts_broadcast_tips">Select whether the XPILOT driving safety reminder  is announced  in a detailed  or concise way</string>
+    <string name="laboratory_tts_broadcast_detail">DETAILED</string>
+    <string name="laboratory_tts_broadcast_concise">CONCISE</string>
+    <string name="laboratory_sayhi_mode_1">Smiling</string>
+    <string name="laboratory_sayhi_mode_1_idle_label">"播放笑脸|笑脸"</string>
+    <string name="laboratory_sayhi_mode_1_playing_label">"停止播放|停止播放笑脸"</string>
+    <string name="laboratory_sayhi_mode_2">Shuttle</string>
+    <string name="laboratory_sayhi_mode_2_idle_label">"播放穿梭|穿梭"</string>
+    <string name="laboratory_sayhi_mode_2_playing_label">"停止播放|停止播放穿梭"</string>
+    <string name="laboratory_sayhi_mode_3">Heartbeat</string>
+    <string name="laboratory_sayhi_mode_3_idle_label">"播放心跳|心跳"</string>
+    <string name="laboratory_sayhi_mode_3_playing_label">"停止播放|停止播放心跳"</string>
+    <string name="laboratory_show_off">SayHi</string>
+    <string name="laboratory_show_off_desc">When “Automatically SayHi when stopping” is enabled and AutoHold is activated or the vehicle is in P, a light signal and external sound will be triggered automatically.</string>
+
+    <!--用户反馈-->
+    <string name="feedback_text_title">请输入文字反馈</string>
+    <string name="feedback_text_title_summary">你可以通过唤醒小P并说出「我要反馈」进行语音反馈</string>
+    <string name="feedback_function_fault">功能故障</string>
+    <string name="feedback_suggest_optimization">建议优化</string>
+    <string name="feedback_other_question">其他问题</string>
+    <string name="feedback_input_content">Please enter your feedback</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="feedback_history">我的历史反馈</string>
+    <string name="feedback_review">查看</string>
+    <string name="feedback_input_least">请至少输入5个字</string>
+    <string name="feedback_auto_save">已自动保存</string>
+    <string name="feedback_no_network">网络异常，已自动保存，请稍后重试</string>
+    <string name="feedback_network_weak">网络状况不佳，加载失败</string>
+    <string name="feedback_no_history">没有更多数据了</string>
+    <string name="feedback_just_now">刚刚</string>
+    <string name="feedback_before_minute">分钟前</string>
+    <string name="feedback_before_hour">小时前</string>
+    <string name="feedback_customer">客服回复：</string>
+    <string name="feedback_loading">内容加载中，请稍候</string>
+    <string name="feedback_empty">无反馈记录</string>
+    <string name="feedback_retry">Loading timeout. Please tap the interface to retry</string>
+
+    <!--download-->
+    <string name="download_remaining_time_none">Calculating...</string>
+    <string name="download_remaining_time_greater_hour12">More than 12 hours left</string>
+    <string name="download_remaining_time_greater_hour1">%02d h %02d m %02d s left</string>
+    <string name="download_remaining_time_greater_minute1">%02d m %02d s left</string>
+    <string name="download_remaining_time_minute0">%02d s left</string>
+
+    <string name="download_status_waiting">Waiting...</string>
+    <string name="download_status_pausing">Paused</string>
+    <string name="download_status_success">Completed</string>
+    <string name="download_status_fail">Download failed</string>
+
+    <string name="download_action_success">OPEN</string>
+    <string name="download_action_stop">STOP</string>
+    <string name="download_action_stop_confirm">CONFIRM STOP</string>
+
+    <string name="download_no_data">No download task</string>
+
+    <string name="music_panel_unknown_title">No media</string>
+    <string name="music_panel_unknown_sub_title">No singer</string>
+
+    <!--自动下电弹窗-->
+    <string name="laboratory_auto_power_off_dialog_message">To avoid forgetting to cut off power supply and causing power loss, the vehicle will be automatically powered off after the countdown. You can deactivate this function in [Vehicle - Vehicle Settings].</string>
+    <string name="laboratory_auto_power_off_dialog_btn">Cancel</string>
+
+    <!--qs-->
+    <string name="qs_panel_dc_charging">Supercharge port</string>
+    <string name="qs_panel_ac_charging">Charge port</string>
+    <string name="qs_panel_auto_hold">Autohold</string>
+    <string name="qs_panel_auto_wiper_speed">Auto Wiper</string>
+    <string name="qs_panel_int_wiper_speed">INT</string>
+    <string name="qs_panel_back_box_lock">OPEN</string>
+    <string name="qs_panel_clean_mode">CLEAN</string>
+    <string name="qs_panel_deodorate">REFRESH</string>
+    <string name="qs_panel_refrigeration">MAX AC</string>
+    <string name="qs_panel_energy_recovery_regulation">RECUPERATION PLUS</string>
+    <string name="qs_panel_meditation_mode">MEDITATION</string>
+    <string name="qs_panel_down_hill">HDC</string>
+    <string name="qs_panel_full_window_open">OPEN</string>
+    <string name="qs_panel_full_window_close">CLOSE</string>
+    <string name="qs_panel_air_conditioning_cleaning">PURIFY</string>
+    <string name="qs_panel_air_conditioning_cleaning_short">PURIFY</string>
+    <string name="qs_panel_back_box_open">Open Trunk</string>
+    <string name="qs_panel_back_box_close">Close Trunk</string>
+    <string name="qs_panel_rear_mirror_close">Mirrors Fold</string>
+    <string name="qs_panel_rear_mirror_open">Mirrors Unfold</string>
+    <string name="qs_panel_rear_mirror_folding">FOLD</string>
+    <string name="qs_panel_rear_mirror_angle">ANGLE</string>
+    <string name="qs_panel_seat_memory">Seat Memory</string>
+    <string name="qs_panel_enter_account">User Portfolio</string>
+    <string name="qs_panel_click_account">Account Login</string>
+    <string name="qs_panel_welcome_title">Hello, friend</string>
+    <string name="qs_panel_welcome_content">Co-Pilot Ctrl Center</string>
+    <string name="qs_panel_edit">Edit</string>
+    <string name="qs_panel_trunk">TRUNK</string>
+    <string name="qs_panel_open_trunk">OPEN</string>
+    <string name="qs_panel_close_trunk">CLOSE</string>
+    <string name="qs_panel_trunk_pause">PAUSE</string>
+    <string name="qs_panel_energy_recovery">RECUPERATION</string>
+    <string name="qs_panel_energy_saving">ECOPLUS</string>
+    <string name="qs_panel_auto_parking">AUTOHOLD</string>
+    <string name="qs_panel_wiper_speed">WIPER SPEED</string>
+    <string name="qs_panel_fast_charge">Supercharge port</string>
+    <string name="qs_panel_fast_charge_off">Supercharge port Off</string>
+    <string name="qs_panel_fast_charge_on">Supercharge port On</string>
+    <string name="qs_panel_slow_charge_error">Charge port fault</string>
+    <string name="qs_panel_fast_charge_error">Supercharge port fault</string>
+    <string name="qs_panel_slow_charge_unknow">Charge port exception</string>
+    <string name="qs_panel_fast_charge_unknow">Supercharge port exception</string>
+    <string name="qs_panel_slow_charge">Charge port</string>
+    <string name="qs_panel_charge_working">Processing...</string>
+    <string name="qs_panel_slow_charge_off">Charge Port Off</string>
+    <string name="qs_panel_slow_charge_on">Charge Port On</string>
+    <string name="qs_panel_back_box">Unlock Trunk</string>
+    <string name="qs_panel_rearview_mirror">MIRRORS</string>
+    <string name="qs_panel_open_rearview_mirror">UNFOLD</string>
+    <string name="qs_panel_close_rearview_mirror">FOLD</string>
+    <string name="qs_panel_sound_effect_settings">Sound Settings</string>
+    <string name="qs_panel_window_air">VENT</string>
+    <string name="qs_panel_close">CLOSE</string>
+    <string name="air_volume">Air Volume</string>
+    <string name="auto_air_volume">Auto Adjust</string>
+    <string name="screen_brightness">Screen Brightness</string>
+    <string name="media_volume">Media Volume</string>
+    <string name="air_temperature">Co-pilot Temp</string>
+    <string name="seat_memory">Seat Memory</string>
+
+    <plurals name="clean_str_num">
+        <item quantity="one">Exit after %d second</item>
+        <item quantity="other">Exit after %d seconds</item>
+    </plurals>
+    <string name="long_press_to_exit_clean_mode">Press to exit</string>
+    <string name="display_clean_mode_title">Screen Clean</string>
+    <string name="wifi_status_mac_randomized">Random MAC</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="ok">OK</string>
+    <string name="device_info_default">Unknown</string>
+
+    <string name="account_unlogin">Not logged in</string>
+    <string name="music_default_time">00:00</string>
+
+    <!-- 编辑面板   -->
+    <string name="qs_panel_edit_sub_title_my">My control options</string>
+    <string name="qs_panel_edit_sub_title_my_tips">Hold and drag to adjust the order</string>
+    <string name="qs_panel_edit_sub_title_more">More control options</string>
+    <string name="qs_panel_edit_sub_title_more_tips">%d control options added</string>
+
+    <!-- 智能设备面板  -->
+    <string name="identifying_now">Identifying... Please wait</string>
+    <string name="sm_device_panel_connect">Connected</string>
+    <string name="sm_device_panel_connecting">Connecting...    </string>
+    <string name="sm_device_panel_unknow_device">Unknown device</string>
+    <string name="sm_device_panel_default_capacity">-- GB</string>
+    <string name="sm_device_panel_no_data">No smart device</string>
+
+    <!--  麦克风  -->
+    <string name="cb_title_connect_to_microphone">Connect mic</string>
+    <string name="cb_title_buy_microphone">Scan to purchase mic</string>
+    <string name="cb_status_buy_microphone">I don\'t have a mic. I want to purchase one</string>
+    <string name="cb_status_search_by_qrcode">Please scan the code in Xpeng App to purchase it</string>
+    <string name="cb_status_connecting_to_microphone1">Mic connecting.</string>
+    <string name="cb_status_connecting_to_microphone2">Mic connecting..</string>
+    <string name="cb_status_connecting_to_microphone3">Mic connecting...</string>
+    <string name="cb_status_connected_to_microphone">Mic connected</string>
+    <string name="cb_status_conform_microphone_enabled">Confirm mic is on</string>
+    <string name="cb_result_ok">OK</string>
+    <string name="cb_result_cancel">CANCEL</string>
+
+    <!--vui-->
+    <string name="vui_label_feedback">文字反馈</string>
+    <string name="vui_action_click_tab">Click:Tab,Null</string>
+    <string name="vui_action_click_connect">Click:Select,Connect</string>
+    <string name="vui_label_serial_number">第%1$d个|%2$s</string>
+    <string name="vui_label_detail">Details</string>
+    <string name="vui_label_password">Password</string>
+    <string name="vui_label_account">Username</string>
+    <string name="vui_label_name">Name|Bluetooth Name</string>
+    <string name="vui_label_bluetooth">Bluetooth|Device</string>
+    <string name="vui_label_wifi">Network|Wireless Network</string>
+    <string name="vui_label_multi_format">%1$s|%2$s</string>
+    <string name="vui_label_input_feedback">Enter feedback</string>
+    <string name="vui_label_sound_field">Drag the audio field to your desired area</string>
+
+    <string name="nedc_mode_dialog_title">Function Not Available</string>
+    <string name="nedc_mode_dialog_tips">Please go to “Vehicle - XPILOT” and turn off "battery saver mode" before using this function.</string>
+    <string name="dialog_know">OK</string>
+    <string name="nedc_mode_turning_off_dialog_title">Not available while turning off battery saver mode</string>
+    <string name="nedc_mode_turning_off_dialog_tips">Turning off “battery saver mode” . This may take a few moments, please try again later.</string>
+
+    <!--about system begin-->
+    <string name="about_restore">Factory Reset</string>
+    <string name="about_clean_space_used">Space used: %1$s</string>
+    <string name="about_clean">Clear cache data</string>
+    <string name="clean_settings_doing">Clearing...</string>
+    <string name="clean_settings_done">Cache data cleared</string>
+    <string name="clean_tts_tips">Clearing cache data...shut up.</string>
+    <string name="clean_tts">Clearing cache data</string>
+    <string name="about_clean_p_toast">Please use this mode when the vehicle is in P</string>
+    <string name="clean_settings_title">Clear cache data</string>
+    <string name="clean_settings_content">After clearing, the system cache and application data will be cleared, and you might need to re-enter your login information to access certain third-party Apps. Do you want to continue?</string>
+    <string name="about_policy">Privacy Policy</string>
+    <string name="about_user_agreement">User Agreement</string>
+    <string name="about_execute">Reset</string>
+    <string name="about_check">View</string>
+    <string name="restore_settings_title">Reset</string>
+    <string name="restore_init_title">After resetting, local data will be erased and your device will be restored to factory settings. Do you want to continue?</string>
+    <string name="continue_btn">CONTINUE</string>
+    <string name="restore_safety_alert">Reset conditions are met</string>
+    <string name="restore_safety_alert_title">We have detected that the current vehicle meets the conditions for reset</string>
+    <string name="restore_safety_alert_title_2">1. Please ensure that the vehicle is powered on for the entire duration; \n2. Please ensure that the vehicle is in P (park); \n Tap "Start" to enter the reset process</string>
+    <string name="start_recovery_btn">START</string>
+    <string name="restore_warning_1">Safety requirements not met; vehicle currently not in park</string>
+    <string name="restore_warning_1_explain">Please follow the steps below: \n1. Shift the vehicle into P (park); \n2. Tap "Retry" to conduct the safety check again;</string>
+    <string name="restore_warning_2">The reset requirements are not met due to the low storage battery power.</string>
+    <string name="restore_warning_2_explain">If you have any questions, please contact Xpeng customer service "%s" .</string>
+    <string name="restore_warning_2_explain_ex">"%s";</string>
+    <string name="restore_warning_phone_tts">Call</string>
+    <string name="restore_warning_title">Unable to Reset</string>
+    <string name="restore_retry">RETRY</string>
+    <string name="user_know">OK</string>
+    <string name="customer_service_number1">400-819-3388</string>
+    <string name="customer_service_number2">020-37520800</string>
+    <!--about system end-->
+
+    <string name="display_night_brightness_tips">Only adjust touchscreen brightness in night mode, does not affect day mode</string>
+    <string name="display_night_meter_brightness_tips">Only adjust dashboard brightness in night mode, does not affect day mode</string>
+    <string name="display_day_brightness_tips">Only adjust touchscreen brightness in day mode, does not affect night mode</string>
+    <string name="display_day_meter_brightness_tips">Only adjust dashboard brightness in day mode, does not affect night mode</string>
+    <string name="display_dark_brightness_tips">After enabling, the touchscreen and dashboard brightness will be automatically adjusted when encountering a low-light environment in the day time, such as driving in a tunnel or an underground garage. Upon leaving a low-light environment, the touchscreen and dashboard brightness will automatically be restored.</string>
+
+
+    <!-- D21V新增 -->
+    <string name="title_protocol">Privacy</string>
+    <string name="privacy_protocol_screen_title">Privacy Policy</string>
+    <string name="privacy_protocol_check">View</string>
+
+    <string name="privacy_protocol_map_service">Map and Navigation Data Access</string>
+    <string name="privacy_protocol_map_service_tips">Allow Map and Navigation to access location data. Turning data access off will disable Map and Navigation Function.</string>
+    <string name="privacy_protocol_voice_service">Voice Assistant Data Access</string>
+    <string name="privacy_protocol_voice_service_tips">Allow Voice Assistant to access your voice data. Turning data access off will disable Voice Assistant.</string>
+
+    <string name="group_title_privacy">Privacy</string>
+    <string name="group_title_other">Other</string>
+
+    <string name="se_type_title_original">Original</string>
+    <string name="se_type_title_dynamic">Dynamic</string>
+    <string name="se_type_title_soft">Gentle</string>
+    <string name="se_type_title_custom">Personal</string>
+
+    <string name="se_equalizer_btn">Equalizer</string>
+    <string name="se_equalizer_title">Equalizer</string>
+    <string name="se_equalizer_mega_bass">SUPER LOW</string>
+    <string name="se_equalizer_bass">LOW</string>
+    <string name="se_equalizer_mediant">MEDIUM</string>
+    <string name="se_equalizer_high">HIGH</string>
+
+    <string name="se_reset_to_default">reset</string>
+    <string name="psn_tts_switch">Play Passenger Seat Voice</string>
+    <string name="sound_headrest_sharing_model" >Switched to the Shared Mode</string>
+    <string name="sound_headrest_enjoy_driving_model" >Switched to the Driving Mode</string>
+    <string name="sound_headrest_private_model">Switched to the Private Mode</string>
+</resources>

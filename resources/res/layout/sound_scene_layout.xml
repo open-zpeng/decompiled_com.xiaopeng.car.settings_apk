@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.car.settingslibrary.ui.widget.anim.SoundEffectAnimView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:id="@+id/sound_field_scenes_anim" android:visibility="gone" android:layout_width="1064dp" android:layout_height="match_parent" android:layout_marginTop="27dp"/>

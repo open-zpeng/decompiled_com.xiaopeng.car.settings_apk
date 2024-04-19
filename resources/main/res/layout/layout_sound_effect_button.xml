@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center_horizontal"
+    app:vuiDisableHitEffect="true"
+    android:orientation="vertical"
+    app:vuiElementType="CHECKBOX">
+
+    <com.xiaopeng.xui.widget.XImageView
+        android:id="@+id/sound_effect_image"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center_horizontal"
+        android:foreground="@drawable/sound_effect_button_foreground"
+        android:background="@drawable/d_sound_effect_button_bg"
+        app:vuiMode="DISABLED"
+        android:scaleType="center" />
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/sound_effect_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:textColor="@drawable/sound_effect_text_color_selector"
+        android:textSize="@dimen/qs_panel_tips_size"
+        app:vuiMode="DISABLED"
+        tools:text="hello" />
+
+</com.xiaopeng.xui.widget.XLinearLayout>
+
+
+
+
+
+

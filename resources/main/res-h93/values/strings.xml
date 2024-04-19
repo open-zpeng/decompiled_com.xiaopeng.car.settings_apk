@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_clean_space_used">已使用%1$s</string>
+</resources>

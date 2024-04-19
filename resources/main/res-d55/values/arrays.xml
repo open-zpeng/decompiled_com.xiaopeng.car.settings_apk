@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supported_languages_display_name">
+        <item>English</item>
+        <item>Dansk</item>
+        <item>Nederlands</item>
+        <item>Norsk</item>
+        <item>Svenska</item>
+    </string-array>
+
+    <string-array name="supported_languages_code">
+        <item>en</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>nb</item>
+        <item>sv</item>
+    </string-array>
+
+    <string-array name="supported_countries_display_name">
+        <item>Denmark</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Sweden</item>
+    </string-array>
+
+    <string-array name="supported_countries_code">
+        <item>DK</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>SE</item>
+    </string-array>
+</resources>

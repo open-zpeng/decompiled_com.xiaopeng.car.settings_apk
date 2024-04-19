@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="pic_bg_scenes_ktv">@drawable/pic_bg_scenes_concerthall</drawable>
+    <drawable name="pic_bg_scenes_live">@drawable/pic_bg_scenes_concerthall</drawable>
+</resources>

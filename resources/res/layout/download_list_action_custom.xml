@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/download_item_action" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.car.settingslibrary.ui.widget.MaskImageView android:id="@+id/download_icon" android:layout_width="88dp" android:layout_height="88dp" android:layout_centerInParent="true"/>
+    <com.xiaopeng.xui.widget.XCircularProgressBar android:id="@+id/download_circularProgressBar" android:indeterminate="false" android:layout_centerInParent="true" app:progress_enableIndicator="true" app:progress_indicatorType="paused" style="@style/ProgressBarOnMask"/>
+</RelativeLayout>

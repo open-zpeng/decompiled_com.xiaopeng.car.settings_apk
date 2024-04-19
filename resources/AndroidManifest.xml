@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="2394" android:versionName="VV1.6.0_20230928152214_Release" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.xiaopeng.car.settings" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28"/>
+    <permission android:name="com.xiaopeng.systemui.permission.CALL_DROPDOWN" android:protectionLevel="normal"/>
+    <permission android:name="com.xiaopeng.settings.permission.AUTO_POWER_OFF_DIALOG" android:protectionLevel="signature"/>
+    <permission android:name="com.xiaopeng.settings.permission.XUI_DIALOG" android:protectionLevel="signature"/>
+    <permission android:name="com.xiaopeng.settings.permission.XUI_TOAST" android:protectionLevel="signature"/>
+    <protected-broadcast android:name="com.qualcomm.qti.net.wifi.DPP_EVENT"/>
+    <uses-permission android:name="android.permission.SUPER_APPLICATION_RUNNING"/>
+    <uses-permission android:name="android.permission.RECEIVE_PRE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.car.permission.CAR_MILEAGE"/>
+    <uses-permission android:name="android.car.permission.CAR_ENERGY"/>
+    <uses-permission android:name="android.car.permission.CAR_IDENTIFICATION"/>
+    <uses-permission android:name="android.car.permission.CAR_SPEED"/>
+    <uses-permission android:name="android.car.permission.CAR_DYNAMICS_STATE"/>
+    <uses-permission android:name="android.car.permission.CAR_ENERGY_PORTS"/>
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_LIGHTS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_EXTERIOR_LIGHTS"/>
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_VOLUME"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.car.permission.CAR_NAVIGATION_MANAGER"/>
+    <uses-permission android:name="android.car.permission.CAR_INSTRUMENT_CLUSTER_CONTROL"/>
+    <uses-permission android:name="android.car.permission.CAR_DISPLAY_IN_CLUSTER"/>
+    <uses-permission android:name="android.car.permission.CAR_INFO"/>
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_ENVIRONMENT"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
+    <uses-permission android:name="android.car.permission.CONTROL_APP_BLOCKING"/>
+    <uses-permission android:name="android.car.permission.ADJUST_CAR_CABIN"/>
+    <uses-permission android:name="android.car.permission.CAR_ENGINE_DETAILED"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_DOORS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_WINDOWS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_SEATS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_MIRRORS"/>
+    <uses-permission android:name="android.car.permission.CAR_TIRES"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_CLIMATE"/>
+    <uses-permission android:name="android.car.permission.CAR_POWER"/>
+    <uses-permission android:name="android.car.permission.CAR_PROJECTION"/>
+    <uses-permission android:name="android.car.permission.CAR_MOCK_VEHICLE_HAL"/>
+    <uses-permission android:name="android.car.permission.CAR_TEST_SERVICE"/>
+    <uses-permission android:name="android.car.permission.CAR_DRIVING_STATE"/>
+    <uses-permission android:name="android.car.permission.VMS_PUBLISHER"/>
+    <uses-permission android:name="android.car.permission.VMS_SUBSCRIBER"/>
+    <uses-permission android:name="android.car.permission.CAR_DIAGNOSTICS"/>
+    <uses-permission android:name="android.car.permission.CLEAR_CAR_DIAGNOSTICS"/>
+    <uses-permission android:name="android.car.permission.STORAGE_MONITORING"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.HARDWARE_TEST"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    <uses-permission android:name="com.android.certinstaller.INSTALL_AS_USER"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOVE_PACKAGE"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.MANAGE_USB"/>
+    <uses-permission android:name="android.permission.SET_POINTER_SPEED"/>
+    <uses-permission android:name="android.permission.SET_KEYBOARD_LAYOUT"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.COPY_PROTECTED_DATA"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.CONFIGURE_WIFI_DISPLAY"/>
+    <uses-permission android:name="android.permission.SET_TIME"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="xiaopeng.permission.OTA_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.DUMP"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.SET_TIME_ZONE"/>
+    <uses-permission android:name="android.permission.START_FOREGROUND"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS"/>
+    <uses-permission android:name="android.permission.REQUEST_NETWORK_SCORES"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.TETHER_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+    <uses-permission android:name="android.permission.CONFIGURE_DISPLAY_COLOR_MODE"/>
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES"/>
+    <uses-permission android:name="android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE"/>
+    <uses-permission android:name="android.permission.OEM_UNLOCK_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_USER_OEM_UNLOCK_STATE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.USER_ACTIVITY"/>
+    <uses-permission android:name="android.permission.CHANGE_APP_IDLE_STATE"/>
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.MANAGE_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.MANAGE_APP_OPS_RESTRICTIONS"/>
+    <uses-permission android:name="android.permission.MANAGE_APP_OPS_MODES"/>
+    <uses-permission android:name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS"/>
+    <uses-permission android:name="android.permission.READ_PRINT_SERVICES"/>
+    <uses-permission android:name="android.permission.TEST_BLACKLISTED_PASSWORD"/>
+    <uses-permission android:name="android.permission.USE_RESERVED_DISK"/>
+    <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS"/>
+    <uses-permission android:name="com.xiaopeng.xuimanager.permission.XUI_XAPP"/>
+    <uses-permission android:name="com.xiaopeng.xuimanager.permission.XUI_LIGHTLANUAGE"/>
+    <uses-permission android:name="com.xiaopeng.settings.permission.AUTO_POWER_OFF_DIALOG"/>
+    <uses-permission android:name="com.xiaopeng.settings.permission.XUI_DIALOG"/>
+    <uses-permission android:name="com.xiaopeng.settings.permission.XUI_TOAST"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="com.xiaopeng.xuimanager.permission.XUI_KARAOKE"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
+    <uses-permission android:name="android.permission.LAUNCH_RESTRICTED_COMPONENT"/>
+    <protected-broadcast android:name="com.xiaopeng.download.intent.action.CLEAR_COMPLETE"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.read"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.write"/>
+    <uses-permission android:name="com.xiaopeng.caraccount.permission.SYNC"/>
+    <uses-permission android:name="com.xiaopeng.permission.IPC"/>
+    <uses-permission android:name="com.xiaopeng.permission.SERVICE"/>
+    <uses-permission android:name="com.xiaopeng.permission.READ_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="com.xiaopeng.permission.BROADCAST"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.xiaopeng.permission.SYSTEM_DELEGATE"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_applist_setting" android:name="com.xiaopeng.car.settings.UIApplication" android:debuggable="true" android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="true" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <meta-data android:name="com.xiaopeng.metadata.shared.display.state" android:value="1"/>
+        <activity android:name="com.xiaopeng.car.settings.ui.activity.MainActivity" android:exported="true" android:launchMode="singleInstance" android:configChanges="fontScale|layoutDirection|navigation|keyboardHidden|keyboard|locale">
+            <intent-filter android:priority="10">
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.settings.SETTINGS"/>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="xiaopeng" android:host="setting"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.CleanMode" android:name="com.xiaopeng.car.settings.ui.activity.CleanModeActivity" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="96"/>
+            <meta-data android:name="com.xiaopeng.metadata.activity.level" android:value="1"/>
+            <intent-filter>
+                <action android:name="xiaopeng.car.settings.clean_mode"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.Translucent" android:name="com.xiaopeng.car.settings.ui.activity.WaitModeActivity" android:excludeFromRecents="true" android:launchMode="singleInstance">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+            <intent-filter>
+                <action android:name="xiaopeng.car.settings.wait_mode"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Pop" android:name="com.xiaopeng.car.settings.ui.activity.PopupWlanActivity" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_WLAN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Pop" android:name="com.xiaopeng.car.settings.ui.activity.PopupBluetoothActivity" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_BLUETOOTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Pop" android:name="com.xiaopeng.car.settings.ui.activity.PopupPsnBluetoothActivity" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_PSN_BLUETOOTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Pop" android:name="com.xiaopeng.car.settings.ui.activity.PopupExternalBluetoothActivity" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_EXTERNAL_BLUETOOTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Pop" android:name="com.xiaopeng.car.settings.ui.activity.PopupDownloadActivity" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_DOWNLOAD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Pop" android:name="com.xiaopeng.car.settings.ui.activity.PopupUsbActivity" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_USB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/XAppTheme.XPanel.Dialog" android:name="com.xiaopeng.car.settings.ui.activity.CapsuleCinemaUseGuideActivity" android:launchMode="singleInstance" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_CAPSULE_CINEMA_USE_GUIDE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="192"/>
+        </activity>
+        <meta-data android:name="BUILD_BRANCH" android:value="d55_1.6.0 f05ae21 jenkins"/>
+        <meta-data android:name="BUILD_TIME" android:value="2023/09/28 07:22:43"/>
+        <meta-data android:name="CAR_TYPE" android:value="D55"/>
+        <meta-data android:name="SPEECH_OBSERVER" android:value="com.xiaopeng.car.settings.SpeechSettingsOverAllObserver"/>
+        <meta-data android:name="SPEECH_EVENTS" android:value="command://system.screen.brightness.up             |command://system.screen.brightness.up.percent             |command://system.screen.brightness.set.percent             |command://system.screen.brightness.set             |command://system.screen.brightness.max             |command://system.screen.brightness.down             |command://system.screen.brightness.down.percent             |command://system.screen.brightness.min             |command://system.icm.brightness.up             |command://system.icm.brightness.set             |command://system.icm.brightness.up.percent             |command://system.icm.brightness.set.percent             |command://system.icm.brightness.max             |command://system.icm.brightness.down             |command://system.icm.brightness.down.percent             |command://system.icm.brightness.min             |command://system.theme.mode.auto             |command://system.theme.mode.day             |command://system.theme.mode.night             |command://system.screen.mode.clean             |command://system.wifi.off             |command://system.wifi.on             |command://system.wifi.setting.open             |command://bluetooth.setting.open             |command://system.bluetooth.off             |command://system.bluetooth.on             |command://system.volume.up             |command://system.volume.down             |command://system.volume.set             |command://system.volume.max             |command://system.volume.min             |command://system.volume.mute             |command://system.volume.unmute             |command://system.volume.resume             |command://system.screen.off             |command://system.screen.on             |command://system.screen.brightness.stop             |command://system.screen.brightness.auto.on             |command://system.screen.brightness.auto.off             |command://control.volume.notification.max             |command://control.volume.notification.medium             |command://control.volume.notification.min             |command://control.volume.notification.up             |command://control.volume.notification.down             |command://system.music.sound.effect.model.set             |command://system.music.sound.effect.style.set             |command://system.sound.scene.set             |command://system.headrest.model.set             |command://system.music.sound.direction.set             |command://system.front.setting             |command://system.timeformat.setting             |command://system.lowspeed.analogtone.high             |command://system.lowspeed.analogtone.low             |command://system.lowspeed.analogtone.max             |command://system.lowspeed.analogtone.min             |command://system.lowspeed.analogtone.set             |command://system.sentry.mode.setting             |command://system.usage.restrictions.on             |command://system.key.parking.on             |command://system.key.parking.off             |command://system.key.parking.enhanced.off             |command://system.polit.screen.on             |command://system.polit.screen.off             |command://system.polit.screen.brightness.auto.on             |command://system.polit.screen.brightness.auto.off             |command://system.psn.screen.brightness.up             |command://system.psn.screen.brightness.up.percent             |command://system.psn.screen.brightness.set.percent             |command://system.psn.screen.brightness.set             |command://system.psn.screen.brightness.max             |command://system.psn.screen.brightness.down             |command://system.psn.screen.brightness.down.percent             |command://system.psn.screen.brightness.min             |command://system.position.reminder.on             |command://system.position.reminder.off             |command://system.pilot.bluetooth.off             |command://system.pilot.bluetooth.on             |command://system.immerse.sound.set             |command://system.recordvideo.phone.off             |command://control.system.sound.external.set             |system.rear.screen.support             |system.rear.screen.status             |system.rear.screen.lock.status             |command://system.rear.screen.open             |command://system.rear.screen.close             |command://system.rear.screen.lock.on             |command://system.rear.screen.lock.off             |query.phone.connect.devices             |system.get.bluetooth.status             |system.bluetooth.status             |command://control.bluetooth.connect             |bluetooth.get.connect.status             |command://system.icm.brightness.auto.on             |command://system.icm.brightness.auto.off             |system.screen.saver.status             |command://system.current.effect.equalizer.model.set             |system.sound.effect.config             |system.current.sound.effect.equalizer.mode             |system.screen.current             |system.screen.brightness.max.value             |system.screen.brightness.min.value             |system.icm.brightness.current             |system.icm.brightness.max.value             |system.icm.brightness.min.value             |system.volume.current             |system.volume.max.value             |system.volume.min.value             |system.tips.volume             |gui.page.open.settings             |unity.page.support.settings             |system.music.is.playing             |system.music.sound.effect.model.status             |system.music.sound.effect.dynaudio.is.support             |system.music.sound.effect.is.support             |system.music.sound.effect.status             |system.sound.scene.is.support             |system.sound.scene.status             |system.headrest.driver.mode.is.support             |system.headrest.driver.mode.status             |system.music.sound.direction.is.support             |system.music.sound.direction.status             |system.settings.auto.screen.status             |system.current.nedc.status             |system.intelligent.dark.light.adapt             |system.lowspeed.analogtone.current.value             |system.lowspeed.analogtone.min.value             |system.xp.lab.support             |system.signal.loss.frame.state             |system.sentry.mode.value             |system.psn.screen.current             |system.psn.screen.brightness.max.value             |system.psn.screen.brightness.min.value             |system.position.reminder.support             |system.immerse.sound.support             |system.immerse.sound.current.mode             |control.system.sound.external.support             |system.lowspeed.analogtone.max.value             |gui.page.open.state.settings             |gui.page.close.settings"/>
+        <service android:name="com.xiaopeng.car.settingslibrary.service.UIGlobalService" android:exported="false"/>
+        <service android:name="com.xiaopeng.car.settingslibrary.demo.XpUIDemoService" android:exported="false"/>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.BootReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.REBOOT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.xiaopeng.car.settingslibrary.service.GlobalService" android:exported="false"/>
+        <service android:name="com.xiaopeng.car.settingslibrary.demo.XpDemoService" android:exported="false"/>
+        <service android:label="NotificationMonitor" android:name="com.xiaopeng.car.settingslibrary.service.NotificationMonitorService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.CleanModeReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.CLEAN_MODE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.UserScenarioReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xui.userscenario"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.xiaopeng.car.settingslibrary.service.UserScenarioService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xui.userscenario"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.cb.MicConnectReceiver" android:exported="false" android:priority="1000">
+            <intent-filter>
+                <action android:name="com.test.intent.action.TEST_MIC"/>
+                <action android:name="android.karaoke.recommend.CONNECT_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.AuthModeReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.OPEN_QUIT_AUTH_MODE_DIALOG"/>
+                <action android:name="com.xiaopeng.intent.action.CLOSE_QUIT_AUTH_MODE_DIALOG"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.RepairReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.REPAIR_REQUEST_QUIT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.UrgentPowerReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.emergency.igoff"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.AutoPowerOffReceiver" android:permission="com.xiaopeng.settings.permission.AUTO_POWER_OFF_DIALOG" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.AUTO_POWER_OFF"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.PsnMonitorReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xui.passenger.status"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.manager.download.DownloadCenterReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.download.intent.action.CLEAR_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.BluetoothPairingRequest">
+            <intent-filter android:priority="1000">
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.PopupSoundReceiver" android:permission="android.permission.LAUNCH_RESTRICTED_COMPONENT" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_SOUND_EFFECT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.ToastReceiver" android:permission="com.xiaopeng.settings.permission.XUI_TOAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.XUI_TOAST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.work.dialog.XDialogReceiver" android:permission="com.xiaopeng.settings.permission.XUI_DIALOG" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.XUI_DIALOG"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.StoreWarningReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.ACTION_DEVICE_STORAGE_LOW"/>
+                <action android:name="com.xiaopeng.intent.action.ACTION_DEVICE_STORAGE_OK"/>
+                <action android:name="com.xiaopeng.intent.action.ACTION_DEVICE_STORAGE_FULL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.CleanCachesReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.REQUEST_CLEAN_CACHES"/>
+                <action android:name="com.xiaopeng.intent.action.ACTION_DEVICE_STORAGE_AUTO"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaopeng.car.settingslibrary.service.PopDialogReceiver" android:permission="android.permission.LAUNCH_RESTRICTED_COMPONENT" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.POPUP_BLUETOOTH"/>
+                <action android:name="com.xiaopeng.intent.action.POPUP_WLAN"/>
+                <action android:name="com.xiaopeng.intent.action.POPUP_PSN_BLUETOOTH"/>
+                <action android:name="com.xiaopeng.intent.action.POPUP_BACK_SEAT_BLUETOOTH"/>
+                <action android:name="com.xiaopeng.intent.action.POPUP_DOWNLOAD"/>
+                <action android:name="com.xiaopeng.intent.action.POPUP_USB"/>
+                <action android:name="com.xiaopeng.intent.action.POPUP_STORAGE"/>
+                <action android:name="com.xiaopeng.intent.action.ACTION_STORAGE_OPEN"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/FallbackHome" android:label="" android:name="com.xiaopeng.car.settingslibrary.ui.activity.FallbackHome" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="nosensor" android:configChanges="fontScale|colorMode|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+            <intent-filter android:priority="-500">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.xiaopeng.lib.apirouter.server.ApiPublisherProvider" android:permission="android.permission.LAUNCH_RESTRICTED_COMPONENT" android:exported="true" android:authorities="com.xiaopeng.car.settings.api.publisher"/>
+        <activity android:theme="@style/AppTheme.Translucent" android:name="com.xiaopeng.car.settingslibrary.ui.activity.SkipIntentActivity" android:exported="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.BLUETOOTH_SETTINGS"/>
+                <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST"/>
+                <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL"/>
+                <action android:name="android.bluetooth.devicepicker.action.LAUNCH"/>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_DISCOVERABLE"/>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_ENABLE"/>
+                <action android:name="android.bluetooth.adapter.action.REQUEST_DISABLE"/>
+                <action android:name="android.net.wifi.action.REQUEST_ENABLE"/>
+                <action android:name="android.net.wifi.action.REQUEST_DISABLE"/>
+                <action android:name="com.android.settings.WIFI_DIALOG"/>
+                <action android:name="android.net.wifi.PICK_WIFI_NETWORK"/>
+                <action android:name="android.settings.WIFI_IP_SETTINGS"/>
+                <action android:name="android.settings.WIFI_SAVED_NETWORK_SETTINGS"/>
+                <action android:name="android.net.wifi.action.REQUEST_SCAN_ALWAYS_AVAILABLE"/>
+                <action android:name="android.settings.WIFI_SETTINGS"/>
+                <action android:name="com.android.settings.SOUND_SETTINGS"/>
+                <action android:name="android.settings.SOUND_SETTINGS"/>
+                <action android:name="android.settings.ACTION_OTHER_SOUND_SETTINGS"/>
+                <action android:name="android.settings.DISPLAY_SETTINGS"/>
+                <action android:name="com.android.settings.DISPLAY_SETTINGS"/>
+                <action android:name="android.settings.NIGHT_DISPLAY_SETTINGS"/>
+                <action android:name="android.settings.DATE_SETTINGS"/>
+                <action android:name="android.intent.action.QUICK_CLOCK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.Translucent" android:name="com.xiaopeng.car.settingslibrary.ui.activity.NotFoundActivity" android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.DATA_USAGE_SETTINGS"/>
+                <action android:name="android.settings.TETHER_PROVISIONING_UI"/>
+                <action android:name="android.settings.MOBILE_DATA_USAGE"/>
+                <action android:name="android.settings.VOICE_INPUT_SETTINGS"/>
+                <action android:name="android.settings.SYNC_SETTINGS"/>
+                <action android:name="android.settings.ACCOUNT_SYNC_SETTINGS"/>
+                <action android:name="android.settings.ALL_APPS_NOTIFICATION_SETTINGS"/>
+                <action android:name="android.settings.APP_NOTIFICATION_SETTINGS"/>
+                <action android:name="android.settings.DEVICE_INFO_SETTINGS"/>
+                <action android:name="android.settings.DEVICE_NAME"/>
+                <action android:name="android.settings.APP_MEMORY_USAGE"/>
+                <action android:name="android.settings.STORAGE_MANAGER_SETTINGS"/>
+                <action android:name="android.settings.STORAGE_VOLUME_ACCESS_SETTINGS"/>
+                <action android:name="android.intent.action.MANAGE_PACKAGE_STORAGE"/>
+                <action android:name="android.settings.INTERNAL_STORAGE_SETTINGS"/>
+                <action android:name="android.settings.MEMORY_CARD_SETTINGS"/>
+                <action android:name="android.settings.APPLICATION_SETTINGS"/>
+                <action android:name="android.settings.APPLICATION_DEVELOPMENT_SETTINGS"/>
+                <action android:name="com.android.settings.APPLICATION_DEVELOPMENT_SETTINGS"/>
+                <action android:name="android.settings.APPLICATION_DETAILS_SETTINGS"/>
+                <action android:name="android.settings.MANAGE_APPLICATIONS_SETTINGS"/>
+                <action android:name="android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS"/>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <action android:name="android.settings.WIRELESS_SETTINGS"/>
+                <action android:name="android.settings.AIRPLANE_MODE_SETTINGS"/>
+                <action android:name="android.settings.NFC_SETTINGS"/>
+                <action android:name="android.settings.VOICE_CONTROL_AIRPLANE_MODE"/>
+                <action android:name="com.android.settings.SEARCH_RESULT_TRAMPOLINE"/>
+                <action android:name="android.net.conn.PROMPT_UNVALIDATED"/>
+                <action android:name="android.net.conn.PROMPT_LOST_VALIDATION"/>
+                <action android:name="android.settings.APN_SETTINGS"/>
+                <action android:name="android.settings.ASSIST_GESTURE_SETTINGS"/>
+                <action android:name="android.settings.VPN_SETTINGS"/>
+                <action android:name="android.net.vpn.SETTINGS"/>
+                <action android:name="android.settings.LOCALE_SETTINGS"/>
+                <action android:name="android.settings.HARD_KEYBOARD_SETTINGS"/>
+                <action android:name="android.settings.INPUT_METHOD_SUBTYPE_SETTINGS"/>
+                <action android:name="android.settings.USER_DICTIONARY_SETTINGS"/>
+                <action android:name="com.android.settings.USER_DICTIONARY_INSERT"/>
+                <action android:name="android.settings.ZEN_MODE_SETTINGS"/>
+                <action android:name="android.settings.ZEN_MODE_PRIORITY_SETTINGS"/>
+                <action android:name="android.settings.ZEN_MODE_ONBOARDING"/>
+                <action android:name="android.settings.ZEN_MODE_AUTOMATION_SETTINGS"/>
+                <action android:name="android.settings.ACTION_CONDITION_PROVIDER_SETTINGS"/>
+                <action android:name="android.settings.ZEN_MODE_SCHEDULE_RULE_SETTINGS"/>
+                <action android:name="android.settings.ZEN_MODE_EVENT_RULE_SETTINGS"/>
+                <action android:name="android.settings.LICENSE"/>
+                <action android:name="android.settings.MANAGE_DOMAIN_URLS"/>
+                <action android:name="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS"/>
+                <action android:name="android.settings.IGNORE_BACKGROUND_DATA_RESTRICTIONS_SETTINGS"/>
+                <action android:name="android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+                <action android:name="android.settings.APPLICATION_DETAILS_SETTINGS_OPEN_BY_DEFAULT_PAGE"/>
+                <action android:name="android.settings.VOICE_CONTROL_DO_NOT_DISTURB_MODE"/>
+                <action android:name="android.settings.LOCATION_SOURCE_SETTINGS"/>
+                <action android:name="android.settings.LOCATION_SCANNING_SETTINGS"/>
+                <action android:name="android.settings.SECURITY_SETTINGS"/>
+                <action android:name="com.android.settings.MONITORING_CERT_INFO"/>
+                <action android:name="com.android.settings.TRUSTED_CREDENTIALS"/>
+                <action android:name="com.android.settings.TRUSTED_CREDENTIALS_USER"/>
+                <action android:name="com.android.credentials.UNLOCK"/>
+                <action android:name="com.android.credentials.INSTALL"/>
+                <action android:name="com.android.credentials.RESET"/>
+                <action android:name="android.app.action.ADD_DEVICE_ADMIN"/>
+                <action android:name="android.app.action.SET_PROFILE_OWNER"/>
+                <action android:name="android.settings.USAGE_ACCESS_SETTINGS"/>
+                <action android:name="android.settings.ACCESSIBILITY_SETTINGS"/>
+                <action android:name="android.settings.ACCESSIBILITY_SETTINGS_FOR_SUW"/>
+                <action android:name="com.android.settings.ACCESSIBILITY_COLOR_SPACE_SETTINGS"/>
+                <action android:name="android.settings.CAPTIONING_SETTINGS"/>
+                <action android:name="com.android.settings.TTS_SETTINGS"/>
+                <action android:name="android.settings.ENTERPRISE_PRIVACY_SETTINGS"/>
+                <action android:name="android.app.action.CONFIRM_DEVICE_CREDENTIAL"/>
+                <action android:name="android.app.action.CONFIRM_FRP_CREDENTIAL"/>
+                <action android:name="android.app.action.CONFIRM_DEVICE_CREDENTIAL_WITH_USER"/>
+                <action android:name="android.settings.ACTION_APP_NOTIFICATION_REDACTION"/>
+                <action android:name="android.settings.FINGERPRINT_ENROLL"/>
+                <action android:name="android.settings.FINGERPRINT_SETUP"/>
+                <action android:name="com.android.settings.SETUP_LOCK_SCREEN"/>
+                <action android:name="android.app.action.SET_NEW_PASSWORD"/>
+                <action android:name="android.app.action.SET_NEW_PARENT_PROFILE_PASSWORD"/>
+                <action android:name="android.provider.action.DOCUMENT_ROOT_SETTINGS"/>
+                <action android:name="android.settings.ACTION_PRINT_SETTINGS"/>
+                <action android:name="android.settings.SHOW_REMOTE_BUGREPORT_DIALOG"/>
+                <action android:name="android.intent.action.PICK_ACTIVITY"/>
+                <action android:name="android.settings.NFCSHARING_SETTINGS"/>
+                <action android:name="android.settings.CAST_SETTINGS"/>
+                <action android:name="android.appwidget.action.APPWIDGET_PICK"/>
+                <action android:name="android.appwidget.action.APPWIDGET_BIND"/>
+                <action android:name="android.intent.action.POWER_USAGE_SUMMARY"/>
+                <action android:name="android.settings.BATTERY_SAVER_SETTINGS"/>
+                <action android:name="android.settings.VOICE_CONTROL_BATTERY_SAVER_MODE"/>
+                <action android:name="android.settings.MANAGED_PROFILE_SETTINGS"/>
+                <action android:name="android.settings.ADD_ACCOUNT_SETTINGS"/>
+                <action android:name="android.app.action.START_ENCRYPTION"/>
+                <action android:name="android.settings.DREAM_SETTINGS"/>
+                <action android:name="android.settings.USER_SETTINGS"/>
+                <action android:name="android.settings.NFC_PAYMENT_SETTINGS"/>
+                <action android:name="android.nfc.cardemulation.action.ACTION_CHANGE_DEFAULT"/>
+                <action android:name="android.provider.Telephony.ACTION_CHANGE_DEFAULT"/>
+                <action android:name="android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS"/>
+                <action android:name="android.settings.VR_LISTENER_SETTINGS"/>
+                <action android:name="android.settings.PICTURE_IN_PICTURE_SETTINGS"/>
+                <action android:name="android.settings.NOTIFICATION_POLICY_ACCESS_SETTINGS"/>
+                <action android:name="android.settings.NOTIFICATION_SETTINGS"/>
+                <action android:name="com.android.settings.SOUND_SETTINGS"/>
+                <action android:name="android.settings.SOUND_SETTINGS"/>
+                <action android:name="android.settings.ACTION_OTHER_SOUND_SETTINGS"/>
+                <action android:name="android.settings.CHANNEL_NOTIFICATION_SETTINGS"/>
+                <action android:name="android.settings.SHOW_MANUAL"/>
+                <action android:name="android.settings.SHOW_REGULATORY_INFO"/>
+                <action android:name="com.android.settings.sim.SIM_SUB_INFO_SETTINGS"/>
+                <action android:name="android.settings.WIFI_CALLING_SETTINGS"/>
+                <action android:name="android.settings.action.MANAGE_OVERLAY_PERMISSION"/>
+                <action android:name="android.settings.action.MANAGE_WRITE_SETTINGS"/>
+                <action android:name="android.settings.MANAGE_UNKNOWN_APP_SOURCES"/>
+                <action android:name="android.settings.SHOW_ADMIN_SUPPORT_DETAILS"/>
+                <action android:name="android.settings.MANAGE_DEFAULT_APPS_SETTINGS"/>
+                <action android:name="android.settings.WEBVIEW_SETTINGS"/>
+                <action android:name="android.settings.PRIVACY_SETTINGS"/>
+                <action android:name="com.android.settings.action.SUPPORT_SETTINGS"/>
+                <action android:name="android.settings.REQUEST_SET_AUTOFILL_SERVICE"/>
+                <action android:name="com.android.settings.ADVANCED_CONNECTED_DEVICE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.IGNORE_BACKGROUND_DATA_RESTRICTIONS_SETTINGS"/>
+                <action android:name="android.settings.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+                <action android:name="android.settings.APPLICATION_DETAILS_SETTINGS"/>
+                <action android:name="android.settings.APPLICATION_DETAILS_SETTINGS_OPEN_BY_DEFAULT_PAGE"/>
+                <action android:name="android.settings.PICTURE_IN_PICTURE_SETTINGS"/>
+                <action android:name="android.settings.action.MANAGE_OVERLAY_PERMISSION"/>
+                <action android:name="android.settings.MANAGE_UNKNOWN_APP_SOURCES"/>
+                <action android:name="android.settings.REQUEST_SET_AUTOFILL_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.VOICE_LAUNCH"/>
+                <category android:name="android.intent.category.VOICE"/>
+                <category android:name="com.android.settings.SHORTCUT"/>
+                <category android:name="android.intent.category.DEVELOPMENT_PREFERENCE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/telephony-carrier"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.action.DOCUMENT_ROOT_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.document/root" android:scheme="content" android:host="com.android.externalstorage.documents"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.ACTION_PRINT_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="printjob" android:pathPattern="*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/telephony-carrier"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.ZEN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.FIRST_IMPRESSION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.PERSONALIZE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.DISPLAY_SETTINGS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.LOCK_SCREEN_REDACTION"/>
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.LOCK_SCREEN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xiaopeng.car.settingslibrary.ui.activity.MainActivity" android:exported="false" android:launchMode="singleInstance" android:configChanges="fontScale|layoutDirection|navigation|keyboardHidden|keyboard|locale"/>
+        <activity android:name="com.xiaopeng.car.settingslibrary.ui.activity.SoundEffectActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.action.soundeffect"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xiaopeng.car.settingslibrary.ui.activity.PopupStorageActivity"/>
+        <service android:name="com.xiaopeng.lib.framework.ipcmodule.AgentService" android:permission="com.xiaopeng.permission.SERVICE" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.ipc.AgentService"/>
+            </intent-filter>
+        </service>
+        <service android:name="org.eclipse.paho.android.service.MqttService"/>
+        <provider android:name="com.xiaopeng.lib.framework.netchannelmodule.common.ContextNetStatusProvider" android:exported="false" android:authorities="com.xiaopeng.car.settings.netmodule.provider"/>
+        <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.xiaopeng.car.settings.lifecycle-process"/>
+    </application>
+</manifest>

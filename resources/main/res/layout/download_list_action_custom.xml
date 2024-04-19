@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/download_item_action"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <com.xiaopeng.car.settingslibrary.ui.widget.MaskImageView
+       android:id="@+id/download_icon"
+       android:layout_width="88dp"
+       android:layout_height="88dp"
+       tools:src="@drawable/x_ic_xxlarge_bluetoothlink"
+       android:layout_centerInParent="true"
+       />
+    <com.xiaopeng.xui.widget.XCircularProgressBar
+        android:id="@+id/download_circularProgressBar"
+        style="@style/ProgressBarOnMask"
+        android:indeterminate="false"
+        android:layout_centerInParent="true"
+        app:progress_enableIndicator="true"
+        app:progress_indicatorType="paused"/>
+</RelativeLayout>
+
+

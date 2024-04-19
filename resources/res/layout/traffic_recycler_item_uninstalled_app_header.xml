@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:paddingLeft="25dp" android:paddingRight="25dp" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="@dimen/padding_normal" android:layout_marginBottom="@dimen/padding_normal">
+    <TextView android:textSize="@dimen/x_font_body_02_size" android:textColor="#9ea1a5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/traffic_uninstall_app_title" android:layout_centerVertical="true" android:layout_toStartOf="@+id/traffic_header_describe" android:layout_alignParentStart="true"/>
+    <TextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_gray_color" android:id="@+id/traffic_header_describe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="25dp" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

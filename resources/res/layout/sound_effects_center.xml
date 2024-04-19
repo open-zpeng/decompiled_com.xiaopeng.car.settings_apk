@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/sound_effect_dialog_fld_height" android:layout_alignParentBottom="true">
+    <ViewStub android:layout_gravity="center" android:id="@+id/scene_stub" android:visibility="gone" android:layout="@layout/sound_scene_layout" android:layout_width="1064dp" android:layout_height="match_parent" android:layout_marginTop="27dp"/>
+    <com.xiaopeng.car.settingslibrary.ui.widget.SoundFieldView android:layout_gravity="center_horizontal" android:id="@+id/sound_field_view" android:visibility="invisible" android:layout_width="@dimen/sound_effect_dialog_field_width" android:layout_height="@dimen/sound_effect_dialog_field_height"/>
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@+id/filed_stub" android:layout="@layout/sound_field_layout" android:layout_width="@dimen/sound_effect_dialog_field_width" android:layout_height="@dimen/sound_effect_dialog_field_height"/>
+    <ViewStub android:id="@+id/spread_stub" android:layout="@layout/sound_spread_layout" android:layout_width="@dimen/sound_effect_spread_width" android:layout_height="@dimen/sound_effect_spread_height" android:layout_marginLeft="@dimen/sound_effect_spread_left" android:layout_marginTop="@dimen/sound_effect_spread_top"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

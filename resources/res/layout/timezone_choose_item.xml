@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XFrameLayout android:layout_width="match_parent" android:layout_height="70dp">
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/itemRoot" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/timezone_choose_item_color" android:gravity="center" android:id="@+id/prefix" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GMT"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/timezone_choose_item_color" android:gravity="center" android:id="@+id/offset" android:duplicateParentState="true" android:layout_width="130dp" android:layout_height="wrap_content" android:text="+08:00"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/timezone_choose_item_color" android:ellipsize="end" android:id="@+id/desc" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+        <View android:id="@+id/divider" android:background="@color/divider_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/list_cling_margin"/>
+    </com.xiaopeng.xui.widget.XFrameLayout>
+    <View android:id="@+id/bottom_place_holder" android:tag="" android:layout_width="match_parent" android:layout_height="70dp"/>
+</LinearLayout>

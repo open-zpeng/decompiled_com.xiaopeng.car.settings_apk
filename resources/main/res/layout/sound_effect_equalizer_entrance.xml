@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/sound_effect_equalizer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sound_effect_left_left_margin"
+        android:layout_marginTop="@dimen/sound_effect_left_equalizer_top_margin"
+        android:text="@string/sound_subtitle_effects_equalizer"
+        android:textColor="@color/x_theme_text_03"
+        android:textSize="28sp" />
+
+    <com.xiaopeng.xui.widget.XButton
+        android:id="@+id/sound_effect_equalizer"
+        style="@style/SoundEffect_Button"
+        android:layout_width="@dimen/sound_effect_left_equalizer_custom_width"
+        android:layout_height="@dimen/sound_effect_btn_height"
+        android:layout_below="@id/sound_effect_equalizer_title"
+        android:drawableRight="@drawable/ic_arrow_eq"
+        android:layout_marginTop="@dimen/sound_effect_left_top_margin_content"
+        app:vuiDisableHitEffect="true"
+        android:text="@string/sound_subtitle_effects_equalizer1" />
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

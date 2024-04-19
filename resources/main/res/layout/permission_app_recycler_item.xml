@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="128dp"
+    >
+    <TextView
+        android:id="@+id/permission_name"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/x_font_title_04_size"
+        android:textColor="#8FFFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:layout_marginEnd="25dp"
+        android:maxLines="1"
+        android:layout_centerVertical="true"/>
+    <Switch
+        android:id="@+id/permission_switch"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="25dp"
+        android:layout_marginStart="20dp"
+        />
+</RelativeLayout>

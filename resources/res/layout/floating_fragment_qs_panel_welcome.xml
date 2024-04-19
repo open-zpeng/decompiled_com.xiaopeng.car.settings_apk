@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/welcome_bg" android:layout_width="@dimen/floating_dialog_width_small" android:layout_height="460dp">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_02_size" android:textColor="@color/x_theme_text_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/qs_panel_welcome_title" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_theme_text_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60dp" android:text="@string/qs_panel_welcome_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <com.xiaopeng.xui.widget.XImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:src="@drawable/ic_xsmall_qc_arrowdown" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

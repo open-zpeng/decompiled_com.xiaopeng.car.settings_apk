@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
+    <path android:fillColor="@color/qs_panel_line" android:pathData="M19.4684,16.044L9.915,6.0357C9.343,5.4365 9.3651,4.487 9.9643,3.915C10.5636,3.343 11.513,3.365 12.0851,3.9643L22.5851,14.9643C23.1211,15.5258 23.1401,16.4035 22.6289,16.9878L12.1289,28.9878C11.5834,29.6112 10.6357,29.6744 10.0123,29.1289C9.3888,28.5833 9.3256,27.6357 9.8712,27.0122L19.4684,16.044Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:paddingBottom="@dimen/edit_panel_sub_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_panel_divider_line_margin_top" android:layout_marginStart="@dimen/edit_panel_control_option_margin" android:layout_marginEnd="@dimen/edit_panel_control_option_margin">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/line" android:background="@drawable/line" android:layout_width="match_parent" android:layout_height="@dimen/floating_item_line_height"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/qs_panel_title_size" android:textColor="@color/x_theme_text_01" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qs_panel_edit_sub_title_more" android:singleLine="true"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/x_theme_primary_normal" android:gravity="center" android:id="@+id/newItemTips" android:background="@drawable/bg_qs_edit_button" android:layout_width="wrap_content" android:layout_height="@dimen/edit_panel_new_item_tips_height" android:singleLine="true" android:paddingStart="15dp" android:paddingEnd="15dp" android:layout_marginStart="24dp"/>
+    </LinearLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

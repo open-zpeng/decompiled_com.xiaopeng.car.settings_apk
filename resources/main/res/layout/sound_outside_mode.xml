@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sound_effect_entrance_height"
+    android:layout_marginTop="@dimen/page_padding_top"
+    android:background="@drawable/pic_sound_outside_mode_entrance"
+    app:vuiAction="Click"
+    app:vuiLabel="@string/sound_outside_mode">
+
+    <com.xiaopeng.xui.widget.XLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sound_pic_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sound_pic_left"
+            android:text="@string/sound_outside_mode"
+            android:textColor="@color/sound_headrest_audio_mode_title"
+            android:textSize="@dimen/x_font_title_03_size"
+            app:vuiMode="DISABLED" />
+
+        <com.xiaopeng.xui.widget.XTextView
+            android:id="@+id/sound_outside_mode_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/sound_line_padding"
+            android:background="@drawable/sound_outside_indicator"
+            android:gravity="center"
+            android:minHeight="38dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="On"
+            android:textColor="#fff"
+            android:textSize="@dimen/x_font_body_04_size"
+            app:vuiMode="DISABLED" />
+
+    </com.xiaopeng.xui.widget.XLinearLayout>
+
+    <com.xiaopeng.xui.widget.XTextView
+        android:id="@+id/sound_effect_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/sound_pic_left"
+        android:paddingBottom="@dimen/sound_pic_top"
+        android:text="@string/sound_settings_subtitle"
+        android:textColor="@color/x_list_text_sub_color_selector"
+        android:textSize="@dimen/x_font_body_03_size"
+        app:vuiMode="DISABLED" />
+
+</com.xiaopeng.xui.widget.XRelativeLayout>

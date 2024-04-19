@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/x_btn_real_secoundary_selector" android:layout_width="wrap_content" android:layout_height="88dp">
+    <com.xiaopeng.xui.widget.XImageButton android:gravity="fill" android:id="@+id/x_btn_reduce" android:background="@null" android:layout_width="88dp" android:layout_height="match_parent" android:foreground="@color/x_tint_press" android:src="@drawable/x_ic_reduce" android:scaleType="center"/>
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/x_color_text_1" android:gravity="center" android:id="@+id/x_text_content" android:layout_width="232dp" android:layout_height="match_parent" style="@style/XFont.Body1"/>
+    <com.xiaopeng.xui.widget.XImageButton android:gravity="fill" android:id="@+id/x_btn_increase" android:background="@null" android:layout_width="88dp" android:layout_height="match_parent" android:foreground="@color/x_tint_press" android:src="@drawable/x_ic_increase" android:scaleType="center"/>
+</merge>

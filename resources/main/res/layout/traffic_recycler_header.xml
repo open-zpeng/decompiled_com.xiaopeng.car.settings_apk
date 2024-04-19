@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        app:group_header_text="@string/traffic_subtitle_set" />
+
+    <com.xiaopeng.xui.widget.XListSingle
+        android:id="@+id/hotspot_switch"
+        style="@style/XList.Singe"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_single_left="@layout/x_list_action_switch"
+        app:list_single_text="@string/traffic_power" />
+
+    <com.xiaopeng.xui.widget.XListTwo
+        android:id="@+id/hotspot_name"
+        style="@style/XList.Two"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_two_left="@layout/x_list_action_button"
+        app:list_two_text="@string/traffic_name"
+        app:list_two_text_sub="@string/traffic_name_tip"
+        app:list_two_text_sub_highlight="true"/>
+
+    <com.xiaopeng.xui.widget.XListTwo
+        android:id="@+id/hotspot_pass"
+        style="@style/XList.Two"
+        android:layout_marginTop="@dimen/padding_normal"
+        app:list_two_left="@layout/x_list_action_button"
+        app:list_two_text="@string/traffic_password"
+        app:list_two_text_sub="@string/traffic_password_tip"
+        app:list_two_text_sub_highlight="true" />
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        android:id="@+id/hotspot_groupheader"
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_large"
+        app:group_header_text="@string/traffic_connected_device" />
+</LinearLayout>

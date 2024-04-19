@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_large"
+        app:group_header_text="@string/traffic_use_title" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_normal"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextPercentTitle"
+            android:drawableStart="@drawable/ic_dot_blue"
+            android:text="剩余 3.60 GB" />
+
+        <TextView
+            android:layout_marginStart="@dimen/padding_medium"
+            style="@style/TextPercentTitle"
+            android:drawableStart="@drawable/ic_dot_blue_ring"
+            android:text="总共 5.00 GB" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:background="@drawable/list_item_checked"
+        android:gravity="center_vertical"
+        >
+
+        <com.xiaopeng.car.settingslibrary.ui.widget.PercentView style="@style/Percent"/>
+    </RelativeLayout>
+
+    <com.xiaopeng.xui.widget.XGroupHeader
+        android:id="@+id/traffic_permission_header"
+        style="@style/XGroupHeader"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/padding_large"
+        app:group_header_action="@layout/traffic_groupheader_custom_tv"
+        app:group_header_action_mode="custom"
+        app:group_header_text="@string/traffic_permission_title" />
+</LinearLayout>

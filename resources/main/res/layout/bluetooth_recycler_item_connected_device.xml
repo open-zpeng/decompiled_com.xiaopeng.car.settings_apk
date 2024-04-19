@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XListTwo xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/connected_bluetooth_item"
+    style="@style/XList.Two"
+    android:layout_marginTop="@dimen/padding_normal"
+    app:list_two_right="@layout/x_list_action_button_icon"
+    app:list_two_left="@layout/bluetooth_connected_list_action_custom"
+    app:list_two_text="device"
+    app:list_two_text_sub="@string/connected"
+    app:list_two_tag_custom="@layout/view_bluetooth_device_custom"
+    app:list_two_tag_icon="@drawable/ic_xsmall_call_selector"
+    app:list_two_text_sub_highlight="true" />
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/x_bg_app" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTitleBar android:id="@+id/xTitleBar" app:title_back="invisible" style="@style/XTitleBar"/>
+    <FrameLayout android:id="@+id/fragment_container" android:paddingTop="@dimen/page_padding_top" android:paddingBottom="@dimen/page_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/xTitleBar" android:paddingStart="@dimen/page_padding_left" android:paddingEnd="@dimen/page_padding_right"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>
